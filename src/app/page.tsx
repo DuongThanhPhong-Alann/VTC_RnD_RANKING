@@ -15,12 +15,11 @@ import {
 import { Suspense } from "react";
 import { HomeTabs } from "@/components/HomeTabs";
 import { LeaderboardFilters } from "@/components/LeaderboardFilters";
+import { GameImagesProvider, GameThumb } from "@/components/GameImagesProvider";
 import { NewReleasesFilters } from "@/components/NewReleasesFilters";
 import { SafeImage } from "@/components/SafeImage";
 import { WeeklyHighlightsFilters } from "@/components/WeeklyHighlightsFilters";
 import {
-  getGameCatalogByPlatformUrls,
-  getGameCatalogByUrls,
   getGameNamesByPlatformUrls,
   getLeaderboardSnapshotByBucket,
   getNewReleases,
@@ -338,21 +337,6 @@ export default async function Home({
         })
       : [];
 
-  const weeklyTopCatalogWithImages =
-    tab === "weekly" && weeklyTopImagePairs.length > 0
-      ? await getGameCatalogByPlatformUrls({
-          pairs: weeklyTopImagePairs,
-        })
-      : [];
-
-  const weeklyTopCatalogByKey = new Map<
-    string,
-    (typeof weeklyTopCatalogWithImages)[number]
-  >();
-  for (const d of weeklyTopCatalogWithImages) {
-    weeklyTopCatalogByKey.set(`${d.platform}||${d.game_url}`, d);
-  }
-
   const followSnapshot =
     tab === "follow" && snapshotBucket
       ? await getLeaderboardSnapshotByBucket({
@@ -364,12 +348,16 @@ export default async function Home({
       : null;
 
   const followRows = followSnapshot?.rows ?? [];
-  const followCatalogDocs =
+  const followPairs =
     tab === "follow"
-      ? await getGameCatalogByUrls(followRows.map((r) => r.game_url))
+      ? followRows.map((r) => ({ platform, game_url: r.game_url }))
       : [];
-  const followCatalogByUrl = new Map(
-    followCatalogDocs.map((d) => [d.game_url, d] as const),
+  const followNameDocs =
+    tab === "follow" && followPairs.length > 0
+      ? await getGameNamesByPlatformUrls({ pairs: followPairs })
+      : [];
+  const followNamesByKey = new Map(
+    followNameDocs.map((d) => [`${d.platform}||${d.game_url}`, d] as const),
   );
 
   const newRange =
@@ -460,7 +448,8 @@ export default async function Home({
                 Không có dữ liệu trong tuần này.
               </div>
             ) : (
-              <div className="overflow-x-auto">
+              <GameImagesProvider pairs={weeklyTopImagePairs}>
+                <div className="overflow-x-auto">
                 <table className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
                   <thead className="text-center text-xs font-bold uppercase tracking-wide text-sky-900 dark:text-sky-200">
                     <tr>
@@ -491,22 +480,17 @@ export default async function Home({
                         return entry ? [{ platform: p, entry }] : [];
                       });
 
-	                      const primaryPlatform = orderedPlatforms[0] ?? "";
-	                      const primary = primaryPlatform
-	                        ? item.perPlatform[primaryPlatform]
-	                        : undefined;
-	                      const primaryRow = primary?.representative;
-	                      const primaryCatalog =
-	                        primaryRow && weeklyTopCatalogByKey.size > 0
-	                          ? weeklyTopCatalogByKey.get(
-	                              `${primaryRow.platform}||${primaryRow.game_url}`,
-	                            ) ?? primary?.catalog
-	                          : primary?.catalog;
-	                      const name = applyName(
-	                        primaryCatalog?.game_name_vn_en ??
-	                          primaryCatalog?.game_name_original ??
-	                          item.title,
-	                      );
+                      const primaryPlatform = orderedPlatforms[0] ?? "";
+                      const primary = primaryPlatform
+                        ? item.perPlatform[primaryPlatform]
+                        : undefined;
+                      const primaryRow = primary?.representative;
+                      const primaryCatalog = primary?.catalog;
+                      const name = applyName(
+                        primaryCatalog?.game_name_vn_en ??
+                          primaryCatalog?.game_name_original ??
+                          item.title,
+                      );
 
                       return (
                         <tr
@@ -521,10 +505,10 @@ export default async function Home({
                           <td className="px-4 py-3 text-left">
                             <div className="flex items-center gap-4">
                               <div className="shrink-0">
-                                {typeof primaryCatalog?.game_image === "string" &&
-                                primaryCatalog.game_image.trim() ? (
-                                  <SafeImage
-                                    src={primaryCatalog.game_image}
+                                {primaryRow ? (
+                                  <GameThumb
+                                    platform={String(primaryRow.platform)}
+                                    gameUrl={primaryRow.game_url}
                                     alt={name}
                                     width={56}
                                     height={56}
@@ -603,7 +587,8 @@ export default async function Home({
                     })}
                   </tbody>
                 </table>
-              </div>
+                </div>
+              </GameImagesProvider>
             )}
           </section>
         </>
@@ -779,7 +764,8 @@ export default async function Home({
           </section>
 
           <section className="card overflow-hidden transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-blue-500/10 dark:hover:shadow-sky-500/10">
-            <div className="overflow-x-auto">
+            <GameImagesProvider pairs={followPairs}>
+              <div className="overflow-x-auto">
               <table className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
                 <thead className="text-center text-xs font-bold uppercase tracking-wide text-sky-900 dark:text-sky-200">
                   <tr>
@@ -812,7 +798,7 @@ export default async function Home({
                     </tr>
                   ) : (
                     followRows.map((row) => {
-                      const game = followCatalogByUrl.get(row.game_url);
+                      const game = followNamesByKey.get(`${platform}||${row.game_url}`);
                       const name =
                         applyName(
                           game?.game_name_vn_en ??
@@ -836,20 +822,14 @@ export default async function Home({
                           </td>
                           <td className="px-4 py-3 text-center">
                             <div className="flex items-center justify-center">
-                              {typeof game?.game_image === "string" &&
-                              game.game_image.trim() ? (
-                                <SafeImage
-                                  src={game.game_image}
-                                  alt={name}
-                                  width={40}
-                                  height={40}
-                                  className="h-10 w-10 rounded-xl border border-zinc-200 object-cover shadow-sm dark:border-zinc-800"
-                                />
-                              ) : (
-                                <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 bg-zinc-50 text-[10px] font-semibold text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900/30 dark:text-zinc-400">
-                                  N/A
-                                </div>
-                              )}
+                              <GameThumb
+                                platform={platform}
+                                gameUrl={row.game_url}
+                                alt={name}
+                                width={40}
+                                height={40}
+                                className="h-10 w-10 rounded-xl border border-zinc-200 object-cover shadow-sm dark:border-zinc-800"
+                              />
                             </div>
                           </td>
                           <td className="px-4 py-3 text-center">
@@ -879,7 +859,8 @@ export default async function Home({
                   )}
                 </tbody>
               </table>
-            </div>
+              </div>
+            </GameImagesProvider>
           </section>
         </>
       )}
