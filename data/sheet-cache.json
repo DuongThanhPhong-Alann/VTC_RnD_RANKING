@@ -1,0 +1,5106 @@
+{
+  "updatedAt": "2026-01-30T09:06:49.112Z",
+  "source": {
+    "spreadsheetId": "1f1Rhrg1fp_i4REE4wNEXl3CuMQ9KLS0OJPOCY_3uxxQ",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1f1Rhrg1fp_i4REE4wNEXl3CuMQ9KLS0OJPOCY_3uxxQ"
+  },
+  "terms": [
+    {
+      "term": "动作游戏",
+      "meaning": "Game hành động"
+    },
+    {
+      "term": "射击游戏",
+      "meaning": "Game bắn súng"
+    },
+    {
+      "term": "格斗游戏",
+      "meaning": "Game đối kháng"
+    },
+    {
+      "term": "平台动作游戏",
+      "meaning": "Game đi cảnh (platformer)"
+    },
+    {
+      "term": "潜行游戏",
+      "meaning": "Game hành động lén lút (stealth)"
+    },
+    {
+      "term": "生存游戏",
+      "meaning": "Game sinh tồn"
+    },
+    {
+      "term": "跑酷游戏",
+      "meaning": "Game parkour"
+    },
+    {
+      "term": "Battle royal",
+      "meaning": "Battle royal"
+    },
+    {
+      "term": "Roguelike",
+      "meaning": "Roguelike"
+    },
+    {
+      "term": "冒险游戏",
+      "meaning": "Phiêu lưu"
+    },
+    {
+      "term": "解谜游戏",
+      "meaning": "Giải đố"
+    },
+    {
+      "term": "互动叙事游戏",
+      "meaning": "Interactive story"
+    },
+    {
+      "term": "视觉小说",
+      "meaning": "Visual novel"
+    },
+    {
+      "term": "密室逃脱",
+      "meaning": "Escape room"
+    },
+    {
+      "term": "角色扮演游戏",
+      "meaning": "RPG"
+    },
+    {
+      "term": "动作角色扮演",
+      "meaning": "ARPG"
+    },
+    {
+      "term": "战术角色扮演",
+      "meaning": "SRPG / TRPG"
+    },
+    {
+      "term": "多人在线角色扮演",
+      "meaning": "MMORPG"
+    },
+    {
+      "term": "放置类RPG",
+      "meaning": "Idle RPG"
+    },
+    {
+      "term": "策略游戏",
+      "meaning": "Game chiến lược"
+    },
+    {
+      "term": "即时战略",
+      "meaning": "RTS – Chiến lược thời gian thực"
+    },
+    {
+      "term": "回合制战略",
+      "meaning": "TBS – Chiến lược theo lượt"
+    },
+    {
+      "term": "塔防游戏",
+      "meaning": "Thủ thành"
+    },
+    {
+      "term": "模拟战争",
+      "meaning": "Mô phỏng chiến tranh"
+    },
+    {
+      "term": "模拟游戏",
+      "meaning": "Mô phỏng"
+    },
+    {
+      "term": "模拟经营",
+      "meaning": "Mô phỏng kinh doanh"
+    },
+    {
+      "term": "模拟人生",
+      "meaning": "Mô phỏng cuộc sống (life sim)"
+    },
+    {
+      "term": "建造游戏",
+      "meaning": "Xây dựng"
+    },
+    {
+      "term": "农场游戏",
+      "meaning": "Nông trại"
+    },
+    {
+      "term": "休闲益智类",
+      "meaning": "Thể loại casual & puzzle"
+    },
+    {
+      "term": "休闲游戏",
+      "meaning": "Game giải trí nhẹ nhàng"
+    },
+    {
+      "term": "益智游戏",
+      "meaning": "Game rèn luyện trí tuệ"
+    },
+    {
+      "term": "三消游戏",
+      "meaning": "Game match-3 (xếp hình 3 ô)"
+    },
+    {
+      "term": "音乐游戏",
+      "meaning": "Game âm nhạc"
+    },
+    {
+      "term": "合成游戏",
+      "meaning": "Game ghép vật phẩm"
+    },
+    {
+      "term": "社交与互动类",
+      "meaning": "Thể loại xã hội & mô phỏng tương tác"
+    },
+    {
+      "term": "社交游戏",
+      "meaning": "Xã hội"
+    },
+    {
+      "term": "养成游戏",
+      "meaning": "Phát triển nhân vật"
+    },
+    {
+      "term": "恋爱养成",
+      "meaning": "Game hẹn hò"
+    },
+    {
+      "term": "虚拟社区",
+      "meaning": "Thế giới ảo / metaverse"
+    },
+    {
+      "term": "模拟聊天游戏",
+      "meaning": "Mô phỏng trò chuyện"
+    },
+    {
+      "term": "竞技类",
+      "meaning": "Thể loại cạnh tranh & esport"
+    },
+    {
+      "term": "竞技游戏",
+      "meaning": "Đối kháng cạnh tranh"
+    },
+    {
+      "term": "MOBA游戏",
+      "meaning": "MOBA "
+    },
+    {
+      "term": "卡牌游戏",
+      "meaning": "Thẻ bài"
+    },
+    {
+      "term": "体育游戏",
+      "meaning": "Thể thao"
+    },
+    {
+      "term": "赛车游戏",
+      "meaning": "Đua xe"
+    },
+    {
+      "term": "格斗竞技",
+      "meaning": "Đấu trường đối kháng"
+    },
+    {
+      "term": "沙盒 / 创造类",
+      "meaning": "Thể loại Sandbox & Creative"
+    },
+    {
+      "term": "沙盒游戏",
+      "meaning": "Sandbox "
+    },
+    {
+      "term": "开放世界游戏",
+      "meaning": "Thế giới mở"
+    },
+    {
+      "term": "创造游戏",
+      "meaning": "Sáng tạo "
+    },
+    {
+      "term": "恐怖与悬疑",
+      "meaning": "Kinh dị & bí ẩn"
+    },
+    {
+      "term": "恐怖游戏",
+      "meaning": "Kinh dị"
+    },
+    {
+      "term": "悬疑游戏",
+      "meaning": "Trinh thám / bí ẩn"
+    },
+    {
+      "term": "心理恐怖",
+      "meaning": "Kinh dị tâm lý"
+    },
+    {
+      "term": "生存恐怖",
+      "meaning": "Game survival horror"
+    },
+    {
+      "term": "节奏",
+      "meaning": "Rhythm Game"
+    },
+    {
+      "term": "测试",
+      "meaning": "Test"
+    },
+    {
+      "term": "单机游戏",
+      "meaning": "Game offline"
+    },
+    {
+      "term": "网络游戏",
+      "meaning": "Game online"
+    },
+    {
+      "term": "客户端游戏",
+      "meaning": "Game client"
+    },
+    {
+      "term": "网页游戏",
+      "meaning": "Webgame"
+    },
+    {
+      "term": "动作游戏",
+      "meaning": "Action Game"
+    },
+    {
+      "term": "平台动作",
+      "meaning": "Platformer"
+    },
+    {
+      "term": "清版动作",
+      "meaning": "Beat 'em up"
+    },
+    {
+      "term": "动作射击",
+      "meaning": "Action Shooter"
+    },
+    {
+      "term": "休闲益智",
+      "meaning": "Casual & Puzzle Game"
+    },
+    {
+      "term": "幻想",
+      "meaning": "Giả tưởng"
+    },
+    {
+      "term": "三国",
+      "meaning": "Tam Quốc"
+    },
+    {
+      "term": "仙侠",
+      "meaning": "Tiên Hiệp"
+    },
+    {
+      "term": "修仙",
+      "meaning": "Tu Tiên"
+    },
+    {
+      "term": "国漫",
+      "meaning": "Thủy mặc"
+    },
+    {
+      "term": "挂机",
+      "meaning": "Treo máy"
+    },
+    {
+      "term": "模拟",
+      "meaning": "Mô phỏng"
+    },
+    {
+      "term": "角色扮演 模拟",
+      "meaning": "RPG vs mô phỏng"
+    },
+    {
+      "term": "欧洲",
+      "meaning": "Châu Âu"
+    },
+    {
+      "term": "放置三国",
+      "meaning": "Idle Tam Quốc"
+    },
+    {
+      "term": "水墨",
+      "meaning": "Thủy Mặc"
+    },
+    {
+      "term": "MMO",
+      "meaning": "MMO"
+    },
+    {
+      "term": "怀旧经典",
+      "meaning": "Hoài niệm kinh điển"
+    },
+    {
+      "term": "计费删档测试",
+      "meaning": "Test tính phí"
+    },
+    {
+      "term": "RogueLike",
+      "meaning": "RogueLike"
+    },
+    {
+      "term": "美少女",
+      "meaning": "Anime"
+    },
+    {
+      "term": "放置",
+      "meaning": "Idle"
+    },
+    {
+      "term": "SLG",
+      "meaning": "SLG"
+    },
+    {
+      "term": "策略经营",
+      "meaning": "SLG-Mô phỏng"
+    },
+    {
+      "term": "玄幻",
+      "meaning": "Huyền huyễn"
+    },
+    {
+      "term": "2.5D",
+      "meaning": "2.5D"
+    },
+    {
+      "term": "3D",
+      "meaning": "3D"
+    },
+    {
+      "term": "等等鸭测试",
+      "meaning": "Test ngắn hạn"
+    },
+    {
+      "term": "缘起测试",
+      "meaning": "Test mở màn"
+    },
+    {
+      "term": "品鉴测试",
+      "meaning": "Test trải nghiệm"
+    },
+    {
+      "term": "先锋测试",
+      "meaning": "Test tiên phong"
+    },
+    {
+      "term": "删档首测",
+      "meaning": "CBT1 xóa dữ liệu"
+    },
+    {
+      "term": "精英测试",
+      "meaning": "Test tinh anh"
+    },
+    {
+      "term": "开放测试",
+      "meaning": "Open Test"
+    },
+    {
+      "term": "萌新测试",
+      "meaning": "Test giới hạn"
+    },
+    {
+      "term": "删档内测",
+      "meaning": "Closed Beta xóa dữ liệu"
+    },
+    {
+      "term": "第三人称射击",
+      "meaning": "TPS"
+    },
+    {
+      "term": "竞速",
+      "meaning": "Đua xe"
+    },
+    {
+      "term": "音乐",
+      "meaning": "Âm nhạc"
+    },
+    {
+      "term": "休闲竞技",
+      "meaning": "Casual đối kháng"
+    },
+    {
+      "term": "策略",
+      "meaning": "SLG-Chiến Thuật"
+    },
+    {
+      "term": "魔幻",
+      "meaning": "Ma Ảo"
+    },
+    {
+      "term": "Q版",
+      "meaning": "Chibi/Cute"
+    },
+    {
+      "term": "即时",
+      "meaning": "Real-time"
+    },
+    {
+      "term": "写实",
+      "meaning": "Tả thực"
+    },
+    {
+      "term": "半Q版",
+      "meaning": "Nửa chibi"
+    },
+    {
+      "term": "回合",
+      "meaning": "Theo lượt"
+    },
+    {
+      "term": "半写实",
+      "meaning": "Bán tả thực"
+    },
+    {
+      "term": "科幻",
+      "meaning": "Khoa học viễn tưởng"
+    },
+    {
+      "term": "动漫",
+      "meaning": "Hoạt hình"
+    },
+    {
+      "term": "奇幻",
+      "meaning": "Fantasy"
+    },
+    {
+      "term": "公测",
+      "meaning": "Open Beta"
+    },
+    {
+      "term": "全球公测",
+      "meaning": "Global Open Beta"
+    },
+    {
+      "term": "收容测试",
+      "meaning": "Stress Test"
+    },
+    {
+      "term": "不删档测试",
+      "meaning": "Open Beta giữ dữ liệu"
+    },
+    {
+      "term": "首测",
+      "meaning": "CBT1"
+    },
+    {
+      "term": "倾心公测",
+      "meaning": "Open Beta"
+    },
+    {
+      "term": "二测",
+      "meaning": "CBT2"
+    },
+    {
+      "term": "删档计费测试",
+      "meaning": "Test có nạp và xóa dữ liệu"
+    },
+    {
+      "term": "限量删档测试",
+      "meaning": "Limited CBT"
+    },
+    {
+      "term": "2D",
+      "meaning": "2D"
+    },
+    {
+      "term": "其他",
+      "meaning": "Khác"
+    },
+    {
+      "term": "现代",
+      "meaning": "Hiện đại"
+    },
+    {
+      "term": "武侠",
+      "meaning": "Võ hiệp"
+    },
+    {
+      "term": "日服上线",
+      "meaning": "Ra mắt ở Nhật"
+    },
+    {
+      "term": "射击",
+      "meaning": "Bắn súng"
+    },
+    {
+      "term": "二次元",
+      "meaning": "Anime"
+    },
+    {
+      "term": "休闲",
+      "meaning": "Casual"
+    },
+    {
+      "term": "正式上线",
+      "meaning": "Ra mắt"
+    },
+    {
+      "term": "节奏",
+      "meaning": "Rhythm Game"
+    },
+    {
+      "term": "测试",
+      "meaning": "Test"
+    },
+    {
+      "term": "单机游戏",
+      "meaning": "Game offline"
+    },
+    {
+      "term": "网络游戏",
+      "meaning": "Game online"
+    },
+    {
+      "term": "客户端游戏",
+      "meaning": "Game client"
+    },
+    {
+      "term": "网页游戏",
+      "meaning": "Webgame"
+    },
+    {
+      "term": "动作游戏",
+      "meaning": "Action Game"
+    },
+    {
+      "term": "平台动作",
+      "meaning": "Platformer"
+    },
+    {
+      "term": "清版动作",
+      "meaning": "Beat 'em up"
+    },
+    {
+      "term": "动作射击",
+      "meaning": "Action Shooter"
+    },
+    {
+      "term": "休闲益智",
+      "meaning": "Casual & Puzzle Game"
+    },
+    {
+      "term": "开放世界",
+      "meaning": "Open World (Thế giới mở)"
+    },
+    {
+      "term": "动作",
+      "meaning": "Action (Hành động)"
+    },
+    {
+      "term": "ARPG",
+      "meaning": "ARPG"
+    },
+    {
+      "term": "角色扮演",
+      "meaning": "RPG (Nhập vai)"
+    },
+    {
+      "term": "冒险",
+      "meaning": "Adventure (Phiêu lưu)"
+    },
+    {
+      "term": "死神",
+      "meaning": "Bleach (Thần Chết)"
+    },
+    {
+      "term": "热血",
+      "meaning": "Shonen (Nhiệt huyết)"
+    },
+    {
+      "term": "卡牌",
+      "meaning": "Card Game (Thẻ bài)"
+    },
+    {
+      "term": "高画质",
+      "meaning": "High Graphics (Đồ họa đẹp)"
+    },
+    {
+      "term": "Steam移植",
+      "meaning": "Steam Port (Chuyển hệ từ Steam)"
+    },
+    {
+      "term": "养成",
+      "meaning": "Simulation / Raising (Nuôi dưỡng)"
+    },
+    {
+      "term": "多结局",
+      "meaning": "Multiple Endings (Nhiều kết thúc)"
+    },
+    {
+      "term": "剧情",
+      "meaning": "Story-driven (Cốt truyện)"
+    },
+    {
+      "term": "可爱",
+      "meaning": "Cute (Dễ thương)"
+    },
+    {
+      "term": "新怪谈",
+      "meaning": "New Weird (Kỳ ảo mới)"
+    },
+    {
+      "term": "合作",
+      "meaning": "Co-op (Hợp tác)"
+    },
+    {
+      "term": "密室",
+      "meaning": "Escape Room (Mật thất)"
+    },
+    {
+      "term": "盗墓",
+      "meaning": "Tomb Raiding (Đạo mộ)"
+    },
+    {
+      "term": "恐怖",
+      "meaning": "Horror (Kinh dị)"
+    },
+    {
+      "term": "多人联机",
+      "meaning": "Multiplayer (Nhiều người chơi)"
+    },
+    {
+      "term": "生存",
+      "meaning": "Survival (Sinh tồn)"
+    },
+    {
+      "term": "收集",
+      "meaning": "Collection (Sưu tập)"
+    },
+    {
+      "term": "治愈",
+      "meaning": "Healing (Chữa lành)"
+    },
+    {
+      "term": "装扮",
+      "meaning": "Dress-up / Decor (Trang trí)"
+    },
+    {
+      "term": "建造",
+      "meaning": "Building (Xây dựng)"
+    },
+    {
+      "term": "种田",
+      "meaning": "Farming (Làm nông)"
+    },
+    {
+      "term": "搜打撤",
+      "meaning": "Extraction Shooter (Bắn súng tẩu thoát)"
+    },
+    {
+      "term": "沙盒",
+      "meaning": "Sandbox (Sa hộp)"
+    },
+    {
+      "term": "像素",
+      "meaning": "Pixel Art (Pixel)"
+    },
+    {
+      "term": "DIY",
+      "meaning": "DIY"
+    },
+    {
+      "term": "探索",
+      "meaning": "Exploration (Khám phá)"
+    },
+    {
+      "term": "高自由度",
+      "meaning": "High Freedom (Tự do cao)"
+    },
+    {
+      "term": "音游",
+      "meaning": "Rhythm Game (Game âm nhạc)"
+    },
+    {
+      "term": "手速",
+      "meaning": "Fast-paced / APM (Tốc độ tay)"
+    },
+    {
+      "term": "下落式",
+      "meaning": "Falling Notes (Nốt rơi)"
+    },
+    {
+      "term": "UP主推荐",
+      "meaning": "Influencer Recommended (Streamer đề xuất)"
+    },
+    {
+      "term": "独立游戏",
+      "meaning": "Indie Game (Game độc lập)"
+    },
+    {
+      "term": "唯美",
+      "meaning": "Aesthetic (Tuyệt đẹp)"
+    },
+    {
+      "term": "艺术",
+      "meaning": "Artistic (Nghệ thuật)"
+    },
+    {
+      "term": "飞行",
+      "meaning": "Flight (Bay lượn)"
+    },
+    {
+      "term": "竞技",
+      "meaning": "Competitive (Thi đấu)"
+    },
+    {
+      "term": "MMORPG",
+      "meaning": "MMORPG"
+    },
+    {
+      "term": "宠物",
+      "meaning": "Pet (Thú cưng)"
+    },
+    {
+      "term": "末日",
+      "meaning": "Post-Apocalyptic (Tận thế)"
+    },
+    {
+      "term": "即时制",
+      "meaning": "Real-time (Thời gian thực)"
+    },
+    {
+      "term": "回合制",
+      "meaning": "Turn-based (Đánh theo lượt)"
+    },
+    {
+      "term": "吃鸡",
+      "meaning": "Battle Royale (Sinh tồn)"
+    },
+    {
+      "term": "战斗",
+      "meaning": "Combat (Chiến đấu)"
+    },
+    {
+      "term": "卡通",
+      "meaning": "Cartoon (Hoạt hình)"
+    },
+    {
+      "term": "团队合作",
+      "meaning": "Team Co-op (Hợp tác đồng đội)"
+    },
+    {
+      "term": "TPS",
+      "meaning": "TPS"
+    },
+    {
+      "term": "大型多人在线",
+      "meaning": "MMO"
+    },
+    {
+      "term": "竖屏",
+      "meaning": "Portrait Mode (Màn hình dọc)"
+    },
+    {
+      "term": "高难度",
+      "meaning": "Hardcore (Độ khó cao)"
+    },
+    {
+      "term": "支持手柄",
+      "meaning": "Controller Support (Hỗ trợ tay cầm)"
+    },
+    {
+      "term": "地牢",
+      "meaning": "Dungeon (Hầm ngục)"
+    },
+    {
+      "term": "弹幕",
+      "meaning": "Danmaku (Đạn mạc)"
+    },
+    {
+      "term": "弹幕射击",
+      "meaning": "Bullet Hell (Bắn súng đạn mạc)"
+    },
+    {
+      "term": "轻度Roguelike",
+      "meaning": "Roguelite"
+    },
+    {
+      "term": "国风",
+      "meaning": "Chinese Style (Cổ phong/Phong cách Trung Hoa)"
+    },
+    {
+      "term": "派对游戏",
+      "meaning": "Party Game"
+    },
+    {
+      "term": "拼图",
+      "meaning": "Puzzle (Ghép hình)"
+    },
+    {
+      "term": "解谜",
+      "meaning": "Puzzle Solving (Giải đố)"
+    },
+    {
+      "term": "益智",
+      "meaning": "Brain / Puzzle (Trí tuệ)"
+    },
+    {
+      "term": "塔防",
+      "meaning": "Tower Defense (Thủ thành)"
+    },
+    {
+      "term": "日系",
+      "meaning": "Japanese Style (Phong cách Nhật)"
+    },
+    {
+      "term": "硬核",
+      "meaning": "Hardcore"
+    },
+    {
+      "term": "废土",
+      "meaning": "Wasteland (Hoang tàn)"
+    },
+    {
+      "term": "拟人",
+      "meaning": "Anthropomorphic (Nhân hóa)"
+    },
+    {
+      "term": "Rougelike",
+      "meaning": "Roguelike"
+    },
+    {
+      "term": "单机",
+      "meaning": "Single Player (Chơi đơn/Offline)"
+    },
+    {
+      "term": "文字",
+      "meaning": "Text-based (Dạng chữ)"
+    },
+    {
+      "term": "恋爱",
+      "meaning": "Romance (Hẹn hò/Tình yêu)"
+    },
+    {
+      "term": "女性向",
+      "meaning": "Female Oriented (Dành cho nữ)"
+    },
+    {
+      "term": "乙女",
+      "meaning": "Otome"
+    },
+    {
+      "term": "AVG",
+      "meaning": "Visual Novel / Adventure (Tiểu thuyết hình ảnh)"
+    },
+    {
+      "term": "聚光灯GameJam",
+      "meaning": "Spotlight GameJam"
+    },
+    {
+      "term": "解压",
+      "meaning": "Relaxing (Giải tỏa căng thẳng)"
+    },
+    {
+      "term": "收纳",
+      "meaning": "Organization (Sắp xếp)"
+    },
+    {
+      "term": "经营",
+      "meaning": "Management / Tycoon (Mô phỏng kinh doanh)"
+    },
+    {
+      "term": "本地联机",
+      "meaning": "Local Co-op (Mạng nội bộ)"
+    },
+    {
+      "term": "上帝视角",
+      "meaning": "Top-down View (Góc nhìn từ trên cao)"
+    },
+    {
+      "term": "足球",
+      "meaning": "Soccer (Bóng đá)"
+    },
+    {
+      "term": "体育",
+      "meaning": "Sports (Thể thao)"
+    },
+    {
+      "term": "MOBA",
+      "meaning": "MOBA"
+    },
+    {
+      "term": "5v5",
+      "meaning": "5v5"
+    },
+    {
+      "term": "自走棋",
+      "meaning": "Auto Battler (Cờ tự động)"
+    },
+    {
+      "term": "海战",
+      "meaning": "Naval Warfare (Hải chiến)"
+    },
+    {
+      "term": "买断制",
+      "meaning": "Buy-to-Play (Mua một lần)"
+    },
+    {
+      "term": "付费下载",
+      "meaning": "Paid (Trả phí)"
+    },
+    {
+      "term": "移植",
+      "meaning": "Port (Chuyển hệ)"
+    },
+    {
+      "term": "跑酷",
+      "meaning": "Parkour (Chạy không ngừng)"
+    },
+    {
+      "term": "街机",
+      "meaning": "Arcade (Điện tử thùng)"
+    },
+    {
+      "term": "烹饪",
+      "meaning": "Cooking (Nấu ăn)"
+    },
+    {
+      "term": "美食",
+      "meaning": "Gourmet (Ẩm thực)"
+    },
+    {
+      "term": "刺激",
+      "meaning": "Thrilling (Kịch tính)"
+    },
+    {
+      "term": "非对称竞技",
+      "meaning": "Asymmetrical PvP (Đối kháng bất đối xứng)"
+    },
+    {
+      "term": "PVP",
+      "meaning": "PVP"
+    },
+    {
+      "term": "多人竞技",
+      "meaning": "Multiplayer Competitive (Thi đấu nhiều người)"
+    },
+    {
+      "term": "格斗",
+      "meaning": "Fighting (Đối kháng)"
+    },
+    {
+      "term": "横版",
+      "meaning": "Side-scrolling (Màn hình ngang)"
+    },
+    {
+      "term": "横版格斗",
+      "meaning": "Side-scrolling Fighting (Đối kháng màn hình ngang)"
+    },
+    {
+      "term": "日漫",
+      "meaning": "Anime / Manga (Truyện tranh Nhật)"
+    },
+    {
+      "term": "应用",
+      "meaning": "App (Ứng dụng)"
+    },
+    {
+      "term": "互动电影",
+      "meaning": "Interactive Movie (Phim tương tác)"
+    },
+    {
+      "term": "机甲",
+      "meaning": "Mecha (Người máy)"
+    },
+    {
+      "term": "FPS",
+      "meaning": "FPS"
+    },
+    {
+      "term": "都市",
+      "meaning": "Urban (Đô thị)"
+    },
+    {
+      "term": "抓宠",
+      "meaning": "Monster Catching (Bắt thú)"
+    },
+    {
+      "term": "童年",
+      "meaning": "Childhood (Tuổi thơ)"
+    },
+    {
+      "term": "社交",
+      "meaning": "Social (Xã hội)"
+    },
+    {
+      "term": "换装",
+      "meaning": "Dress-up (Thay đồ)"
+    },
+    {
+      "term": "刷宝",
+      "meaning": "Looter (Cày đồ/Săn đồ)"
+    },
+    {
+      "term": "战争",
+      "meaning": "War (Chiến tranh)"
+    },
+    {
+      "term": "历史",
+      "meaning": "Historical (Lịch sử)"
+    },
+    {
+      "term": "崩坏",
+      "meaning": "Honkai (Băng Hoại)"
+    },
+    {
+      "term": "2D横版",
+      "meaning": "2D Side-scrolling (2D Màn hình ngang)"
+    },
+    {
+      "term": "星战",
+      "meaning": "Star Wars"
+    },
+    {
+      "term": "太空",
+      "meaning": "Space (Vũ trụ)"
+    },
+    {
+      "term": "末世",
+      "meaning": "Post-Apocalyptic (Mạt thế)"
+    },
+    {
+      "term": "丧尸",
+      "meaning": "Zombie (Thây ma)"
+    },
+    {
+      "term": "割草",
+      "meaning": "Hack and Slash / Musou (Chặt chém/Càn quét)"
+    },
+    {
+      "term": "宫廷",
+      "meaning": "Court / Palace (Cung đình)"
+    },
+    {
+      "term": "诡秘之主",
+      "meaning": "Lord of the Mysteries (Quỷ Bí Chi Chủ)"
+    },
+    {
+      "term": "王者荣耀",
+      "meaning": "Honor of Kings (Vương Giả Vinh Diệu)"
+    },
+    {
+      "term": "侦探",
+      "meaning": "Detective (Thám tử)"
+    },
+    {
+      "term": "N/A",
+      "meaning": "N/A"
+    },
+    {
+      "term": "闯关",
+      "meaning": "Level-based (Vượt ải)"
+    },
+    {
+      "term": "怀旧",
+      "meaning": "Retro (Hoài cổ)"
+    },
+    {
+      "term": "共斗",
+      "meaning": "Co-op Hunting (Săn quái)"
+    },
+    {
+      "term": "平台跳跃",
+      "meaning": "Platformer (Đi cảnh)"
+    },
+    {
+      "term": "教育",
+      "meaning": "Educational (Giáo dục)"
+    },
+    {
+      "term": "初音未来",
+      "meaning": "Hatsune Miku"
+    },
+    {
+      "term": "电音",
+      "meaning": "EDM (Nhạc điện tử)"
+    },
+    {
+      "term": "捏脸",
+      "meaning": "Character Creation (Nặn mặt)"
+    },
+    {
+      "term": "家装",
+      "meaning": "Home Design (Trang trí nhà)"
+    },
+    {
+      "term": "赛博朋克",
+      "meaning": "Cyberpunk"
+    },
+    {
+      "term": "Steam 移植",
+      "meaning": "Steam Port (Chuyển hệ từ Steam)"
+    },
+    {
+      "term": "RTS",
+      "meaning": "RTS"
+    },
+    {
+      "term": "僵尸",
+      "meaning": "Zombie (Xác sống)"
+    },
+    {
+      "term": "植物",
+      "meaning": "Plants (Thực vật)"
+    },
+    {
+      "term": "英雄联盟",
+      "meaning": "League of Legends (Liên Minh Huyền Thoại)"
+    },
+    {
+      "term": "第三人称视角",
+      "meaning": "Third-person Perspective (Góc nhìn thứ ba)"
+    },
+    {
+      "term": "真人影像",
+      "meaning": "FMV / Live Action (Hình ảnh người thật)"
+    },
+    {
+      "term": "狼人杀",
+      "meaning": "Werewolf / Social Deduction (Ma sói)"
+    },
+    {
+      "term": "RPG",
+      "meaning": "RPG"
+    },
+    {
+      "term": "消除",
+      "meaning": "Match-3 (Xếp hình)"
+    },
+    {
+      "term": "手绘",
+      "meaning": "Hand-drawn (Vẽ tay)"
+    },
+    {
+      "term": "海洋",
+      "meaning": "Ocean (Đại dương)"
+    },
+    {
+      "term": "萌宠",
+      "meaning": "Cute Pets (Thú cưng dễ thương)"
+    },
+    {
+      "term": "家园",
+      "meaning": "Homestead (Gia viên)"
+    },
+    {
+      "term": "国产",
+      "meaning": "Domestic / Chinese Game (Game nội địa)"
+    },
+    {
+      "term": "PVE",
+      "meaning": "PVE"
+    },
+    {
+      "term": "忍者",
+      "meaning": "Ninja (Nhẫn giả)"
+    },
+    {
+      "term": "火柴人",
+      "meaning": "Stickman (Người que)"
+    },
+    {
+      "term": "打击感",
+      "meaning": "Impact Feedback (Cảm giác đánh)"
+    },
+    {
+      "term": "反应",
+      "meaning": "Reflex (Phản xạ)"
+    },
+    {
+      "term": "烧脑",
+      "meaning": "Brain-burning (Hack não)"
+    },
+    {
+      "term": "战棋",
+      "meaning": "SRPG / Tactics (Cờ chiến thuật)"
+    },
+    {
+      "term": "滑雪",
+      "meaning": "Skiing (Trượt tuyết)"
+    },
+    {
+      "term": "钓鱼",
+      "meaning": "Fishing (Câu cá)"
+    },
+    {
+      "term": "古风",
+      "meaning": "Ancient Style (Cổ phong)"
+    },
+    {
+      "term": "宝可梦",
+      "meaning": "Pokemon"
+    },
+    {
+      "term": "魔性",
+      "meaning": "Addictive / Wacky (Gây nghiện/Bựa)"
+    },
+    {
+      "term": "CCG",
+      "meaning": "CCG"
+    },
+    {
+      "term": "西游",
+      "meaning": "Journey to the West (Tây Du Ký)"
+    },
+    {
+      "term": "开罗",
+      "meaning": "Kairosoft"
+    },
+    {
+      "term": "国战",
+      "meaning": "Nation War (Quốc chiến)"
+    },
+    {
+      "term": "无限流",
+      "meaning": "Infinite Flow (Vô hạn lưu)"
+    },
+    {
+      "term": "迪士尼",
+      "meaning": "Disney"
+    },
+    {
+      "term": "赛车",
+      "meaning": "Racing (Đua xe)"
+    },
+    {
+      "term": "抢先体验",
+      "meaning": "Early Access (Truy cập sớm)"
+    },
+    {
+      "term": "航海",
+      "meaning": "Sailing (Hàng hải)"
+    },
+    {
+      "term": "内购解锁",
+      "meaning": "In-App Purchase (Mua trong game)"
+    },
+    {
+      "term": "催泪",
+      "meaning": "Tear-jerker (Cảm động)"
+    },
+    {
+      "term": "点击",
+      "meaning": "Clicker (Click chuột)"
+    },
+    {
+      "term": "合成",
+      "meaning": "Merge (Hợp nhất)"
+    },
+    {
+      "term": "魔物娘",
+      "meaning": "Monster Girls (Ma vật nương)"
+    },
+    {
+      "term": "桌面和棋类",
+      "meaning": "Board & Card Games (Cờ và thẻ bài)"
+    },
+    {
+      "term": "涂色",
+      "meaning": "Coloring (Tô màu)"
+    },
+    {
+      "term": "克苏鲁",
+      "meaning": "Cthulhu"
+    },
+    {
+      "term": "俯视角",
+      "meaning": "Top-down View (Góc nhìn từ trên xuống)"
+    },
+    {
+      "term": "反乌托邦",
+      "meaning": "Dystopian (Phản địa đàng)"
+    },
+    {
+      "term": "背包管理",
+      "meaning": "Inventory Management (Quản lý balo)"
+    },
+    {
+      "term": "童话",
+      "meaning": "Fairy Tale (Cổ tích)"
+    },
+    {
+      "term": "阴阳师",
+      "meaning": "Onmyoji (Âm Dương Sư)"
+    },
+    {
+      "term": "Furry",
+      "meaning": "Furry"
+    },
+    {
+      "term": "驾驶",
+      "meaning": "Driving (Lái xe)"
+    },
+    {
+      "term": "赛车竞速",
+      "meaning": "Racing (Đua xe tốc độ)"
+    },
+    {
+      "term": "枪械",
+      "meaning": "Guns (Súng ống)"
+    },
+    {
+      "term": "战略",
+      "meaning": "Strategy (Chiến lược)"
+    },
+    {
+      "term": "观察",
+      "meaning": "Observation (Quan sát)"
+    },
+    {
+      "term": "火影忍者",
+      "meaning": "Naruto"
+    },
+    {
+      "term": "桌面棋牌",
+      "meaning": "Tabletop & Card (Cờ bài)"
+    },
+    {
+      "term": "棋类",
+      "meaning": "Board Games (Cờ)"
+    },
+    {
+      "term": "知识",
+      "meaning": "Trivia / Knowledge (Kiến thức)"
+    },
+    {
+      "term": "脑力",
+      "meaning": "Brain Training (Rèn luyện não)"
+    },
+    {
+      "term": "坦克",
+      "meaning": "Tank (Xe tăng)"
+    },
+    {
+      "term": "纸牌",
+      "meaning": "Card / Solitaire (Bài tây)"
+    },
+    {
+      "term": "斗地主",
+      "meaning": "Dou Dizhu (Đấu Địa Chủ)"
+    },
+    {
+      "term": "牌桌",
+      "meaning": "Table Games (Sòng bài)"
+    },
+    {
+      "term": "传统RPG",
+      "meaning": "Classic RPG (RPG cổ điển)"
+    },
+    {
+      "term": "战争策略",
+      "meaning": "War Strategy (Chiến thuật chiến tranh)"
+    },
+    {
+      "term": "对战",
+      "meaning": "Versus (Đối chiến)"
+    },
+    {
+      "term": "角色",
+      "meaning": "Character (Nhân vật)"
+    },
+    {
+      "term": "台球",
+      "meaning": "Billiards (Bida)"
+    },
+    {
+      "term": "桌游",
+      "meaning": "Board Game"
+    },
+    {
+      "term": "篮球",
+      "meaning": "Basketball (Bóng rổ)"
+    },
+    {
+      "term": "NBA",
+      "meaning": "NBA"
+    },
+    {
+      "term": "体育经理",
+      "meaning": "Sports Manager (Quản lý thể thao)"
+    },
+    {
+      "term": "爽快",
+      "meaning": "Satisfying (Đã tay/Sảng khoái)"
+    },
+    {
+      "term": "多文明",
+      "meaning": "Multi-civilization (Đa nền văn minh)"
+    },
+    {
+      "term": "不删档内测",
+      "meaning": "Open Beta (Không xóa dữ liệu)"
+    },
+    {
+      "term": "放置挂机",
+      "meaning": "Idle (Nhàn rỗi/Treo máy)"
+    },
+    {
+      "term": "拟人化",
+      "meaning": "Anthropomorphism (Nhân hóa)"
+    },
+    {
+      "term": "日漫IP",
+      "meaning": "Anime IP (IP truyện tranh Nhật)"
+    },
+    {
+      "term": "中国风",
+      "meaning": "Chinese Style (Phong cách Trung Hoa)"
+    },
+    {
+      "term": "轻竞技",
+      "meaning": "Casual Competitive (Cạnh tranh nhẹ nhàng)"
+    },
+    {
+      "term": "电子竞技",
+      "meaning": "Esports (Thể thao điện tử)"
+    },
+    {
+      "term": "类暗黑游戏",
+      "meaning": "Diablo-like (Giống Diablo)"
+    },
+    {
+      "term": "Build",
+      "meaning": "Build"
+    },
+    {
+      "term": "魔幻奇幻",
+      "meaning": "Magic & Fantasy (Ma ảo/Kỳ ảo)"
+    },
+    {
+      "term": "国漫画风",
+      "meaning": "Manhua Style (Phong cách truyện tranh TQ)"
+    },
+    {
+      "term": "日漫画风",
+      "meaning": "Manga Style (Phong cách truyện tranh Nhật)"
+    },
+    {
+      "term": "新服",
+      "meaning": "New Server (Máy chủ mới)"
+    },
+    {
+      "term": "暗黑风",
+      "meaning": "Dark Style (Phong cách tối)"
+    },
+    {
+      "term": "传统文化",
+      "meaning": "Traditional Culture (Văn hóa truyền thống)"
+    },
+    {
+      "term": "Steam",
+      "meaning": "Steam"
+    },
+    {
+      "term": "悬疑",
+      "meaning": "Suspense / Mystery (Huyền nghi/Bí ẩn)"
+    },
+    {
+      "term": "TCG",
+      "meaning": "TCG"
+    },
+    {
+      "term": "AR",
+      "meaning": "AR"
+    },
+    {
+      "term": "佛系",
+      "meaning": "Chill (Phật hệ/Thư giãn)"
+    },
+    {
+      "term": "扫雷",
+      "meaning": "Minesweeper (Dò mìn)"
+    },
+    {
+      "term": "漂移",
+      "meaning": "Drift (Lết bánh)"
+    },
+    {
+      "term": "脑洞",
+      "meaning": "Creative (Sáng tạo/Hack não)"
+    },
+    {
+      "term": "io",
+      "meaning": "io Games"
+    },
+    {
+      "term": "摔手机",
+      "meaning": "Rage Game (Gây ức chế)"
+    },
+    {
+      "term": "娱乐",
+      "meaning": "Entertainment (Giải trí)"
+    },
+    {
+      "term": "物理",
+      "meaning": "Physics-based (Vật lý)"
+    },
+    {
+      "term": "寻物解谜",
+      "meaning": "Hidden Object (Tìm đồ vật)"
+    },
+    {
+      "term": "视错觉",
+      "meaning": "Optical Illusion (Ảo giác thị giác)"
+    },
+    {
+      "term": "几何",
+      "meaning": "Geometry (Hình học)"
+    },
+    {
+      "term": "亲情",
+      "meaning": "Family (Tình thân)"
+    },
+    {
+      "term": "数独",
+      "meaning": "Sudoku"
+    }
+  ],
+  "gameNames": [
+    {
+      "original": "祖宗模拟器",
+      "sub": "Ancestor Simulator"
+    },
+    {
+      "original": "祖宗模拟器",
+      "sub": "Ancestor Simulator"
+    },
+    {
+      "original": "土豆兄弟",
+      "sub": "Anh Em Khoai Tây"
+    },
+    {
+      "original": "明日方舟：终末地",
+      "sub": "Arknights: Vùng Đất Tận Cùng"
+    },
+    {
+      "original": "苍蓝前线",
+      "sub": "Azure Frontline"
+    },
+    {
+      "original": "百战群英",
+      "sub": "Bách Chiến Quần Anh"
+    },
+    {
+      "original": "我的同学是伪人",
+      "sub": "Bạn Học Giả Mạo"
+    },
+    {
+      "original": "我的同学是伪人",
+      "sub": "Bạn Học Giả Mạo"
+    },
+    {
+      "original": "爆裂小队",
+      "sub": "Bạo Liệt Tiểu Đội"
+    },
+    {
+      "original": "不朽箴言",
+      "sub": "Bất Hủu Châm Ngôn"
+    },
+    {
+      "original": "境·界 刀鸣",
+      "sub": "Biên Giới: Tiếng Kiếm Vang"
+    },
+    {
+      "original": "境·界 刀鸣",
+      "sub": "Biên Giới: Tiếng Kiếm Vang"
+    },
+    {
+      "original": "碧优蒂小镇",
+      "sub": "Blue Jewel Town"
+    },
+    {
+      "original": "地铁跑酷",
+      "sub": "Chạy Trốn Tàu Điện Ngầm"
+    },
+    {
+      "original": "完蛋！我被美女包围了！",
+      "sub": "Chết Tiệt! Tôi Bị Các Cô Gái Xinh Đẹp Vây Quanh!"
+    },
+    {
+      "original": "心之钥",
+      "sub": "Chìa Khóa Trái Tim"
+    },
+    {
+      "original": "占山为王2",
+      "sub": "Chiếm Núi Xưng Vương 2"
+    },
+    {
+      "original": "三角洲行动",
+      "sub": "Chiến Dịch Đồng Bằng"
+    },
+    {
+      "original": "三角洲行动",
+      "sub": "Chiến Dịch Đồng Bằng"
+    },
+    {
+      "original": "战盟大乱斗",
+      "sub": "Chiến Minh Đại Loạn Đấu"
+    },
+    {
+      "original": "再玩亿关",
+      "sub": "Chơi Thêm Triệu Màn"
+    },
+    {
+      "original": "再玩亿关",
+      "sub": "Chơi Thêm Triệu Màn"
+    },
+    {
+      "original": "诡秘之主",
+      "sub": "Chúa Tể Huyền Bí"
+    },
+    {
+      "original": "五子棋（TapTap测试版）",
+      "sub": "Cờ Caro (TapTap Beta)"
+    },
+    {
+      "original": "火山的女儿：再度重逢",
+      "sub": "Con Gái Núi Lửa: Tái Ngộ"
+    },
+    {
+      "original": "五星好市民",
+      "sub": "Công Dân Ưu Tú"
+    },
+    {
+      "original": "蜡笔小新之小帮手大作战",
+      "sub": "Crayon Shin-chan: Cuộc Chiến Trợ Thủ Nhí"
+    },
+    {
+      "original": "球球旅行记",
+      "sub": "Cuộc Phiêu Lưu Của Quả Bóng"
+    },
+    {
+      "original": "我独自生活",
+      "sub": "Cuộc Sống Một Mình Của Tôi"
+    },
+    {
+      "original": "异世界慢生活",
+      "sub": "Cuộc Sống Thong Thả Ở Thế Giới Khác"
+    },
+    {
+      "original": "尤雅小镇我的世界",
+      "sub": "Cute Town: Thế Giới Của Tôi"
+    },
+    {
+      "original": "大话诛仙",
+      "sub": "Đại Thoại Chư Tiên"
+    },
+    {
+      "original": "名将杀",
+      "sub": "Danh Tướng Sát"
+    },
+    {
+      "original": "名将杀",
+      "sub": "Danh Tướng Sát"
+    },
+    {
+      "original": "斗罗大陆",
+      "sub": "Đấu La Đại Lục"
+    },
+    {
+      "original": "斗破苍穹",
+      "sub": "Đấu Phá Thương Khung"
+    },
+    {
+      "original": "风之痕迹",
+      "sub": "Dấu Vết Gió"
+    },
+    {
+      "original": "异环",
+      "sub": "Dị Hoàn"
+    },
+    {
+      "original": "异色边缘",
+      "sub": "Dị Sắc Biên Duyên"
+    },
+    {
+      "original": "遗迹旅人",
+      "sub": "Di Tích Lữ Nhân"
+    },
+    {
+      "original": "香草英雄团",
+      "sub": "Đội Anh Hùng Hương Thảo"
+    },
+    {
+      "original": "超自然行动组",
+      "sub": "Đội Đặc Nhiệm Siêu Nhiên"
+    },
+    {
+      "original": "超自然行动组",
+      "sub": "Đội Đặc Nhiệm Siêu Nhiên"
+    },
+    {
+      "original": "超自然行动组",
+      "sub": "Đội Đặc Nhiệm Siêu Nhiên"
+    },
+    {
+      "original": "童话师",
+      "sub": "Đồng Thoại Sư"
+    },
+    {
+      "original": "童话镇",
+      "sub": "Đồng Thoại Trấn"
+    },
+    {
+      "original": "萤火突击",
+      "sub": "Đột Kích Đom Đóm"
+    },
+    {
+      "original": "萤火突击",
+      "sub": "Đột Kích Đom Đóm"
+    },
+    {
+      "original": "萤火突击",
+      "sub": "Đột Kích Đom Đóm"
+    },
+    {
+      "original": "暗区突围",
+      "sub": "Đột Kích Vùng Tối"
+    },
+    {
+      "original": "破门而入：行动小队",
+      "sub": "Đột Nhập: Đội Hành Động"
+    },
+    {
+      "original": "二重螺旋",
+      "sub": "Double Helix"
+    },
+    {
+      "original": "龙石战争",
+      "sub": "Dragon Stone War"
+    },
+    {
+      "original": "异人之下",
+      "sub": "Dưới Bóng Dị Nhân"
+    },
+    {
+      "original": "蛋仔派对",
+      "sub": "Eggy Party"
+    },
+    {
+      "original": "蛋仔派对",
+      "sub": "Eggy Party"
+    },
+    {
+      "original": "蛋仔派对",
+      "sub": "Eggy Party"
+    },
+    {
+      "original": "永夜降临：复苏",
+      "sub": "Eternal Night: Rebirth"
+    },
+    {
+      "original": "和平精英",
+      "sub": "Game for Peace"
+    },
+    {
+      "original": "和平精英",
+      "sub": "Game for Peace"
+    },
+    {
+      "original": "原神",
+      "sub": "Genshin Impact"
+    },
+    {
+      "original": "原神",
+      "sub": "Genshin Impact"
+    },
+    {
+      "original": "啮齿动物44号观察记录",
+      "sub": "Ghi Chép Quan Sát Chuột Số 44"
+    },
+    {
+      "original": "卡厄思梦境",
+      "sub": "Giấc Mơ của Chaos"
+    },
+    {
+      "original": "热血江湖：归来",
+      "sub": "Giang Hồ Nhiệt Huyết: Trở Về"
+    },
+    {
+      "original": "五子棋",
+      "sub": "Gomoku"
+    },
+    {
+      "original": "明日方舟",
+      "sub": "Hành Trình Ngày Mai"
+    },
+    {
+      "original": "明日方舟",
+      "sub": "Hành Trình Ngày Mai"
+    },
+    {
+      "original": "少年歌行",
+      "sub": "Hành Trình Tuổi Trẻ"
+    },
+    {
+      "original": "初音未来：缤纷舞台",
+      "sub": "Hatsune Miku: Sân Khấu Rực Rỡ"
+    },
+    {
+      "original": "心动小镇",
+      "sub": "Heartbeat Town"
+    },
+    {
+      "original": "心动小镇",
+      "sub": "Heartbeat Town"
+    },
+    {
+      "original": "狐妖小红娘",
+      "sub": "Hồ Yêu Tiểu Hồng Nương"
+    },
+    {
+      "original": "火种协定",
+      "sub": "Hỏa Chủng Hiệp Định"
+    },
+    {
+      "original": "完美世界",
+      "sub": "Hoàn Mỹ Thế Giới"
+    },
+    {
+      "original": "荒野国度",
+      "sub": "Hoang Dã Quốc Độ"
+    },
+    {
+      "original": "荒原曙光",
+      "sub": "Hoang Nguyên Thú Quang"
+    },
+    {
+      "original": "崩坏：星穹铁道",
+      "sub": "Honkai: Star Rail"
+    },
+    {
+      "original": "崩坏：星穹铁道",
+      "sub": "Honkai: Star Rail"
+    },
+    {
+      "original": "王者荣耀",
+      "sub": "Honor of Kings"
+    },
+    {
+      "original": "王者荣耀",
+      "sub": "Honor of Kings"
+    },
+    {
+      "original": "传奇3打宝版",
+      "sub": "Huyền Thoại 3: Phiên Bản Săn Kho Báu"
+    },
+    {
+      "original": "异界原点传说：史莱姆不哭",
+      "sub": "Huyền Thoại Điểm Gốc Dị Giới: Slime Đừng Khóc"
+    },
+    {
+      "original": "第五人格",
+      "sub": "Identity V"
+    },
+    {
+      "original": "第五人格",
+      "sub": "Identity V"
+    },
+    {
+      "original": "伊瑟",
+      "sub": "Iser"
+    },
+    {
+      "original": "JJ斗地主",
+      "sub": "JJ Đấu Địa Chủ"
+    },
+    {
+      "original": "卡拉彼丘",
+      "sub": "Karabichu"
+    },
+    {
+      "original": "云上契约",
+      "sub": "Khế Ước Trên Mây"
+    },
+    {
+      "original": "地下城堡4：骑士与破碎编年史",
+      "sub": "Lâu Đài Ngầm 4: Hiệp Sĩ và Biên Niên Sử"
+    },
+    {
+      "original": "明日之后",
+      "sub": "LifeAfter"
+    },
+    {
+      "original": "龙族：卡塞尔之门",
+      "sub": "Long Tộc: Cánh Cổng Kassel"
+    },
+    {
+      "original": "绿梦：时空之声",
+      "sub": "Lục Mộng: Thời Không Chi Thanh"
+    },
+    {
+      "original": "魔戒传奇0L",
+      "sub": "Ma Giới Truyền Kỳ 0L"
+    },
+    {
+      "original": "魔力宝贝：启程",
+      "sub": "Ma Lực Bảo Bối: Khởi Trình"
+    },
+    {
+      "original": "漫斗纪元",
+      "sub": "Mạn Đấu Kỷ Nguyên"
+    },
+    {
+      "original": "漫威秘法狂潮",
+      "sub": "Marvel: Cơn Sóng Phép Thuật"
+    },
+    {
+      "original": "代号：岛",
+      "sub": "Mật Danh: Hòn Đảo"
+    },
+    {
+      "original": "喵斯快跑",
+      "sub": "Mèo Chạy Nhanh"
+    },
+    {
+      "original": "地铁逃生",
+      "sub": "Metro Escape"
+    },
+    {
+      "original": "米加版迷你世界",
+      "sub": "Miga Edition Mini World"
+    },
+    {
+      "original": "米加小镇世界",
+      "sub": "Miga Town: My World"
+    },
+    {
+      "original": "米加小镇世界",
+      "sub": "Miga Town: My World"
+    },
+    {
+      "original": "我的世界：移动版",
+      "sub": "Minecraft: Mobile Edition"
+    },
+    {
+      "original": "鸣潮",
+      "sub": "Minh Triều"
+    },
+    {
+      "original": "鸣潮",
+      "sub": "Minh Triều"
+    },
+    {
+      "original": "梦幻新诛仙",
+      "sub": "Mộng Huyễn Tân Tru Tiên"
+    },
+    {
+      "original": "梦想乐园",
+      "sub": "Mộng Tưởng Lạc Viên"
+    },
+    {
+      "original": "无尽寒冬",
+      "sub": "Mùa Đông Vô Tận"
+    },
+    {
+      "original": "我的迷你世界模拟",
+      "sub": "My Mini World Simulator"
+    },
+    {
+      "original": "火影忍者",
+      "sub": "Naruto Mobile"
+    },
+    {
+      "original": "火影忍者",
+      "sub": "Naruto Mobile"
+    },
+    {
+      "original": "火影忍者：忍者新世代",
+      "sub": "Naruto: Thế Hệ Ninja Mới"
+    },
+    {
+      "original": "逆水寒",
+      "sub": "Nghịch Thủy Hàn"
+    },
+    {
+      "original": "纸房子",
+      "sub": "Ngôi Nhà Giấy"
+    },
+    {
+      "original": "元气骑士",
+      "sub": "Nguyên Khí Kỵ Sĩ"
+    },
+    {
+      "original": "动物餐厅",
+      "sub": "Nhà Hàng Động Vật"
+    },
+    {
+      "original": "小小冒险家寻宝记",
+      "sub": "Nhà Thám Hiểm Nhỏ Tìm Kho Báu"
+    },
+    {
+      "original": "狐仙美人养成日记",
+      "sub": "Nhật Ký Nuôi Dưỡng Hồ Ly Xinh Đẹp"
+    },
+    {
+      "original": "绘梦日记",
+      "sub": "Nhật Ký Vẽ Giấc Mơ"
+    },
+    {
+      "original": "绘梦日记",
+      "sub": "Nhật Ký Vẽ Giấc Mơ"
+    },
+    {
+      "original": "无限暖暖",
+      "sub": "Nikki Vô Hạn"
+    },
+    {
+      "original": "无限暖暖",
+      "sub": "Nikki Vô Hạn"
+    },
+    {
+      "original": "胜利女神：新的希望",
+      "sub": "Nữ Thần Chiến Thắng: Hy Vọng Mới"
+    },
+    {
+      "original": "离线小游戏",
+      "sub": "Offline Mini Games"
+    },
+    {
+      "original": "离线小游戏",
+      "sub": "Offline Mini Games"
+    },
+    {
+      "original": "凡人修仙传",
+      "sub": "Phàm Nhân Tu Tiên Truyện"
+    },
+    {
+      "original": "凡人修仙传：人界篇",
+      "sub": "Phàm Nhân Tu Tiên Truyện: Nhân Giới"
+    },
+    {
+      "original": "Phigros",
+      "sub": "Phigros"
+    },
+    {
+      "original": "枫叶岛",
+      "sub": "Phong Diệp Đảo"
+    },
+    {
+      "original": "植物大战僵尸",
+      "sub": "Plants vs. Zombies"
+    },
+    {
+      "original": "植物大战僵尸2",
+      "sub": "Plants vs. Zombies 2"
+    },
+    {
+      "original": "植物大战僵尸2",
+      "sub": "Plants vs. Zombies 2"
+    },
+    {
+      "original": "宝可梦 冠军",
+      "sub": "Pokémon Champion"
+    },
+    {
+      "original": "绝地求生：未来之役",
+      "sub": "PUBG: Trận Chiến Tương Lai"
+    },
+    {
+      "original": "群英风华录",
+      "sub": "Quần Anh Phong Hoa Lục"
+    },
+    {
+      "original": "光遇",
+      "sub": "Quang Ngộ"
+    },
+    {
+      "original": "鬼谷八荒",
+      "sub": "Quỷ Cốc Bát Hoang"
+    },
+    {
+      "original": "归环",
+      "sub": "Quy Hoàn"
+    },
+    {
+      "original": "足球决",
+      "sub": "Quyết Đấu Bóng Đá"
+    },
+    {
+      "original": "逆战：未来",
+      "sub": "Reverse War: Future"
+    },
+    {
+      "original": "逆战：未来",
+      "sub": "Reverse War: Future"
+    },
+    {
+      "original": "光·遇",
+      "sub": "Sky: Children of the Light"
+    },
+    {
+      "original": "尘白禁区",
+      "sub": "Snowbreak: Containment Zone"
+    },
+    {
+      "original": "山海进化录",
+      "sub": "Sơn Hải Tiến Hóa Lục"
+    },
+    {
+      "original": "星布谷地",
+      "sub": "Star Valley"
+    },
+    {
+      "original": "崩坏：因缘精灵",
+      "sub": "Sụp Đổ: Linh Hồn Nhân Duyên"
+    },
+    {
+      "original": "超级收纳馆2",
+      "sub": "Super Storage Museum 2"
+    },
+    {
+      "original": "超级收纳馆2",
+      "sub": "Super Storage Museum 2"
+    },
+    {
+      "original": "重构：阿塔提斯",
+      "sub": "Tái Tạo: Atatis"
+    },
+    {
+      "original": "三国志战棋天下",
+      "sub": "Tam Quốc Chí Chiến Kỳ Thiên Hạ"
+    },
+    {
+      "original": "三国：天下归心",
+      "sub": "Tam Quốc: Thiên Hạ Quy Tâm"
+    },
+    {
+      "original": "新斗罗大陆",
+      "sub": "Tân Đấu La Đại Lục"
+    },
+    {
+      "original": "新月同行",
+      "sub": "Tân Nguyệt Đồng Hành"
+    },
+    {
+      "original": "新凡人修仙传",
+      "sub": "Tân Phàm Nhân Tu Tiên Truyện"
+    },
+    {
+      "original": "Taps",
+      "sub": "Taps"
+    },
+    {
+      "original": "可口的比萨",
+      "sub": "Tasty Pizza"
+    },
+    {
+      "original": "可口的比萨",
+      "sub": "Tasty Pizza"
+    },
+    {
+      "original": "泰拉瑞亚",
+      "sub": "Terraria"
+    },
+    {
+      "original": "深空之眼",
+      "sub": "Thâm Không Chi Nhãn"
+    },
+    {
+      "original": "神罗仙域",
+      "sub": "Thần La Tiên Vực"
+    },
+    {
+      "original": "神域纪元",
+      "sub": "Thần Vực Kỷ Nguyên"
+    },
+    {
+      "original": "音乐世界赛特斯2",
+      "sub": "Thế Giới Âm Nhạc Cytus 2"
+    },
+    {
+      "original": "凡达小镇完美世界",
+      "sub": "Thế Giới Hoàn Hảo Ở Thị Trấn Fanda"
+    },
+    {
+      "original": "托卡小镇完美世界",
+      "sub": "Thế Giới Hoàn Hảo Ở Thị Trấn Toca"
+    },
+    {
+      "original": "迷你世界",
+      "sub": "Thế Giới Mini Của Lila"
+    },
+    {
+      "original": "迷你世界",
+      "sub": "Thế Giới Mini Của Lila"
+    },
+    {
+      "original": "莱拉的迷你世界",
+      "sub": "Thế Giới Mini Của Lila"
+    },
+    {
+      "original": "我的迷你世界",
+      "sub": "Thế Giới Mini Của Lila"
+    },
+    {
+      "original": "坦克世界",
+      "sub": "Thế Giới Xe Tăng"
+    },
+    {
+      "original": "千年之旅",
+      "sub": "Thiên Niên Chi Lữ"
+    },
+    {
+      "original": "天羽传奇",
+      "sub": "Thiên Vũ Truyền Kỳ"
+    },
+    {
+      "original": "少年歌行：风花雪月",
+      "sub": "Thiếu Niên Ca Hành: Phong Hoa Tuyết Nguyệt"
+    },
+    {
+      "original": "怪物猎人：旅人",
+      "sub": "Thợ Săn Quái Vật: Kẻ Lữ Hành"
+    },
+    {
+      "original": "冰汽时代：最后的家园",
+      "sub": "Thời Đại Băng Giá: Ngôi Nhà Cuối Cùng"
+    },
+    {
+      "original": "波西亚时光",
+      "sub": "Thời Gian Ở Portia"
+    },
+    {
+      "original": "我的休闲时光",
+      "sub": "Thời Gian Thư Giãn Của Tôi"
+    },
+    {
+      "original": "我的休闲时光",
+      "sub": "Thời Gian Thư Giãn Của Tôi"
+    },
+    {
+      "original": "剌激地铁逃生",
+      "sub": "Thrilling Metro Escape"
+    },
+    {
+      "original": "墨守孤城",
+      "sub": "Thủ Thành Cô Độc"
+    },
+    {
+      "original": "墨守孤城",
+      "sub": "Thủ Thành Cô Độc"
+    },
+    {
+      "original": "神迹觉醒",
+      "sub": "Thức Tỉnh Thần Tích"
+    },
+    {
+      "original": "苍翼：混沌效应",
+      "sub": "Thương Dực: Hỗn Độn Hiệu Ứng"
+    },
+    {
+      "original": "苍龙劫",
+      "sub": "Thương Long Kiếp"
+    },
+    {
+      "original": "香肠派对",
+      "sub": "Tiệc Xúc Xích"
+    },
+    {
+      "original": "香肠派对",
+      "sub": "Tiệc Xúc Xích"
+    },
+    {
+      "original": "失控进化",
+      "sub": "Tiến Hóa Mất Kiểm Soát"
+    },
+    {
+      "original": "仙剑世界",
+      "sub": "Tiên Kiếm Thế Giới"
+    },
+    {
+      "original": "小兵三选一",
+      "sub": "Tiểu Binh 3 Chọn 1"
+    },
+    {
+      "original": "小兵三选一",
+      "sub": "Tiểu Binh 3 Chọn 1"
+    },
+    {
+      "original": "星塔旅人",
+      "sub": "Tinh Tháp Lữ Nhân"
+    },
+    {
+      "original": "恋与深空",
+      "sub": "Tình Yêu và Vũ Trụ"
+    },
+    {
+      "original": "恋与深空",
+      "sub": "Tình Yêu và Vũ Trụ"
+    },
+    {
+      "original": "全职荣耀",
+      "sub": "Toàn Chức Vinh Diệu"
+    },
+    {
+      "original": "我在末日当牛马",
+      "sub": "Tôi Làm Trâu Ngựa Trong Ngày Tận Thế"
+    },
+    {
+      "original": "我在峡谷搜打撤",
+      "sub": "Tôi Lùng Đánh Trong Hẻm Núi"
+    },
+    {
+      "original": "金铲铲之战",
+      "sub": "Trận Chiến Xẻng Vàng"
+    },
+    {
+      "original": "金铲铲之战",
+      "sub": "Trận Chiến Xẻng Vàng"
+    },
+    {
+      "original": "千机阵",
+      "sub": "Trận Thiên Cơ"
+    },
+    {
+      "original": "诛仙",
+      "sub": "Tru Tiên"
+    },
+    {
+      "original": "诛仙2",
+      "sub": "Tru Tiên 2"
+    },
+    {
+      "original": "杖剑传说",
+      "sub": "Trượng Kiếm Truyện Thuyết"
+    },
+    {
+      "original": "杖剑传说",
+      "sub": "Trượng Kiếm Truyện Thuyết"
+    },
+    {
+      "original": "将灵说",
+      "sub": "Tướng Linh Thuyết"
+    },
+    {
+      "original": "无畏契约：源能行动",
+      "sub": "Valorant: Chiến Dịch Năng Lượng Nguyên Thủy"
+    },
+    {
+      "original": "万灵幻想",
+      "sub": "Vạn Linh Hoang Tưởng"
+    },
+    {
+      "original": "圆梦庄园",
+      "sub": "Viên Mộng Trang Viên"
+    },
+    {
+      "original": "永夜魔君",
+      "sub": "Vĩnh Dạ Ma Quân"
+    },
+    {
+      "original": "永劫无间",
+      "sub": "Vĩnh Kiếp Vô Gian"
+    },
+    {
+      "original": "无限大",
+      "sub": "Vô Hạn Đại"
+    },
+    {
+      "original": "无尽梦回",
+      "sub": "Vô Tận Mộng Hồi"
+    },
+    {
+      "original": "武神主宰",
+      "sub": "Võ Thần Chủ Tể"
+    },
+    {
+      "original": "望月",
+      "sub": "Vọng Nguyệt"
+    },
+    {
+      "original": "王者征途",
+      "sub": "Vương Giả Chinh Đồ"
+    },
+    {
+      "original": "王者争霸",
+      "sub": "Vương Giả Tranh Bá"
+    },
+    {
+      "original": "王者万象棋",
+      "sub": "Vương Giả Vạn Tượng Kỳ"
+    },
+    {
+      "original": "王者荣耀世界",
+      "sub": "Vương Giả Vinh Diệu Thế Giới"
+    },
+    {
+      "original": "王者荣耀世界",
+      "sub": "Vương Giả Vinh Diệu Thế Giới"
+    },
+    {
+      "original": "洛克王国：世界",
+      "sub": "Vương Quốc Roco: Thế Giới"
+    },
+    {
+      "original": "粒粒的小人国",
+      "sub": "Vương Quốc Tí Hon của Lili"
+    },
+    {
+      "original": "重建生存营地",
+      "sub": "Xây Dựng Lại Trại Sinh Tồn"
+    },
+    {
+      "original": "燕云十六声",
+      "sub": "Yên Vân Thập Lục Thanh"
+    },
+    {
+      "original": "伊莫",
+      "sub": "Yimo"
+    },
+    {
+      "original": "你家小镇迷你世界",
+      "sub": "Your Town's Mini World"
+    },
+    {
+      "original": "绝区零",
+      "sub": "Zenless Zone Zero"
+    },
+    {
+      "original": "绝区零",
+      "sub": "Zenless Zone Zero"
+    },
+    {
+      "original": "无期迷途",
+      "sub": "Hành Trình Vô Hạn"
+    },
+    {
+      "original": "拼装小窝",
+      "sub": "DIY Dream Home"
+    },
+    {
+      "original": "奇幻梦旅人",
+      "sub": "Kỳ Huyễn Mộng Lữ Nhân"
+    },
+    {
+      "original": "豪门家主模拟器",
+      "sub": "Mô Phỏng Hào Môn"
+    },
+    {
+      "original": "战双帕弥什",
+      "sub": "Chiến Đấu Song Hành"
+    },
+    {
+      "original": "剑与黎明",
+      "sub": "Sword and Dawn"
+    },
+    {
+      "original": "我的勇者",
+      "sub": "My Warrior"
+    },
+    {
+      "original": "乡村老师",
+      "sub": "Village Teacher"
+    },
+    {
+      "original": "Atana",
+      "sub": "Atana"
+    },
+    {
+      "original": "环外",
+      "sub": "Ngoài Vòng"
+    },
+    {
+      "original": "实况足球",
+      "sub": "Pro Evolution Soccer"
+    },
+    {
+      "original": "碧蓝航线",
+      "sub": "Azur Lane"
+    },
+    {
+      "original": "楼下的早餐店",
+      "sub": "Quán Ăn Sáng Dưới Nhà"
+    },
+    {
+      "original": "重返校园",
+      "sub": "Back to School"
+    },
+    {
+      "original": "夜幕之下",
+      "sub": "Dưới Bóng Đêm"
+    },
+    {
+      "original": "空灵诗篇",
+      "sub": "Không Linh Thi Thiên"
+    },
+    {
+      "original": "荒野大镖客：救赎",
+      "sub": "Kẻ Cướp Lớn Vùng Hoang Dã: Chuộc Tội"
+    },
+    {
+      "original": "绯月絮语",
+      "sub": "Phi Nguyệt Tự Ngữ"
+    },
+    {
+      "original": "星绘友晴天",
+      "sub": "Tinh Hội Hữu Tình Thiên"
+    },
+    {
+      "original": "火环",
+      "sub": "Fire Ring"
+    },
+    {
+      "original": "酋长你别跑",
+      "sub": "Tù Trưởng Đừng Chạy"
+    },
+    {
+      "original": "九牧之野",
+      "sub": "Vùng Đất Cửu Mục"
+    },
+    {
+      "original": "修仙时代",
+      "sub": "Thời Đại Tu Tiên"
+    },
+    {
+      "original": "EVE",
+      "sub": "EVE"
+    },
+    {
+      "original": "绝地鸭卫",
+      "sub": "Vệ Binh Vịt Tuyệt Địa"
+    },
+    {
+      "original": "亿万光年",
+      "sub": "Ức Vạn Quang Niên"
+    },
+    {
+      "original": "生存33天",
+      "sub": "33 Ngày Sinh Tồn"
+    },
+    {
+      "original": "远星集结",
+      "sub": "Viễn Tinh Tập Kết"
+    },
+    {
+      "original": "代号：FPJ（TapTap测试版）",
+      "sub": "Mã Hiệu: FPJ (TapTap Beta Version)"
+    },
+    {
+      "original": "奥特曼：光之战士",
+      "sub": "Ultraman: Chiến Binh Ánh Sáng"
+    },
+    {
+      "original": "累趴侠",
+      "sub": "Anh Hùng Kiệt Sức"
+    },
+    {
+      "original": "代号：妖鬼（TapTap测试版）",
+      "sub": "Mật Danh: Yêu Quái (TapTap Beta Version)"
+    },
+    {
+      "original": "元启世界",
+      "sub": "Thế Giới Khởi Nguyên"
+    },
+    {
+      "original": "白银之城",
+      "sub": "Silver City"
+    },
+    {
+      "original": "地平线：钢铁前线",
+      "sub": "Chân Trời: Mặt Trận Thép"
+    },
+    {
+      "original": "街机恐龙",
+      "sub": "Arcade Dinosaur"
+    },
+    {
+      "original": "山海旅人",
+      "sub": "Sơn Hải Lữ Nhân"
+    },
+    {
+      "original": "代号：恋人",
+      "sub": "Mật Danh: Người Yêu"
+    },
+    {
+      "original": "重返未来：1999",
+      "sub": "Return to the Future: 1999"
+    },
+    {
+      "original": "练枪皇帝",
+      "sub": "Hoàng Đế Luyện Súng"
+    },
+    {
+      "original": "手办模特",
+      "sub": "Figure Model"
+    },
+    {
+      "original": "当老师的一天",
+      "sub": "Một Ngày Làm Giáo Viên"
+    },
+    {
+      "original": "墙世界",
+      "sub": "Wall World"
+    },
+    {
+      "original": "鸡械绿洲",
+      "sub": "Đảo Gà"
+    },
+    {
+      "original": "生物原型2",
+      "sub": "Bio-Prototype 2"
+    },
+    {
+      "original": "烤我吧",
+      "sub": "Nướng Tôi Đi"
+    },
+    {
+      "original": "斗罗大陆：零",
+      "sub": "Đấu La Đại Lục: Khởi Đầu"
+    },
+    {
+      "original": "迷雾北境",
+      "sub": "Mê Vụ Bắc Cảnh"
+    },
+    {
+      "original": "超能仙师（TapTap测试版）",
+      "sub": "Tiên Sư Siêu Năng (TapTap Beta)"
+    },
+    {
+      "original": "蓬莱",
+      "sub": "Bồng Lai"
+    },
+    {
+      "original": "足球大人物",
+      "sub": "Ngôi Sao Bóng Đá"
+    },
+    {
+      "original": "元气骑士前传",
+      "sub": "Nguyên Khí Kỵ Sĩ Tiền Truyện"
+    },
+    {
+      "original": "妖灵",
+      "sub": "Yêu Linh"
+    },
+    {
+      "original": "幻想之刃",
+      "sub": "Fantasy Blade"
+    },
+    {
+      "original": "我打不过漂亮的她们",
+      "sub": "I Can't Beat the Pretty Girls"
+    },
+    {
+      "original": "小花仙：拉贝尔之约",
+      "sub": "Tiểu Hoa Tiên: Lời Hứa Vùng Đất Rabel"
+    },
+    {
+      "original": "鹅鸭杀",
+      "sub": "Goose Goose Duck"
+    },
+    {
+      "original": "宝石战争（TapTap测试版）",
+      "sub": "Gem Wars (TapTap Beta)"
+    },
+    {
+      "original": "无限谷",
+      "sub": "Vô Hạn Cốc"
+    },
+    {
+      "original": "嘟嘟脸恶作剧",
+      "sub": "Chubby Face Prank"
+    },
+    {
+      "original": "菜鸡梦想家",
+      "sub": "Chicken Dreamer"
+    },
+    {
+      "original": "妹居物语DEMO",
+      "sub": "Sister's Home Story DEMO"
+    },
+    {
+      "original": "斗罗大陆：诛邪传说",
+      "sub": "Đấu La Đại Lục: Tru Tà Truyền Thuyết"
+    },
+    {
+      "original": "无径之林",
+      "sub": "Vô Kính Chi Lâm"
+    },
+    {
+      "original": "凹凸世界：彩虹收藏家",
+      "sub": "Bumpy World: Rainbow Collector"
+    },
+    {
+      "original": "燃烧纪元",
+      "sub": "Thời Đại Rực Lửa"
+    },
+    {
+      "original": "我叫MT：口袋守卫战",
+      "sub": "I Am MT: Pocket Guard Battle"
+    },
+    {
+      "original": "汉家城市",
+      "sub": "Hán Gia Thành Thị"
+    },
+    {
+      "original": "潜水员戴夫",
+      "sub": "Thợ Lặn Dave"
+    },
+    {
+      "original": "卡包荒野",
+      "sub": "Card Pack Wilderness"
+    },
+    {
+      "original": "萌萌塔防",
+      "sub": "Manh Manh Tháp Phòng"
+    },
+    {
+      "original": "世界之光",
+      "sub": "Thế Giới Chi Quang"
+    },
+    {
+      "original": "无尽防线",
+      "sub": "Phòng Tuyến Bất Tận"
+    },
+    {
+      "original": "崩坏3",
+      "sub": "Honkai Impact 3rd"
+    },
+    {
+      "original": "无尽探险队",
+      "sub": "Đội Thám Hiểm Vô Tận"
+    },
+    {
+      "original": "忍者必须死3",
+      "sub": "Ninja Must Die 3"
+    },
+    {
+      "original": "少女前线2：追放",
+      "sub": "Girls' Frontline 2: Truy Đuổi"
+    },
+    {
+      "original": "疾风骑士",
+      "sub": "Kỵ Sĩ Gió Lốc"
+    },
+    {
+      "original": "滑雪大冒险",
+      "sub": "Hoa Tuyết Đại Mạo Hiểm"
+    },
+    {
+      "original": "全职法师：猎人大师",
+      "sub": "Toàn Chức Pháp Sư: Liệp Nhân Đại Sư"
+    },
+    {
+      "original": "我要拍短剧",
+      "sub": "I Want to Shoot Short Plays"
+    },
+    {
+      "original": "宇宙农场物语",
+      "sub": "Cosmic Farm Story"
+    },
+    {
+      "original": "天下：万象",
+      "sub": "Thiên Hạ: Vạn Tượng"
+    },
+    {
+      "original": "武道风云",
+      "sub": "Võ Đạo Phong Vân"
+    },
+    {
+      "original": "本茶纲目",
+      "sub": "Bản Trà Cương Mục"
+    },
+    {
+      "original": "小鱼探险记",
+      "sub": "Tiểu Ngư Thám Hiểm Ký"
+    },
+    {
+      "original": "经典矿工",
+      "sub": "Classic Miner"
+    },
+    {
+      "original": "梦境护卫队",
+      "sub": "Đội Bảo Vệ Giấc Mơ"
+    },
+    {
+      "original": "抽卡监狱",
+      "sub": "Gacha Prison"
+    },
+    {
+      "original": "穿越火线-枪战王者",
+      "sub": "CrossFire - Gunfight King"
+    },
+    {
+      "original": "诸子百家模拟器",
+      "sub": "Chư Tử Bách Gia Mô Phỏng Khí"
+    },
+    {
+      "original": "巨匠眼",
+      "sub": "Cự Tượng Nhãn"
+    },
+    {
+      "original": "诡秘世界搜打撤",
+      "sub": "Mysterious World: Hunt and Battle"
+    },
+    {
+      "original": "小小梦魇",
+      "sub": "Little Nightmares"
+    },
+    {
+      "original": "魔幻大陆",
+      "sub": "Ma Huyễn Đại Lục"
+    },
+    {
+      "original": "超级猎手",
+      "sub": "Super Hunter"
+    },
+    {
+      "original": "我在异界抓诡异",
+      "sub": "Bắt Ma Ở Thế Giới Khác"
+    },
+    {
+      "original": "梦幻剑侠",
+      "sub": "Mộng Huyễn Kiếm Hiệp"
+    },
+    {
+      "original": "无名骑士团",
+      "sub": "Đội Kỵ Sĩ Vô Danh"
+    },
+    {
+      "original": "黯然之花",
+      "sub": "Ám Nhiên Chi Hoa"
+    },
+    {
+      "original": "代号：西游万智牌",
+      "sub": "Mật Danh: Tây Du Vạn Trí Bài"
+    },
+    {
+      "original": "联盟战歌",
+      "sub": "Liên Minh Chiến Ca"
+    },
+    {
+      "original": "明天",
+      "sub": "Ngày Mai"
+    },
+    {
+      "original": "伊利亚",
+      "sub": "Ilia"
+    },
+    {
+      "original": "闪之轨迹：北方战役",
+      "sub": "Đường Đi Lấp Lánh: Chiến Dịch Phương Bắc"
+    },
+    {
+      "original": "开罗游戏世界",
+      "sub": "Thế Giới Trò Chơi Cairo"
+    },
+    {
+      "original": "流放纪元",
+      "sub": "Kỷ Nguyên Lưu Đày"
+    },
+    {
+      "original": "使命召唤手游",
+      "sub": "Call of Duty: Mobile"
+    },
+    {
+      "original": "世界之外",
+      "sub": "Thế Giới Chi Ngoại"
+    },
+    {
+      "original": "不休勇者传说",
+      "sub": "Huyền Thoại Dũng Sĩ Bất Tử"
+    },
+    {
+      "original": "天珠变",
+      "sub": "Thiên Châu Biến"
+    },
+    {
+      "original": "迪士尼无限飞车",
+      "sub": "Disney Speedstorm"
+    },
+    {
+      "original": "叫我大酋长",
+      "sub": "Gọi Ta Đại Tù Trưởng"
+    },
+    {
+      "original": "汉克旅店",
+      "sub": "Hank's Hotel"
+    },
+    {
+      "original": "腐朽默示",
+      "sub": "Decayed Revelation"
+    },
+    {
+      "original": "勇者地下城",
+      "sub": "Hầm Ngục Dũng Sĩ"
+    },
+    {
+      "original": "我不是胖虎：小岛大当家",
+      "sub": "Ta Không Phải Hổ Mập: Chủ Nhân Đảo Nhỏ"
+    },
+    {
+      "original": "修仙之路·太初（TapTap 测试版）",
+      "sub": "Con Đường Tu Tiên · Thời Nguyên Thủy (TapTap Beta)"
+    },
+    {
+      "original": "风帆纪元",
+      "sub": "Thời Đại Thuyền Buồm"
+    },
+    {
+      "original": "幻灵召唤师",
+      "sub": "Huyễn Linh Triệu Hoán Sư"
+    },
+    {
+      "original": "重生细胞",
+      "sub": "Trọng Sinh Tế Bào"
+    },
+    {
+      "original": "以闪亮之名",
+      "sub": "Shining Nikki"
+    },
+    {
+      "original": "仙境传说：重生",
+      "sub": "Huyền Thoại Tiên Cảnh: Tái Sinh"
+    },
+    {
+      "original": "三国志将星闪耀",
+      "sub": "Tam Quốc: Tướng Tinh Rực Rỡ"
+    },
+    {
+      "original": "我有一计",
+      "sub": "Ta Có Một Kế"
+    },
+    {
+      "original": "深海水族馆：经典",
+      "sub": "Thủy Cung Biển Sâu: Phiên Bản Kinh Điển"
+    },
+    {
+      "original": "碧优蒂的世界",
+      "sub": "Bích Ưu Đệ Chi Thế Giới"
+    },
+    {
+      "original": "奶茶店模拟器——重生之我在冰堡甜城当店长",
+      "sub": "Mô Phỏng Quán Trà Sữa – Tái Sinh: Ta Là Chủ Quán Ở Ice Sweet City"
+    },
+    {
+      "original": "新惊天动地",
+      "sub": "Tân Kinh Thiên Động Địa"
+    },
+    {
+      "original": "仙灵物语",
+      "sub": "Tiên Linh Vật Ngữ"
+    },
+    {
+      "original": "森盒Senbox³",
+      "sub": "Senbox³: Forest Box"
+    },
+    {
+      "original": "驱入虚空",
+      "sub": "Lái Vào Hư Vô"
+    },
+    {
+      "original": "卡包修仙（TapTap测试版）",
+      "sub": "Tu Tiên Thẻ Bài (TapTap Beta)"
+    },
+    {
+      "original": "魔法工艺",
+      "sub": "Magic Craft"
+    },
+    {
+      "original": "永恒与星辰与日常",
+      "sub": "Eternity, Stars, and the Everyday"
+    },
+    {
+      "original": "代号：界",
+      "sub": "Mã Hiệu: Thế Giới"
+    },
+    {
+      "original": "众神之神",
+      "sub": "God of Gods"
+    },
+    {
+      "original": "萤火夜话",
+      "sub": "Đêm Đom Đóm Tâm Sự"
+    },
+    {
+      "original": "古龙群侠录",
+      "sub": "Cổ Long Quần Hiệp Lục"
+    },
+    {
+      "original": "深鸢",
+      "sub": "Deep Falcon"
+    },
+    {
+      "original": "幻想少女公会",
+      "sub": "Fantasy Girl Guild"
+    },
+    {
+      "original": "天墟传说",
+      "sub": "Huyền Thoại Thiên Khư"
+    },
+    {
+      "original": "灵妖劫",
+      "sub": "Linh Yêu Kiếp"
+    },
+    {
+      "original": "命运游戏3：王者棋局",
+      "sub": "Trò Chơi Vận Mệnh 3: Ván Cờ Vương Giả"
+    },
+    {
+      "original": "勇敢幻想",
+      "sub": "Dũng Cảm Ảo Tưởng"
+    },
+    {
+      "original": "吉星派对",
+      "sub": "Lucky Star Party"
+    },
+    {
+      "original": "风之国世界",
+      "sub": "Thế Giới Xứ Gió"
+    },
+    {
+      "original": "吉星派对",
+      "sub": "Lucky Star Party"
+    },
+    {
+      "original": "量子跃迁：米乐光年",
+      "sub": "Quantum Leap: Milo Light-Year"
+    },
+    {
+      "original": "召唤与生存",
+      "sub": "Triệu Hồi và Sinh Tồn"
+    },
+    {
+      "original": "闪耀吧！噜咪",
+      "sub": "Tỏa Sáng Nào! Lumi"
+    },
+    {
+      "original": "不死鸟传说",
+      "sub": "Bất Tử Điểu Truyền Thuyết"
+    },
+    {
+      "original": "遗忘之海",
+      "sub": "Biển Quên Lãng"
+    },
+    {
+      "original": "超能机器人",
+      "sub": "Robot Siêu Năng Lực"
+    },
+    {
+      "original": "乱涂彩世界",
+      "sub": "Scribble World"
+    },
+    {
+      "original": "Project RX",
+      "sub": "Project RX"
+    },
+    {
+      "original": "未来之役",
+      "sub": "Trận Chiến Tương Lai"
+    },
+    {
+      "original": "好朋友 On Any Journey",
+      "sub": "Bạn Tốt Trên Mọi Cuộc Hành Trình"
+    },
+    {
+      "original": "宇宙怪谈",
+      "sub": "Vũ Trụ Quái Đàm"
+    },
+    {
+      "original": "祖宗模拟器：传承",
+      "sub": "Mô Phỏng Tổ Tiên: Di Sản"
+    },
+    {
+      "original": "商界传奇",
+      "sub": "Thương Giới Truyền Kỳ"
+    },
+    {
+      "original": "不一样的修仙宗门2",
+      "sub": "Tu Tiên Tông Môn 2: Khác Biệt"
+    },
+    {
+      "original": "网恋模拟器",
+      "sub": "Mô Phỏng Tình Yêu Trực Tuyến"
+    },
+    {
+      "original": "魔王城物语",
+      "sub": "Ma Vương Thành Vật Ngữ"
+    },
+    {
+      "original": "我在海上有小岛",
+      "sub": "Hòn Đảo Nhỏ Của Tôi Trên Biển"
+    },
+    {
+      "original": "三国杀武将觉醒",
+      "sub": "Tam Quốc Sát: Võ Tướng Thức Tỉnh"
+    },
+    {
+      "original": "从抽卡开始的肉鸽冒险",
+      "sub": "Phiêu Lưu Roguelike Từ Gacha"
+    },
+    {
+      "original": "爱与机器人维修技术",
+      "sub": "Tình Yêu và Kỹ Thuật Sửa Chữa Robot"
+    },
+    {
+      "original": "合并萌龙岛",
+      "sub": "Đảo Rồng Dễ Thương Hợp Nhất"
+    },
+    {
+      "original": "代号：芙娅之魂",
+      "sub": "Mật Danh: Linh Hồn Phù Á"
+    },
+    {
+      "original": "妖错图",
+      "sub": "Bản Đồ Quỷ Dị"
+    },
+    {
+      "original": "遗弃之地",
+      "sub": "Vùng Đất Bị Bỏ Rơi"
+    },
+    {
+      "original": "背包乱斗",
+      "sub": "Balo Loạn Đấu"
+    },
+    {
+      "original": "部落冲突",
+      "sub": "Xung Đột Bộ Lạc"
+    },
+    {
+      "original": "无畏之刃",
+      "sub": "Vô Úy Chi Nhận"
+    },
+    {
+      "original": "暗影之王",
+      "sub": "Ám Ảnh Chi Vương"
+    },
+    {
+      "original": "水银疗养院",
+      "sub": "Viện Dưỡng Lão Thủy Ngân"
+    },
+    {
+      "original": "海兽餐厅",
+      "sub": "Nhà Hàng Thủy Quái"
+    },
+    {
+      "original": "绿水镇",
+      "sub": "Lục Thủy Trấn"
+    },
+    {
+      "original": "魂坠深境",
+      "sub": "Hồn Trụy Thâm Cảnh"
+    },
+    {
+      "original": "哈耶克的文明：市场经济",
+      "sub": "Hayek's Civilization: Market Economy"
+    },
+    {
+      "original": "淘金历险记: 克朗代克",
+      "sub": "Cuộc Phiêu Lưu Đào Vàng: Klondike"
+    },
+    {
+      "original": "月圆之夜",
+      "sub": "Đêm Trăng Tròn"
+    },
+    {
+      "original": "吾辈小熊猫",
+      "sub": "Chúng Ta Là Gấu Trúc Nhỏ"
+    },
+    {
+      "original": "决战！平安京",
+      "sub": "Quyết Đấu! Heian-kyo"
+    },
+    {
+      "original": "功夫熊猫：神龙大侠",
+      "sub": "Kung Fu Panda: Thần Long Đại Hiệp"
+    },
+    {
+      "original": "彩虹岛：经典",
+      "sub": "Rainbow Island: Classic"
+    },
+    {
+      "original": "猫话列国",
+      "sub": "Mèo Kể Chuyện Các Nước"
+    },
+    {
+      "original": "镇魂街王者归来",
+      "sub": "Đường Trấn Hồn: Vua Trở Lại"
+    },
+    {
+      "original": "辐射之海",
+      "sub": "Biển Phóng Xạ"
+    },
+    {
+      "original": "赛博典当行",
+      "sub": "Tiệm Cầm Đồ Cyber"
+    },
+    {
+      "original": "异星战争",
+      "sub": "Dị Tinh Chiến Tranh"
+    },
+    {
+      "original": "方寸小屋（TapTap 测试版）",
+      "sub": "Tiny House (TapTap Beta)"
+    },
+    {
+      "original": "真实公路汽车2",
+      "sub": "Real Highway Cars 2"
+    },
+    {
+      "original": "NOOK FALL：西区",
+      "sub": "NOOK FALL: Khu Tây"
+    },
+    {
+      "original": "绯月絮语",
+      "sub": "Phi Nguyệt Tự Ngữ"
+    },
+    {
+      "original": "生存33天",
+      "sub": "33 Ngày Sinh Tồn"
+    },
+    {
+      "original": "诸子百家模拟器",
+      "sub": "Mô Phỏng Trăm Nhà Triết Học"
+    },
+    {
+      "original": "卡包修仙（TapTap测试版）",
+      "sub": "Tu Tiên Thẻ Bài (TapTap Beta)"
+    },
+    {
+      "original": "月圆之夜",
+      "sub": "Đêm Trăng Tròn"
+    },
+    {
+      "original": "重返未来：1999",
+      "sub": "Return to the Future: 1999"
+    },
+    {
+      "original": "异星战争",
+      "sub": "Dị Tinh Chiến Tranh"
+    },
+    {
+      "original": "遗弃之地",
+      "sub": "Vùng Đất Bị Bỏ Rơi"
+    },
+    {
+      "original": "功夫熊猫：神龙大侠",
+      "sub": "Kung Fu Panda: Thần Long Đại Hiệp"
+    },
+    {
+      "original": "无期迷途",
+      "sub": "Hành Trình Vô Hạn"
+    },
+    {
+      "original": "哈耶克的文明：市场经济",
+      "sub": "Hayek's Civilization: Market Economy"
+    },
+    {
+      "original": "成王败寇",
+      "sub": "Thành Vương Bại Khấu"
+    },
+    {
+      "original": "英雄联盟手游",
+      "sub": "Liên Minh Huyền Thoại: Mobile"
+    },
+    {
+      "original": "不一样的修仙宗门2",
+      "sub": "Tu Tiên Tông Môn 2: Khác Biệt"
+    },
+    {
+      "original": "少女前线2：追放",
+      "sub": "Girls' Frontline 2: Truy Đuổi"
+    },
+    {
+      "original": "九牧之野",
+      "sub": "Vùng Đất Cửu Mục"
+    },
+    {
+      "original": "极简塔防",
+      "sub": "Tháp Phòng Tối Giản"
+    },
+    {
+      "original": "鸡械绿洲",
+      "sub": "Đảo Gà"
+    },
+    {
+      "original": "物华弥新",
+      "sub": "Vật Hoa Di Tân"
+    },
+    {
+      "original": "七日世界",
+      "sub": "Thế Giới 7 Ngày"
+    },
+    {
+      "original": "全面憨憨战争模拟器",
+      "sub": "Mô Phỏng Chiến Tranh Ngốc Nghếch Toàn Diện"
+    },
+    {
+      "original": "辐射：避难所",
+      "sub": "Fallout: Nơi Trú Ẩn"
+    },
+    {
+      "original": "大侠式人生：重制版",
+      "sub": "Hero's Life: Remastered"
+    },
+    {
+      "original": "赛博典当行",
+      "sub": "Tiệm Cầm Đồ Cyber"
+    },
+    {
+      "original": "异世界的城主大人",
+      "sub": "Đại Nhân Thành Chủ Thế Giới Khác"
+    },
+    {
+      "original": "猛鬼宿舍",
+      "sub": "Ký Túc Xá Ma Quỷ"
+    },
+    {
+      "original": "超逼真的攻城模拟器",
+      "sub": "Mô Phỏng Công Thành Siêu Thực"
+    },
+    {
+      "original": "消消英雄2",
+      "sub": "Match Heroes 2"
+    },
+    {
+      "original": "无畏之刃",
+      "sub": "Vô Úy Chi Nhận"
+    },
+    {
+      "original": "异象回声",
+      "sub": "Tiếng Vọng Dị Tượng"
+    },
+    {
+      "original": "老鼠大冒险",
+      "sub": "Cuộc Phiêu Lưu Của Chuột"
+    },
+    {
+      "original": "我叫MT：口袋守卫战",
+      "sub": "I Am MT: Pocket Guard Battle"
+    },
+    {
+      "original": "百分之一",
+      "sub": "Một Phần Trăm"
+    },
+    {
+      "original": "三国杀",
+      "sub": "Tam Quốc Sát"
+    },
+    {
+      "original": "仙境传说：重生",
+      "sub": "Huyền Thoại Tiên Cảnh: Tái Sinh"
+    },
+    {
+      "original": "祖宗模拟器：传承",
+      "sub": "Mô Phỏng Tổ Tiên: Di Sản"
+    },
+    {
+      "original": "元启世界",
+      "sub": "Thế Giới Khởi Nguyên"
+    },
+    {
+      "original": "问剑长生",
+      "sub": "Vấn Kiếm Trường Sinh"
+    },
+    {
+      "original": "一念逍遥",
+      "sub": "Nhất Niệm Tiêu Dao"
+    },
+    {
+      "original": "拼装小窝",
+      "sub": "DIY Dream Home"
+    },
+    {
+      "original": "江南第一主播公司",
+      "sub": "Công Ty Streamer Số Một Giang Nam"
+    },
+    {
+      "original": "冲呀！饼干人：王国",
+      "sub": "Tiến Lên! Vương Quốc Bánh Quy"
+    },
+    {
+      "original": "银与绯",
+      "sub": "Silver and Scarlet"
+    },
+    {
+      "original": "我要拍短剧",
+      "sub": "I Want to Shoot Short Plays"
+    },
+    {
+      "original": "桃源深处有人家",
+      "sub": "Ngôi Nhà Trong Rừng Đào"
+    },
+    {
+      "original": "天道：创造",
+      "sub": "Thiên Đạo: Tạo Hóa"
+    },
+    {
+      "original": "萌萌塔防",
+      "sub": "Manh Manh Tháp Phòng"
+    },
+    {
+      "original": "剑与远征",
+      "sub": "Kiếm Dữ Viễn Chinh"
+    },
+    {
+      "original": "修仙世家模拟器",
+      "sub": "Mô Phỏng Gia Tộc Tu Tiên"
+    },
+    {
+      "original": "斗神大陆2（TapTap测试版）",
+      "sub": "Đấu Thần Đại Lục 2 (TapTap Beta)"
+    },
+    {
+      "original": "真实炒股（TapTap测试版）",
+      "sub": "Chơi Cổ Phiếu Thực Tế (TapTap Beta)"
+    },
+    {
+      "original": "猫咪和汤",
+      "sub": "Mèo và Súp"
+    },
+    {
+      "original": "大话蜀山",
+      "sub": "Đại Thoại Thục Sơn"
+    },
+    {
+      "original": "幻灵召唤师",
+      "sub": "Huyễn Linh Triệu Hoán Sư"
+    },
+    {
+      "original": "三国人生模拟",
+      "sub": "Tam Quốc Nhân Sinh Mô Phỏng"
+    },
+    {
+      "original": "勇敢幻想",
+      "sub": "Dũng Cảm Ảo Tưởng"
+    },
+    {
+      "original": "放置军团",
+      "sub": "Idle Legion"
+    },
+    {
+      "original": "房东模拟器",
+      "sub": "Bộ Mô Phỏng Chủ Nhà"
+    },
+    {
+      "original": "魔法之路",
+      "sub": "Con Đường Phép Thuật"
+    },
+    {
+      "original": "穿越者系统：模拟",
+      "sub": "Hệ Thống Xuyên Không: Mô Phỏng"
+    },
+    {
+      "original": "自定义修仙模拟器",
+      "sub": "Bộ Mô Phỏng Tu Tiên Tùy Chỉnh"
+    },
+    {
+      "original": "盲盒派对",
+      "sub": "Blind Box Party"
+    },
+    {
+      "original": "无限氪金",
+      "sub": "Vô Hạn Khắc Kim"
+    },
+    {
+      "original": "胡桃日记",
+      "sub": "Nhật Ký Hồ Đào"
+    },
+    {
+      "original": "洛伊的移动要塞",
+      "sub": "Pháo Đài Di Động Của Roy"
+    },
+    {
+      "original": "邂逅在迷宫",
+      "sub": "Gặp Gỡ Trong Mê Cung"
+    },
+    {
+      "original": "命运圣契",
+      "sub": "Giao Ước Thần Thánh"
+    },
+    {
+      "original": "闪烁之光",
+      "sub": "Sparkling Light"
+    },
+    {
+      "original": "英雄没有闪",
+      "sub": "Anh Hùng Không Né Tránh"
+    },
+    {
+      "original": "龙魂旅人",
+      "sub": "Long Hồn Lữ Nhân"
+    },
+    {
+      "original": "无限升级",
+      "sub": "Nâng Cấp Vô Hạn"
+    },
+    {
+      "original": "吾辈小熊猫",
+      "sub": "Chúng Ta Là Gấu Trúc Nhỏ"
+    },
+    {
+      "original": "碧优蒂的世界",
+      "sub": "Bích Ưu Đệ Chi Thế Giới"
+    },
+    {
+      "original": "扫雷",
+      "sub": "Dò Mìn"
+    },
+    {
+      "original": "我的收纳摊",
+      "sub": "Sạp Sắp Xếp Của Tôi"
+    },
+    {
+      "original": "QQ飞车",
+      "sub": "QQ Speed"
+    },
+    {
+      "original": "情商天花板",
+      "sub": "Tình Thương Thiên Hoa Bản"
+    },
+    {
+      "original": "贪吃蛇大作战",
+      "sub": "Snake.io"
+    },
+    {
+      "original": "我的邻居是伪人",
+      "sub": "Hàng Xóm Không Phải Người"
+    },
+    {
+      "original": "Atana",
+      "sub": "Atana"
+    },
+    {
+      "original": "太空杀",
+      "sub": "Thái Không Sát"
+    },
+    {
+      "original": "滚动的天空",
+      "sub": "Rolling Sky"
+    },
+    {
+      "original": "跳舞的线",
+      "sub": "Dancing Line"
+    },
+    {
+      "original": "创游世界",
+      "sub": "Thế Giới Sáng Tạo"
+    },
+    {
+      "original": "人类跌落梦境",
+      "sub": "Nhân Loại Đọa Lạc Mộng Cảnh"
+    },
+    {
+      "original": "星战模拟器",
+      "sub": "Mô Phỏng Chiến Tranh Giữa Các Vì Sao"
+    },
+    {
+      "original": "小镇黑洞",
+      "sub": "Small Town Black Hole"
+    },
+    {
+      "original": "滑雪大冒险",
+      "sub": "Hoa Tuyết Đại Mạo Hiểm"
+    },
+    {
+      "original": "放开茶叶蛋",
+      "sub": "Thả Trứng Trà"
+    },
+    {
+      "original": "找到下一关",
+      "sub": "Tìm Cấp Độ Tiếp Theo"
+    },
+    {
+      "original": "绿水镇",
+      "sub": "Lục Thủy Trấn"
+    },
+    {
+      "original": "逃离公司3",
+      "sub": "Trốn Thoát Khỏi Công Ty 3"
+    },
+    {
+      "original": "Ballex²: The Hanging Gardens",
+      "sub": "Ballex²: The Hanging Gardens"
+    },
+    {
+      "original": "整理来解压",
+      "sub": "Dọn Dẹp Giảm Căng Thẳng"
+    },
+    {
+      "original": "趣味跳跃模拟器",
+      "sub": "Fun Jump Simulator"
+    },
+    {
+      "original": "无限列车",
+      "sub": "Chuyến Tàu Vô Tận"
+    },
+    {
+      "original": "奥比岛：梦想国度",
+      "sub": "Obi Island: Vương Quốc Ước Mơ"
+    },
+    {
+      "original": "甜瓜沙盒",
+      "sub": "Melon Sandbox"
+    },
+    {
+      "original": "钓鱼佬净化海洋",
+      "sub": "Ngư Phủ Làm Sạch Đại Dương"
+    },
+    {
+      "original": "2048清",
+      "sub": "2048 Clear"
+    },
+    {
+      "original": "雨天",
+      "sub": "Rainy Day"
+    },
+    {
+      "original": "纪念碑谷 2",
+      "sub": "Monument Valley 2"
+    },
+    {
+      "original": "数独清",
+      "sub": "Sudoku Clear"
+    },
+    {
+      "original": "边缘空间",
+      "sub": "Edge Space"
+    },
+    {
+      "original": "崽崽ZEPETO",
+      "sub": "ZEPETO Kids"
+    },
+    {
+      "original": "灵魂序章",
+      "sub": "Linh Hồn Tự Chương"
+    },
+    {
+      "original": "任性足球",
+      "sub": "Bóng Đá Ngông Cuồng"
+    },
+    {
+      "original": "步战三国",
+      "sub": "Bộ Chiến Tam Quốc"
+    },
+    {
+      "original": "超凡守卫战",
+      "sub": "Siêu Phàm Thủ Vệ Chiến"
+    },
+    {
+      "original": "探探猫大作战",
+      "sub": "Cuộc Chiến Mèo Thám Hiểm"
+    },
+    {
+      "original": "梦境食旅",
+      "sub": "Mộng Cảnh Thực Lữ"
+    },
+    {
+      "original": "瑞亚传说：纷争",
+      "sub": "Huyền Thoại Rhea: Xung Đột"
+    },
+    {
+      "original": "如鸢",
+      "sub": "Like a Kite"
+    },
+    {
+      "original": "斗罗大陆：逆转时空",
+      "sub": "Đấu La Đại Lục: Đảo Ngược Thời Gian"
+    },
+    {
+      "original": "非人哉王牌员工",
+      "sub": "Non-Human Ace Employee"
+    },
+    {
+      "original": "大侠立志传",
+      "sub": "Đại Hiệp Lập Chí Truyện"
+    },
+    {
+      "original": "天下：万象",
+      "sub": "Thiên Hạ: Vạn Tượng"
+    },
+    {
+      "original": "测试游戏预约1209",
+      "sub": "Test Game Reservation 1209"
+    },
+    {
+      "original": "鹅鸭杀",
+      "sub": "Goose Goose Duck"
+    },
+    {
+      "original": "命运圣契",
+      "sub": "Giao Ước Thần Thánh"
+    },
+    {
+      "original": "铳之迷宫",
+      "sub": "Mê Cung Súng"
+    },
+    {
+      "original": "仙境传说：新启航",
+      "sub": "Huyền Thoại Tiên Cảnh: Hành Trình Mới"
+    },
+    {
+      "original": "台球世界",
+      "sub": "Thế Giới Bida"
+    },
+    {
+      "original": "测试游戏自动下载1226",
+      "sub": "Test Game Auto Download 1226"
+    },
+    {
+      "original": "美职篮：绝对巨星",
+      "sub": "NBA: Siêu Sao Tuyệt Đối"
+    },
+    {
+      "original": "诸国争霸",
+      "sub": "Chư Quốc Tranh Bá"
+    },
+    {
+      "original": "酋长你别跑",
+      "sub": "Tù Trưởng Đừng Chạy"
+    },
+    {
+      "original": "远古群星",
+      "sub": "Những Vì Sao Cổ Xưa"
+    },
+    {
+      "original": "喵神的迷宫",
+      "sub": "Mê Cung Của Thần Mèo"
+    },
+    {
+      "original": "飞飞：重逢",
+      "sub": "Fei Fei: Cuộc Hội Ngộ"
+    },
+    {
+      "original": "冒险守护",
+      "sub": "Mạo Hiểm Thủ Hộ"
+    },
+    {
+      "original": "人征塔战",
+      "sub": "Nhân Chinh Tháp Chiến"
+    },
+    {
+      "original": "无限契令",
+      "sub": "Lệnh Khế Ước Vô Hạn"
+    },
+    {
+      "original": "黑色四叶草 魔法帝之道",
+      "sub": "Con Đường Ma Pháp Đế Của Black Clover"
+    },
+    {
+      "original": "王者激战",
+      "sub": "Trận Chiến Kịch Liệt Của Nhà Vua"
+    },
+    {
+      "original": "猎魔远征",
+      "sub": "Cuộc Viễn Chinh Truy Lùng Ma Quỷ"
+    },
+    {
+      "original": "奇幻梦旅人",
+      "sub": "Kỳ Huyễn Mộng Lữ Nhân"
+    },
+    {
+      "original": "牧场传奇",
+      "sub": "Huyền Thoại Trang Trại"
+    },
+    {
+      "original": "晨曦战纪",
+      "sub": "Biên Niên Sử Bình Minh"
+    },
+    {
+      "original": "珍珠海大冒险",
+      "sub": "Pearl Sea Adventure"
+    },
+    {
+      "original": "群英三国软件",
+      "sub": "Three Kingdoms Heroes Software"
+    },
+    {
+      "original": "神宠降临",
+      "sub": "Thần Sủng Giáng Lâm"
+    },
+    {
+      "original": "圣戒信条",
+      "sub": "Thánh Giới Tín Điều"
+    },
+    {
+      "original": "队长小翼：王牌对决",
+      "sub": "Đội Trưởng Tsubasa: Đối Đầu Tuyệt Đỉnh"
+    },
+    {
+      "original": "云中诀",
+      "sub": "Vân Trung Quyết"
+    },
+    {
+      "original": "天芒之神",
+      "sub": "Thiên Mang Chi Thần"
+    },
+    {
+      "original": "街机恐龙",
+      "sub": "Arcade Dinosaur"
+    },
+    {
+      "original": "繁华梦",
+      "sub": "Phồn Hoa Mộng"
+    },
+    {
+      "original": "热血沙城",
+      "sub": "Nhiệt Huyết Sa Thành"
+    },
+    {
+      "original": "超凡守卫战",
+      "sub": "Siêu Phàm Thủ Vệ Chiến"
+    },
+    {
+      "original": "无尽探险队",
+      "sub": "Đội Thám Hiểm Vô Tận"
+    },
+    {
+      "original": "最强武装",
+      "sub": "Vũ Khí Mạnh Nhất"
+    },
+    {
+      "original": "骑士与大龙",
+      "sub": "Kỵ Sĩ và Rồng"
+    },
+    {
+      "original": "魔界大地",
+      "sub": "Ma Giới Đại Địa"
+    },
+    {
+      "original": "豆豆打僵尸",
+      "sub": "Bean Bean vs Zombies"
+    },
+    {
+      "original": "三国乱世霸王",
+      "sub": "Tam Quốc Loạn Thế Bá Vương"
+    },
+    {
+      "original": "胡闹地牢",
+      "sub": "Hồ Náo Địa Lao"
+    },
+    {
+      "original": "全民大灌篮",
+      "sub": "Toàn Dân Đại Quán Lan"
+    },
+    {
+      "original": "侠者风华录",
+      "sub": "Hạ Giả Phong Hoa Lục"
+    },
+    {
+      "original": "巨神军师",
+      "sub": "Cự Thần Quân Sư"
+    },
+    {
+      "original": "乐守防线",
+      "sub": "Lạc Thủ Phòng Tuyến"
+    },
+    {
+      "original": "异星之地",
+      "sub": "Vùng Đất Hành Tinh Lạ"
+    },
+    {
+      "original": "执剑江湖",
+      "sub": "Chấp Kiếm Giang Hồ"
+    },
+    {
+      "original": "天神大战",
+      "sub": "Thiên Thần Đại Chiến"
+    },
+    {
+      "original": "汉家城市",
+      "sub": "Hán Gia Thành Thị"
+    },
+    {
+      "original": "勇士觉醒",
+      "sub": "Chiến Binh Thức Tỉnh"
+    },
+    {
+      "original": "几何王国",
+      "sub": "Vương Quốc Hình Học"
+    },
+    {
+      "original": "无畏之刃",
+      "sub": "Vô Úy Chi Nhận"
+    },
+    {
+      "original": "领主防线",
+      "sub": "Phòng Tuyến Lãnh Chúa"
+    },
+    {
+      "original": "御兽遮天",
+      "sub": "Ngự Thú Già Thiên"
+    },
+    {
+      "original": "萤火夜话",
+      "sub": "Đêm Đom Đóm Tâm Sự"
+    },
+    {
+      "original": "霸者天下",
+      "sub": "Bá Giả Thiên Hạ"
+    },
+    {
+      "original": "解忧小食光",
+      "sub": "Giờ Ăn Vặt Giải Sầu"
+    },
+    {
+      "original": "我叫MT：口袋守卫战",
+      "sub": "I Am MT: Pocket Guard Battle"
+    },
+    {
+      "original": "魔法工艺",
+      "sub": "Magic Craft"
+    },
+    {
+      "original": "剑侠逍遥",
+      "sub": "Kiếm Hiệp Tiêu Dao"
+    },
+    {
+      "original": "铳之迷宫",
+      "sub": "Mê Cung Súng"
+    },
+    {
+      "original": "幻灵召唤师",
+      "sub": "Huyễn Linh Triệu Hoán Sư"
+    },
+    {
+      "original": "灵妖劫",
+      "sub": "Linh Yêu Kiếp"
+    },
+    {
+      "original": "凛冬部落",
+      "sub": "Bộ Lạc Mùa Đông"
+    },
+    {
+      "original": "骑兵冲突",
+      "sub": "Xung Đột Kỵ Binh"
+    },
+    {
+      "original": "了不起的道门",
+      "sub": ""
+    },
+    {
+      "original": "帕瓦勇者传说",
+      "sub": ""
+    },
+    {
+      "original": "保管好贵重物品",
+      "sub": ""
+    },
+    {
+      "original": "商旅马车",
+      "sub": ""
+    },
+    {
+      "original": "晚安森林",
+      "sub": ""
+    },
+    {
+      "original": "原始守卫战",
+      "sub": ""
+    },
+    {
+      "original": "无极仙途",
+      "sub": ""
+    },
+    {
+      "original": "爆炒江湖",
+      "sub": ""
+    },
+    {
+      "original": "小怪兽别跑",
+      "sub": ""
+    },
+    {
+      "original": "江南百景图",
+      "sub": ""
+    },
+    {
+      "original": "女神星球",
+      "sub": ""
+    },
+    {
+      "original": "精品离线游戏合集",
+      "sub": ""
+    },
+    {
+      "original": "我在CS卖饰品",
+      "sub": ""
+    },
+    {
+      "original": "妻怨",
+      "sub": ""
+    },
+    {
+      "original": "保管好贵重物品",
+      "sub": ""
+    },
+    {
+      "original": "旋转木雕",
+      "sub": ""
+    },
+    {
+      "original": "元梦之星",
+      "sub": ""
+    },
+    {
+      "original": "贪吃的苹果蛇",
+      "sub": ""
+    },
+    {
+      "original": "我是鸟",
+      "sub": ""
+    },
+    {
+      "original": "锚点降临",
+      "sub": ""
+    },
+    {
+      "original": "弈仙牌",
+      "sub": ""
+    },
+    {
+      "original": "幸运猎人",
+      "sub": ""
+    },
+    {
+      "original": "再翻一块！",
+      "sub": ""
+    },
+    {
+      "original": "股市操盘手",
+      "sub": ""
+    },
+    {
+      "original": "百炼英雄",
+      "sub": ""
+    },
+    {
+      "original": "陷阱大师",
+      "sub": ""
+    },
+    {
+      "original": "炉石传说",
+      "sub": ""
+    },
+    {
+      "original": "长生：天机降世",
+      "sub": ""
+    },
+    {
+      "original": "王国纪元",
+      "sub": ""
+    },
+    {
+      "original": "石油大亨",
+      "sub": ""
+    },
+    {
+      "original": "精品离线游戏合集",
+      "sub": ""
+    },
+    {
+      "original": "龙岛异兽起源",
+      "sub": ""
+    },
+    {
+      "original": "加勒比帝国",
+      "sub": ""
+    },
+    {
+      "original": "代号莲",
+      "sub": ""
+    },
+    {
+      "original": "小岛日记",
+      "sub": ""
+    },
+    {
+      "original": "开局五个亿",
+      "sub": ""
+    },
+    {
+      "original": "猫神牧场",
+      "sub": ""
+    },
+    {
+      "original": "时尚百货城",
+      "sub": ""
+    },
+    {
+      "original": "出征吧！勇士",
+      "sub": ""
+    },
+    {
+      "original": "兵器大作战",
+      "sub": ""
+    },
+    {
+      "original": "时间秩序",
+      "sub": ""
+    },
+    {
+      "original": "代号",
+      "sub": ""
+    },
+    {
+      "original": "小恐龙派对",
+      "sub": ""
+    },
+    {
+      "original": "纪念碑谷3",
+      "sub": ""
+    },
+    {
+      "original": "芯片大亨",
+      "sub": ""
+    },
+    {
+      "original": "黄金赞歌",
+      "sub": ""
+    },
+    {
+      "original": "乔乔的奇妙",
+      "sub": ""
+    },
+    {
+      "original": "满庭芳·宋上繁华",
+      "sub": ""
+    },
+    {
+      "original": "晴空双子",
+      "sub": ""
+    },
+    {
+      "original": "雄心之上",
+      "sub": ""
+    },
+    {
+      "original": "风影游侠",
+      "sub": ""
+    },
+    {
+      "original": "田园小镇",
+      "sub": ""
+    },
+    {
+      "original": "悠星大陆",
+      "sub": ""
+    },
+    {
+      "original": "王者之战",
+      "sub": ""
+    },
+    {
+      "original": "蜂派龙珠手游",
+      "sub": ""
+    },
+    {
+      "original": "搭救之路",
+      "sub": ""
+    },
+    {
+      "original": "黎明战线",
+      "sub": ""
+    },
+    {
+      "original": "天地贰",
+      "sub": ""
+    },
+    {
+      "original": "斗转武林",
+      "sub": ""
+    },
+    {
+      "original": "汪星宝贝",
+      "sub": ""
+    },
+    {
+      "original": "灌篮军团",
+      "sub": ""
+    }
+  ],
+  "maps": {
+    "terms": {
+      "动作游戏": "Action Game",
+      "射击游戏": "Game bắn súng",
+      "格斗游戏": "Game đối kháng",
+      "平台动作游戏": "Game đi cảnh (platformer)",
+      "潜行游戏": "Game hành động lén lút (stealth)",
+      "生存游戏": "Game sinh tồn",
+      "跑酷游戏": "Game parkour",
+      "battle royal": "Battle royal",
+      "roguelike": "RogueLike",
+      "冒险游戏": "Phiêu lưu",
+      "解谜游戏": "Giải đố",
+      "互动叙事游戏": "Interactive story",
+      "视觉小说": "Visual novel",
+      "密室逃脱": "Escape room",
+      "角色扮演游戏": "RPG",
+      "动作角色扮演": "ARPG",
+      "战术角色扮演": "SRPG / TRPG",
+      "多人在线角色扮演": "MMORPG",
+      "放置类rpg": "Idle RPG",
+      "策略游戏": "Game chiến lược",
+      "即时战略": "RTS – Chiến lược thời gian thực",
+      "回合制战略": "TBS – Chiến lược theo lượt",
+      "塔防游戏": "Thủ thành",
+      "模拟战争": "Mô phỏng chiến tranh",
+      "模拟游戏": "Mô phỏng",
+      "模拟经营": "Mô phỏng kinh doanh",
+      "模拟人生": "Mô phỏng cuộc sống (life sim)",
+      "建造游戏": "Xây dựng",
+      "农场游戏": "Nông trại",
+      "休闲益智类": "Thể loại casual & puzzle",
+      "休闲游戏": "Game giải trí nhẹ nhàng",
+      "益智游戏": "Game rèn luyện trí tuệ",
+      "三消游戏": "Game match-3 (xếp hình 3 ô)",
+      "音乐游戏": "Game âm nhạc",
+      "合成游戏": "Game ghép vật phẩm",
+      "社交与互动类": "Thể loại xã hội & mô phỏng tương tác",
+      "社交游戏": "Xã hội",
+      "养成游戏": "Phát triển nhân vật",
+      "恋爱养成": "Game hẹn hò",
+      "虚拟社区": "Thế giới ảo / metaverse",
+      "模拟聊天游戏": "Mô phỏng trò chuyện",
+      "竞技类": "Thể loại cạnh tranh & esport",
+      "竞技游戏": "Đối kháng cạnh tranh",
+      "moba游戏": "MOBA",
+      "卡牌游戏": "Thẻ bài",
+      "体育游戏": "Thể thao",
+      "赛车游戏": "Đua xe",
+      "格斗竞技": "Đấu trường đối kháng",
+      "沙盒 / 创造类": "Thể loại Sandbox & Creative",
+      "沙盒游戏": "Sandbox",
+      "开放世界游戏": "Thế giới mở",
+      "创造游戏": "Sáng tạo",
+      "恐怖与悬疑": "Kinh dị & bí ẩn",
+      "恐怖游戏": "Kinh dị",
+      "悬疑游戏": "Trinh thám / bí ẩn",
+      "心理恐怖": "Kinh dị tâm lý",
+      "生存恐怖": "Game survival horror",
+      "节奏": "Rhythm Game",
+      "测试": "Test",
+      "单机游戏": "Game offline",
+      "网络游戏": "Game online",
+      "客户端游戏": "Game client",
+      "网页游戏": "Webgame",
+      "平台动作": "Platformer",
+      "清版动作": "Beat 'em up",
+      "动作射击": "Action Shooter",
+      "休闲益智": "Casual & Puzzle Game",
+      "幻想": "Giả tưởng",
+      "三国": "Tam Quốc",
+      "仙侠": "Tiên Hiệp",
+      "修仙": "Tu Tiên",
+      "国漫": "Thủy mặc",
+      "挂机": "Treo máy",
+      "模拟": "Mô phỏng",
+      "角色扮演 模拟": "RPG vs mô phỏng",
+      "欧洲": "Châu Âu",
+      "放置三国": "Idle Tam Quốc",
+      "水墨": "Thủy Mặc",
+      "mmo": "MMO",
+      "怀旧经典": "Hoài niệm kinh điển",
+      "计费删档测试": "Test tính phí",
+      "美少女": "Anime",
+      "放置": "Idle",
+      "slg": "SLG",
+      "策略经营": "SLG-Mô phỏng",
+      "玄幻": "Huyền huyễn",
+      "2.5d": "2.5D",
+      "3d": "3D",
+      "等等鸭测试": "Test ngắn hạn",
+      "缘起测试": "Test mở màn",
+      "品鉴测试": "Test trải nghiệm",
+      "先锋测试": "Test tiên phong",
+      "删档首测": "CBT1 xóa dữ liệu",
+      "精英测试": "Test tinh anh",
+      "开放测试": "Open Test",
+      "萌新测试": "Test giới hạn",
+      "删档内测": "Closed Beta xóa dữ liệu",
+      "第三人称射击": "TPS",
+      "竞速": "Đua xe",
+      "音乐": "Âm nhạc",
+      "休闲竞技": "Casual đối kháng",
+      "策略": "SLG-Chiến Thuật",
+      "魔幻": "Ma Ảo",
+      "q版": "Chibi/Cute",
+      "即时": "Real-time",
+      "写实": "Tả thực",
+      "半q版": "Nửa chibi",
+      "回合": "Theo lượt",
+      "半写实": "Bán tả thực",
+      "科幻": "Khoa học viễn tưởng",
+      "动漫": "Hoạt hình",
+      "奇幻": "Fantasy",
+      "公测": "Open Beta",
+      "全球公测": "Global Open Beta",
+      "收容测试": "Stress Test",
+      "不删档测试": "Open Beta giữ dữ liệu",
+      "首测": "CBT1",
+      "倾心公测": "Open Beta",
+      "二测": "CBT2",
+      "删档计费测试": "Test có nạp và xóa dữ liệu",
+      "限量删档测试": "Limited CBT",
+      "2d": "2D",
+      "其他": "Khác",
+      "现代": "Hiện đại",
+      "武侠": "Võ hiệp",
+      "日服上线": "Ra mắt ở Nhật",
+      "射击": "Bắn súng",
+      "二次元": "Anime",
+      "休闲": "Casual",
+      "正式上线": "Ra mắt",
+      "开放世界": "Open World (Thế giới mở)",
+      "动作": "Action (Hành động)",
+      "arpg": "ARPG",
+      "角色扮演": "RPG (Nhập vai)",
+      "冒险": "Adventure (Phiêu lưu)",
+      "死神": "Bleach (Thần Chết)",
+      "热血": "Shonen (Nhiệt huyết)",
+      "卡牌": "Card Game (Thẻ bài)",
+      "高画质": "High Graphics (Đồ họa đẹp)",
+      "steam移植": "Steam Port (Chuyển hệ từ Steam)",
+      "养成": "Simulation / Raising (Nuôi dưỡng)",
+      "多结局": "Multiple Endings (Nhiều kết thúc)",
+      "剧情": "Story-driven (Cốt truyện)",
+      "可爱": "Cute (Dễ thương)",
+      "新怪谈": "New Weird (Kỳ ảo mới)",
+      "合作": "Co-op (Hợp tác)",
+      "密室": "Escape Room (Mật thất)",
+      "盗墓": "Tomb Raiding (Đạo mộ)",
+      "恐怖": "Horror (Kinh dị)",
+      "多人联机": "Multiplayer (Nhiều người chơi)",
+      "生存": "Survival (Sinh tồn)",
+      "收集": "Collection (Sưu tập)",
+      "治愈": "Healing (Chữa lành)",
+      "装扮": "Dress-up / Decor (Trang trí)",
+      "建造": "Building (Xây dựng)",
+      "种田": "Farming (Làm nông)",
+      "搜打撤": "Extraction Shooter (Bắn súng tẩu thoát)",
+      "沙盒": "Sandbox (Sa hộp)",
+      "像素": "Pixel Art (Pixel)",
+      "diy": "DIY",
+      "探索": "Exploration (Khám phá)",
+      "高自由度": "High Freedom (Tự do cao)",
+      "音游": "Rhythm Game (Game âm nhạc)",
+      "手速": "Fast-paced / APM (Tốc độ tay)",
+      "下落式": "Falling Notes (Nốt rơi)",
+      "up主推荐": "Influencer Recommended (Streamer đề xuất)",
+      "独立游戏": "Indie Game (Game độc lập)",
+      "唯美": "Aesthetic (Tuyệt đẹp)",
+      "艺术": "Artistic (Nghệ thuật)",
+      "飞行": "Flight (Bay lượn)",
+      "竞技": "Competitive (Thi đấu)",
+      "mmorpg": "MMORPG",
+      "宠物": "Pet (Thú cưng)",
+      "末日": "Post-Apocalyptic (Tận thế)",
+      "即时制": "Real-time (Thời gian thực)",
+      "回合制": "Turn-based (Đánh theo lượt)",
+      "吃鸡": "Battle Royale (Sinh tồn)",
+      "战斗": "Combat (Chiến đấu)",
+      "卡通": "Cartoon (Hoạt hình)",
+      "团队合作": "Team Co-op (Hợp tác đồng đội)",
+      "tps": "TPS",
+      "大型多人在线": "MMO",
+      "竖屏": "Portrait Mode (Màn hình dọc)",
+      "高难度": "Hardcore (Độ khó cao)",
+      "支持手柄": "Controller Support (Hỗ trợ tay cầm)",
+      "地牢": "Dungeon (Hầm ngục)",
+      "弹幕": "Danmaku (Đạn mạc)",
+      "弹幕射击": "Bullet Hell (Bắn súng đạn mạc)",
+      "轻度roguelike": "Roguelite",
+      "国风": "Chinese Style (Cổ phong/Phong cách Trung Hoa)",
+      "派对游戏": "Party Game",
+      "拼图": "Puzzle (Ghép hình)",
+      "解谜": "Puzzle Solving (Giải đố)",
+      "益智": "Brain / Puzzle (Trí tuệ)",
+      "塔防": "Tower Defense (Thủ thành)",
+      "日系": "Japanese Style (Phong cách Nhật)",
+      "硬核": "Hardcore",
+      "废土": "Wasteland (Hoang tàn)",
+      "拟人": "Anthropomorphic (Nhân hóa)",
+      "rougelike": "Roguelike",
+      "单机": "Single Player (Chơi đơn/Offline)",
+      "文字": "Text-based (Dạng chữ)",
+      "恋爱": "Romance (Hẹn hò/Tình yêu)",
+      "女性向": "Female Oriented (Dành cho nữ)",
+      "乙女": "Otome",
+      "avg": "Visual Novel / Adventure (Tiểu thuyết hình ảnh)",
+      "聚光灯gamejam": "Spotlight GameJam",
+      "解压": "Relaxing (Giải tỏa căng thẳng)",
+      "收纳": "Organization (Sắp xếp)",
+      "经营": "Management / Tycoon (Mô phỏng kinh doanh)",
+      "本地联机": "Local Co-op (Mạng nội bộ)",
+      "上帝视角": "Top-down View (Góc nhìn từ trên cao)",
+      "足球": "Soccer (Bóng đá)",
+      "体育": "Sports (Thể thao)",
+      "moba": "MOBA",
+      "5v5": "5v5",
+      "自走棋": "Auto Battler (Cờ tự động)",
+      "海战": "Naval Warfare (Hải chiến)",
+      "买断制": "Buy-to-Play (Mua một lần)",
+      "付费下载": "Paid (Trả phí)",
+      "移植": "Port (Chuyển hệ)",
+      "跑酷": "Parkour (Chạy không ngừng)",
+      "街机": "Arcade (Điện tử thùng)",
+      "烹饪": "Cooking (Nấu ăn)",
+      "美食": "Gourmet (Ẩm thực)",
+      "刺激": "Thrilling (Kịch tính)",
+      "非对称竞技": "Asymmetrical PvP (Đối kháng bất đối xứng)",
+      "pvp": "PVP",
+      "多人竞技": "Multiplayer Competitive (Thi đấu nhiều người)",
+      "格斗": "Fighting (Đối kháng)",
+      "横版": "Side-scrolling (Màn hình ngang)",
+      "横版格斗": "Side-scrolling Fighting (Đối kháng màn hình ngang)",
+      "日漫": "Anime / Manga (Truyện tranh Nhật)",
+      "应用": "App (Ứng dụng)",
+      "互动电影": "Interactive Movie (Phim tương tác)",
+      "机甲": "Mecha (Người máy)",
+      "fps": "FPS",
+      "都市": "Urban (Đô thị)",
+      "抓宠": "Monster Catching (Bắt thú)",
+      "童年": "Childhood (Tuổi thơ)",
+      "社交": "Social (Xã hội)",
+      "换装": "Dress-up (Thay đồ)",
+      "刷宝": "Looter (Cày đồ/Săn đồ)",
+      "战争": "War (Chiến tranh)",
+      "历史": "Historical (Lịch sử)",
+      "崩坏": "Honkai (Băng Hoại)",
+      "2d横版": "2D Side-scrolling (2D Màn hình ngang)",
+      "星战": "Star Wars",
+      "太空": "Space (Vũ trụ)",
+      "末世": "Post-Apocalyptic (Mạt thế)",
+      "丧尸": "Zombie (Thây ma)",
+      "割草": "Hack and Slash / Musou (Chặt chém/Càn quét)",
+      "宫廷": "Court / Palace (Cung đình)",
+      "诡秘之主": "Lord of the Mysteries (Quỷ Bí Chi Chủ)",
+      "王者荣耀": "Honor of Kings (Vương Giả Vinh Diệu)",
+      "侦探": "Detective (Thám tử)",
+      "n/a": "N/A",
+      "闯关": "Level-based (Vượt ải)",
+      "怀旧": "Retro (Hoài cổ)",
+      "共斗": "Co-op Hunting (Săn quái)",
+      "平台跳跃": "Platformer (Đi cảnh)",
+      "教育": "Educational (Giáo dục)",
+      "初音未来": "Hatsune Miku",
+      "电音": "EDM (Nhạc điện tử)",
+      "捏脸": "Character Creation (Nặn mặt)",
+      "家装": "Home Design (Trang trí nhà)",
+      "赛博朋克": "Cyberpunk",
+      "steam 移植": "Steam Port (Chuyển hệ từ Steam)",
+      "rts": "RTS",
+      "僵尸": "Zombie (Xác sống)",
+      "植物": "Plants (Thực vật)",
+      "英雄联盟": "League of Legends (Liên Minh Huyền Thoại)",
+      "第三人称视角": "Third-person Perspective (Góc nhìn thứ ba)",
+      "真人影像": "FMV / Live Action (Hình ảnh người thật)",
+      "狼人杀": "Werewolf / Social Deduction (Ma sói)",
+      "rpg": "RPG",
+      "消除": "Match-3 (Xếp hình)",
+      "手绘": "Hand-drawn (Vẽ tay)",
+      "海洋": "Ocean (Đại dương)",
+      "萌宠": "Cute Pets (Thú cưng dễ thương)",
+      "家园": "Homestead (Gia viên)",
+      "国产": "Domestic / Chinese Game (Game nội địa)",
+      "pve": "PVE",
+      "忍者": "Ninja (Nhẫn giả)",
+      "火柴人": "Stickman (Người que)",
+      "打击感": "Impact Feedback (Cảm giác đánh)",
+      "反应": "Reflex (Phản xạ)",
+      "烧脑": "Brain-burning (Hack não)",
+      "战棋": "SRPG / Tactics (Cờ chiến thuật)",
+      "滑雪": "Skiing (Trượt tuyết)",
+      "钓鱼": "Fishing (Câu cá)",
+      "古风": "Ancient Style (Cổ phong)",
+      "宝可梦": "Pokemon",
+      "魔性": "Addictive / Wacky (Gây nghiện/Bựa)",
+      "ccg": "CCG",
+      "西游": "Journey to the West (Tây Du Ký)",
+      "开罗": "Kairosoft",
+      "国战": "Nation War (Quốc chiến)",
+      "无限流": "Infinite Flow (Vô hạn lưu)",
+      "迪士尼": "Disney",
+      "赛车": "Racing (Đua xe)",
+      "抢先体验": "Early Access (Truy cập sớm)",
+      "航海": "Sailing (Hàng hải)",
+      "内购解锁": "In-App Purchase (Mua trong game)",
+      "催泪": "Tear-jerker (Cảm động)",
+      "点击": "Clicker (Click chuột)",
+      "合成": "Merge (Hợp nhất)",
+      "魔物娘": "Monster Girls (Ma vật nương)",
+      "桌面和棋类": "Board & Card Games (Cờ và thẻ bài)",
+      "涂色": "Coloring (Tô màu)",
+      "克苏鲁": "Cthulhu",
+      "俯视角": "Top-down View (Góc nhìn từ trên xuống)",
+      "反乌托邦": "Dystopian (Phản địa đàng)",
+      "背包管理": "Inventory Management (Quản lý balo)",
+      "童话": "Fairy Tale (Cổ tích)",
+      "阴阳师": "Onmyoji (Âm Dương Sư)",
+      "furry": "Furry",
+      "驾驶": "Driving (Lái xe)",
+      "赛车竞速": "Racing (Đua xe tốc độ)",
+      "枪械": "Guns (Súng ống)",
+      "战略": "Strategy (Chiến lược)",
+      "观察": "Observation (Quan sát)",
+      "火影忍者": "Naruto",
+      "桌面棋牌": "Tabletop & Card (Cờ bài)",
+      "棋类": "Board Games (Cờ)",
+      "知识": "Trivia / Knowledge (Kiến thức)",
+      "脑力": "Brain Training (Rèn luyện não)",
+      "坦克": "Tank (Xe tăng)",
+      "纸牌": "Card / Solitaire (Bài tây)",
+      "斗地主": "Dou Dizhu (Đấu Địa Chủ)",
+      "牌桌": "Table Games (Sòng bài)",
+      "传统rpg": "Classic RPG (RPG cổ điển)",
+      "战争策略": "War Strategy (Chiến thuật chiến tranh)",
+      "对战": "Versus (Đối chiến)",
+      "角色": "Character (Nhân vật)",
+      "台球": "Billiards (Bida)",
+      "桌游": "Board Game",
+      "篮球": "Basketball (Bóng rổ)",
+      "nba": "NBA",
+      "体育经理": "Sports Manager (Quản lý thể thao)",
+      "爽快": "Satisfying (Đã tay/Sảng khoái)",
+      "多文明": "Multi-civilization (Đa nền văn minh)",
+      "不删档内测": "Open Beta (Không xóa dữ liệu)",
+      "放置挂机": "Idle (Nhàn rỗi/Treo máy)",
+      "拟人化": "Anthropomorphism (Nhân hóa)",
+      "日漫ip": "Anime IP (IP truyện tranh Nhật)",
+      "中国风": "Chinese Style (Phong cách Trung Hoa)",
+      "轻竞技": "Casual Competitive (Cạnh tranh nhẹ nhàng)",
+      "电子竞技": "Esports (Thể thao điện tử)",
+      "类暗黑游戏": "Diablo-like (Giống Diablo)",
+      "build": "Build",
+      "魔幻奇幻": "Magic & Fantasy (Ma ảo/Kỳ ảo)",
+      "国漫画风": "Manhua Style (Phong cách truyện tranh TQ)",
+      "日漫画风": "Manga Style (Phong cách truyện tranh Nhật)",
+      "新服": "New Server (Máy chủ mới)",
+      "暗黑风": "Dark Style (Phong cách tối)",
+      "传统文化": "Traditional Culture (Văn hóa truyền thống)",
+      "steam": "Steam",
+      "悬疑": "Suspense / Mystery (Huyền nghi/Bí ẩn)",
+      "tcg": "TCG",
+      "ar": "AR",
+      "佛系": "Chill (Phật hệ/Thư giãn)",
+      "扫雷": "Minesweeper (Dò mìn)",
+      "漂移": "Drift (Lết bánh)",
+      "脑洞": "Creative (Sáng tạo/Hack não)",
+      "io": "io Games",
+      "摔手机": "Rage Game (Gây ức chế)",
+      "娱乐": "Entertainment (Giải trí)",
+      "物理": "Physics-based (Vật lý)",
+      "寻物解谜": "Hidden Object (Tìm đồ vật)",
+      "视错觉": "Optical Illusion (Ảo giác thị giác)",
+      "几何": "Geometry (Hình học)",
+      "亲情": "Family (Tình thân)",
+      "数独": "Sudoku"
+    },
+    "gameNames": {
+      "祖宗模拟器": "Ancestor Simulator",
+      "土豆兄弟": "Anh Em Khoai Tây",
+      "明日方舟：终末地": "Arknights: Vùng Đất Tận Cùng",
+      "苍蓝前线": "Azure Frontline",
+      "百战群英": "Bách Chiến Quần Anh",
+      "我的同学是伪人": "Bạn Học Giả Mạo",
+      "爆裂小队": "Bạo Liệt Tiểu Đội",
+      "不朽箴言": "Bất Hủu Châm Ngôn",
+      "境·界 刀鸣": "Biên Giới: Tiếng Kiếm Vang",
+      "碧优蒂小镇": "Blue Jewel Town",
+      "地铁跑酷": "Chạy Trốn Tàu Điện Ngầm",
+      "完蛋！我被美女包围了！": "Chết Tiệt! Tôi Bị Các Cô Gái Xinh Đẹp Vây Quanh!",
+      "心之钥": "Chìa Khóa Trái Tim",
+      "占山为王2": "Chiếm Núi Xưng Vương 2",
+      "三角洲行动": "Chiến Dịch Đồng Bằng",
+      "战盟大乱斗": "Chiến Minh Đại Loạn Đấu",
+      "再玩亿关": "Chơi Thêm Triệu Màn",
+      "诡秘之主": "Chúa Tể Huyền Bí",
+      "五子棋（taptap测试版）": "Cờ Caro (TapTap Beta)",
+      "火山的女儿：再度重逢": "Con Gái Núi Lửa: Tái Ngộ",
+      "五星好市民": "Công Dân Ưu Tú",
+      "蜡笔小新之小帮手大作战": "Crayon Shin-chan: Cuộc Chiến Trợ Thủ Nhí",
+      "球球旅行记": "Cuộc Phiêu Lưu Của Quả Bóng",
+      "我独自生活": "Cuộc Sống Một Mình Của Tôi",
+      "异世界慢生活": "Cuộc Sống Thong Thả Ở Thế Giới Khác",
+      "尤雅小镇我的世界": "Cute Town: Thế Giới Của Tôi",
+      "大话诛仙": "Đại Thoại Chư Tiên",
+      "名将杀": "Danh Tướng Sát",
+      "斗罗大陆": "Đấu La Đại Lục",
+      "斗破苍穹": "Đấu Phá Thương Khung",
+      "风之痕迹": "Dấu Vết Gió",
+      "异环": "Dị Hoàn",
+      "异色边缘": "Dị Sắc Biên Duyên",
+      "遗迹旅人": "Di Tích Lữ Nhân",
+      "香草英雄团": "Đội Anh Hùng Hương Thảo",
+      "超自然行动组": "Đội Đặc Nhiệm Siêu Nhiên",
+      "童话师": "Đồng Thoại Sư",
+      "童话镇": "Đồng Thoại Trấn",
+      "萤火突击": "Đột Kích Đom Đóm",
+      "暗区突围": "Đột Kích Vùng Tối",
+      "破门而入：行动小队": "Đột Nhập: Đội Hành Động",
+      "二重螺旋": "Double Helix",
+      "龙石战争": "Dragon Stone War",
+      "异人之下": "Dưới Bóng Dị Nhân",
+      "蛋仔派对": "Eggy Party",
+      "永夜降临：复苏": "Eternal Night: Rebirth",
+      "和平精英": "Game for Peace",
+      "原神": "Genshin Impact",
+      "啮齿动物44号观察记录": "Ghi Chép Quan Sát Chuột Số 44",
+      "卡厄思梦境": "Giấc Mơ của Chaos",
+      "热血江湖：归来": "Giang Hồ Nhiệt Huyết: Trở Về",
+      "五子棋": "Gomoku",
+      "明日方舟": "Hành Trình Ngày Mai",
+      "少年歌行": "Hành Trình Tuổi Trẻ",
+      "初音未来：缤纷舞台": "Hatsune Miku: Sân Khấu Rực Rỡ",
+      "心动小镇": "Heartbeat Town",
+      "狐妖小红娘": "Hồ Yêu Tiểu Hồng Nương",
+      "火种协定": "Hỏa Chủng Hiệp Định",
+      "完美世界": "Hoàn Mỹ Thế Giới",
+      "荒野国度": "Hoang Dã Quốc Độ",
+      "荒原曙光": "Hoang Nguyên Thú Quang",
+      "崩坏：星穹铁道": "Honkai: Star Rail",
+      "王者荣耀": "Honor of Kings",
+      "传奇3打宝版": "Huyền Thoại 3: Phiên Bản Săn Kho Báu",
+      "异界原点传说：史莱姆不哭": "Huyền Thoại Điểm Gốc Dị Giới: Slime Đừng Khóc",
+      "第五人格": "Identity V",
+      "伊瑟": "Iser",
+      "jj斗地主": "JJ Đấu Địa Chủ",
+      "卡拉彼丘": "Karabichu",
+      "云上契约": "Khế Ước Trên Mây",
+      "地下城堡4：骑士与破碎编年史": "Lâu Đài Ngầm 4: Hiệp Sĩ và Biên Niên Sử",
+      "明日之后": "LifeAfter",
+      "龙族：卡塞尔之门": "Long Tộc: Cánh Cổng Kassel",
+      "绿梦：时空之声": "Lục Mộng: Thời Không Chi Thanh",
+      "魔戒传奇0l": "Ma Giới Truyền Kỳ 0L",
+      "魔力宝贝：启程": "Ma Lực Bảo Bối: Khởi Trình",
+      "漫斗纪元": "Mạn Đấu Kỷ Nguyên",
+      "漫威秘法狂潮": "Marvel: Cơn Sóng Phép Thuật",
+      "代号：岛": "Mật Danh: Hòn Đảo",
+      "喵斯快跑": "Mèo Chạy Nhanh",
+      "地铁逃生": "Metro Escape",
+      "米加版迷你世界": "Miga Edition Mini World",
+      "米加小镇世界": "Miga Town: My World",
+      "我的世界：移动版": "Minecraft: Mobile Edition",
+      "鸣潮": "Minh Triều",
+      "梦幻新诛仙": "Mộng Huyễn Tân Tru Tiên",
+      "梦想乐园": "Mộng Tưởng Lạc Viên",
+      "无尽寒冬": "Mùa Đông Vô Tận",
+      "我的迷你世界模拟": "My Mini World Simulator",
+      "火影忍者": "Naruto Mobile",
+      "火影忍者：忍者新世代": "Naruto: Thế Hệ Ninja Mới",
+      "逆水寒": "Nghịch Thủy Hàn",
+      "纸房子": "Ngôi Nhà Giấy",
+      "元气骑士": "Nguyên Khí Kỵ Sĩ",
+      "动物餐厅": "Nhà Hàng Động Vật",
+      "小小冒险家寻宝记": "Nhà Thám Hiểm Nhỏ Tìm Kho Báu",
+      "狐仙美人养成日记": "Nhật Ký Nuôi Dưỡng Hồ Ly Xinh Đẹp",
+      "绘梦日记": "Nhật Ký Vẽ Giấc Mơ",
+      "无限暖暖": "Nikki Vô Hạn",
+      "胜利女神：新的希望": "Nữ Thần Chiến Thắng: Hy Vọng Mới",
+      "离线小游戏": "Offline Mini Games",
+      "凡人修仙传": "Phàm Nhân Tu Tiên Truyện",
+      "凡人修仙传：人界篇": "Phàm Nhân Tu Tiên Truyện: Nhân Giới",
+      "phigros": "Phigros",
+      "枫叶岛": "Phong Diệp Đảo",
+      "植物大战僵尸": "Plants vs. Zombies",
+      "植物大战僵尸2": "Plants vs. Zombies 2",
+      "宝可梦 冠军": "Pokémon Champion",
+      "绝地求生：未来之役": "PUBG: Trận Chiến Tương Lai",
+      "群英风华录": "Quần Anh Phong Hoa Lục",
+      "光遇": "Quang Ngộ",
+      "鬼谷八荒": "Quỷ Cốc Bát Hoang",
+      "归环": "Quy Hoàn",
+      "足球决": "Quyết Đấu Bóng Đá",
+      "逆战：未来": "Reverse War: Future",
+      "光·遇": "Sky: Children of the Light",
+      "尘白禁区": "Snowbreak: Containment Zone",
+      "山海进化录": "Sơn Hải Tiến Hóa Lục",
+      "星布谷地": "Star Valley",
+      "崩坏：因缘精灵": "Sụp Đổ: Linh Hồn Nhân Duyên",
+      "超级收纳馆2": "Super Storage Museum 2",
+      "重构：阿塔提斯": "Tái Tạo: Atatis",
+      "三国志战棋天下": "Tam Quốc Chí Chiến Kỳ Thiên Hạ",
+      "三国：天下归心": "Tam Quốc: Thiên Hạ Quy Tâm",
+      "新斗罗大陆": "Tân Đấu La Đại Lục",
+      "新月同行": "Tân Nguyệt Đồng Hành",
+      "新凡人修仙传": "Tân Phàm Nhân Tu Tiên Truyện",
+      "taps": "Taps",
+      "可口的比萨": "Tasty Pizza",
+      "泰拉瑞亚": "Terraria",
+      "深空之眼": "Thâm Không Chi Nhãn",
+      "神罗仙域": "Thần La Tiên Vực",
+      "神域纪元": "Thần Vực Kỷ Nguyên",
+      "音乐世界赛特斯2": "Thế Giới Âm Nhạc Cytus 2",
+      "凡达小镇完美世界": "Thế Giới Hoàn Hảo Ở Thị Trấn Fanda",
+      "托卡小镇完美世界": "Thế Giới Hoàn Hảo Ở Thị Trấn Toca",
+      "迷你世界": "Thế Giới Mini Của Lila",
+      "莱拉的迷你世界": "Thế Giới Mini Của Lila",
+      "我的迷你世界": "Thế Giới Mini Của Lila",
+      "坦克世界": "Thế Giới Xe Tăng",
+      "千年之旅": "Thiên Niên Chi Lữ",
+      "天羽传奇": "Thiên Vũ Truyền Kỳ",
+      "少年歌行：风花雪月": "Thiếu Niên Ca Hành: Phong Hoa Tuyết Nguyệt",
+      "怪物猎人：旅人": "Thợ Săn Quái Vật: Kẻ Lữ Hành",
+      "冰汽时代：最后的家园": "Thời Đại Băng Giá: Ngôi Nhà Cuối Cùng",
+      "波西亚时光": "Thời Gian Ở Portia",
+      "我的休闲时光": "Thời Gian Thư Giãn Của Tôi",
+      "剌激地铁逃生": "Thrilling Metro Escape",
+      "墨守孤城": "Thủ Thành Cô Độc",
+      "神迹觉醒": "Thức Tỉnh Thần Tích",
+      "苍翼：混沌效应": "Thương Dực: Hỗn Độn Hiệu Ứng",
+      "苍龙劫": "Thương Long Kiếp",
+      "香肠派对": "Tiệc Xúc Xích",
+      "失控进化": "Tiến Hóa Mất Kiểm Soát",
+      "仙剑世界": "Tiên Kiếm Thế Giới",
+      "小兵三选一": "Tiểu Binh 3 Chọn 1",
+      "星塔旅人": "Tinh Tháp Lữ Nhân",
+      "恋与深空": "Tình Yêu và Vũ Trụ",
+      "全职荣耀": "Toàn Chức Vinh Diệu",
+      "我在末日当牛马": "Tôi Làm Trâu Ngựa Trong Ngày Tận Thế",
+      "我在峡谷搜打撤": "Tôi Lùng Đánh Trong Hẻm Núi",
+      "金铲铲之战": "Trận Chiến Xẻng Vàng",
+      "千机阵": "Trận Thiên Cơ",
+      "诛仙": "Tru Tiên",
+      "诛仙2": "Tru Tiên 2",
+      "杖剑传说": "Trượng Kiếm Truyện Thuyết",
+      "将灵说": "Tướng Linh Thuyết",
+      "无畏契约：源能行动": "Valorant: Chiến Dịch Năng Lượng Nguyên Thủy",
+      "万灵幻想": "Vạn Linh Hoang Tưởng",
+      "圆梦庄园": "Viên Mộng Trang Viên",
+      "永夜魔君": "Vĩnh Dạ Ma Quân",
+      "永劫无间": "Vĩnh Kiếp Vô Gian",
+      "无限大": "Vô Hạn Đại",
+      "无尽梦回": "Vô Tận Mộng Hồi",
+      "武神主宰": "Võ Thần Chủ Tể",
+      "望月": "Vọng Nguyệt",
+      "王者征途": "Vương Giả Chinh Đồ",
+      "王者争霸": "Vương Giả Tranh Bá",
+      "王者万象棋": "Vương Giả Vạn Tượng Kỳ",
+      "王者荣耀世界": "Vương Giả Vinh Diệu Thế Giới",
+      "洛克王国：世界": "Vương Quốc Roco: Thế Giới",
+      "粒粒的小人国": "Vương Quốc Tí Hon của Lili",
+      "重建生存营地": "Xây Dựng Lại Trại Sinh Tồn",
+      "燕云十六声": "Yên Vân Thập Lục Thanh",
+      "伊莫": "Yimo",
+      "你家小镇迷你世界": "Your Town's Mini World",
+      "绝区零": "Zenless Zone Zero",
+      "无期迷途": "Hành Trình Vô Hạn",
+      "拼装小窝": "DIY Dream Home",
+      "奇幻梦旅人": "Kỳ Huyễn Mộng Lữ Nhân",
+      "豪门家主模拟器": "Mô Phỏng Hào Môn",
+      "战双帕弥什": "Chiến Đấu Song Hành",
+      "剑与黎明": "Sword and Dawn",
+      "我的勇者": "My Warrior",
+      "乡村老师": "Village Teacher",
+      "atana": "Atana",
+      "环外": "Ngoài Vòng",
+      "实况足球": "Pro Evolution Soccer",
+      "碧蓝航线": "Azur Lane",
+      "楼下的早餐店": "Quán Ăn Sáng Dưới Nhà",
+      "重返校园": "Back to School",
+      "夜幕之下": "Dưới Bóng Đêm",
+      "空灵诗篇": "Không Linh Thi Thiên",
+      "荒野大镖客：救赎": "Kẻ Cướp Lớn Vùng Hoang Dã: Chuộc Tội",
+      "绯月絮语": "Phi Nguyệt Tự Ngữ",
+      "星绘友晴天": "Tinh Hội Hữu Tình Thiên",
+      "火环": "Fire Ring",
+      "酋长你别跑": "Tù Trưởng Đừng Chạy",
+      "九牧之野": "Vùng Đất Cửu Mục",
+      "修仙时代": "Thời Đại Tu Tiên",
+      "eve": "EVE",
+      "绝地鸭卫": "Vệ Binh Vịt Tuyệt Địa",
+      "亿万光年": "Ức Vạn Quang Niên",
+      "生存33天": "33 Ngày Sinh Tồn",
+      "远星集结": "Viễn Tinh Tập Kết",
+      "代号：fpj（taptap测试版）": "Mã Hiệu: FPJ (TapTap Beta Version)",
+      "奥特曼：光之战士": "Ultraman: Chiến Binh Ánh Sáng",
+      "累趴侠": "Anh Hùng Kiệt Sức",
+      "代号：妖鬼（taptap测试版）": "Mật Danh: Yêu Quái (TapTap Beta Version)",
+      "元启世界": "Thế Giới Khởi Nguyên",
+      "白银之城": "Silver City",
+      "地平线：钢铁前线": "Chân Trời: Mặt Trận Thép",
+      "街机恐龙": "Arcade Dinosaur",
+      "山海旅人": "Sơn Hải Lữ Nhân",
+      "代号：恋人": "Mật Danh: Người Yêu",
+      "重返未来：1999": "Return to the Future: 1999",
+      "练枪皇帝": "Hoàng Đế Luyện Súng",
+      "手办模特": "Figure Model",
+      "当老师的一天": "Một Ngày Làm Giáo Viên",
+      "墙世界": "Wall World",
+      "鸡械绿洲": "Đảo Gà",
+      "生物原型2": "Bio-Prototype 2",
+      "烤我吧": "Nướng Tôi Đi",
+      "斗罗大陆：零": "Đấu La Đại Lục: Khởi Đầu",
+      "迷雾北境": "Mê Vụ Bắc Cảnh",
+      "超能仙师（taptap测试版）": "Tiên Sư Siêu Năng (TapTap Beta)",
+      "蓬莱": "Bồng Lai",
+      "足球大人物": "Ngôi Sao Bóng Đá",
+      "元气骑士前传": "Nguyên Khí Kỵ Sĩ Tiền Truyện",
+      "妖灵": "Yêu Linh",
+      "幻想之刃": "Fantasy Blade",
+      "我打不过漂亮的她们": "I Can't Beat the Pretty Girls",
+      "小花仙：拉贝尔之约": "Tiểu Hoa Tiên: Lời Hứa Vùng Đất Rabel",
+      "鹅鸭杀": "Goose Goose Duck",
+      "宝石战争（taptap测试版）": "Gem Wars (TapTap Beta)",
+      "无限谷": "Vô Hạn Cốc",
+      "嘟嘟脸恶作剧": "Chubby Face Prank",
+      "菜鸡梦想家": "Chicken Dreamer",
+      "妹居物语demo": "Sister's Home Story DEMO",
+      "斗罗大陆：诛邪传说": "Đấu La Đại Lục: Tru Tà Truyền Thuyết",
+      "无径之林": "Vô Kính Chi Lâm",
+      "凹凸世界：彩虹收藏家": "Bumpy World: Rainbow Collector",
+      "燃烧纪元": "Thời Đại Rực Lửa",
+      "我叫mt：口袋守卫战": "I Am MT: Pocket Guard Battle",
+      "汉家城市": "Hán Gia Thành Thị",
+      "潜水员戴夫": "Thợ Lặn Dave",
+      "卡包荒野": "Card Pack Wilderness",
+      "萌萌塔防": "Manh Manh Tháp Phòng",
+      "世界之光": "Thế Giới Chi Quang",
+      "无尽防线": "Phòng Tuyến Bất Tận",
+      "崩坏3": "Honkai Impact 3rd",
+      "无尽探险队": "Đội Thám Hiểm Vô Tận",
+      "忍者必须死3": "Ninja Must Die 3",
+      "少女前线2：追放": "Girls' Frontline 2: Truy Đuổi",
+      "疾风骑士": "Kỵ Sĩ Gió Lốc",
+      "滑雪大冒险": "Hoa Tuyết Đại Mạo Hiểm",
+      "全职法师：猎人大师": "Toàn Chức Pháp Sư: Liệp Nhân Đại Sư",
+      "我要拍短剧": "I Want to Shoot Short Plays",
+      "宇宙农场物语": "Cosmic Farm Story",
+      "天下：万象": "Thiên Hạ: Vạn Tượng",
+      "武道风云": "Võ Đạo Phong Vân",
+      "本茶纲目": "Bản Trà Cương Mục",
+      "小鱼探险记": "Tiểu Ngư Thám Hiểm Ký",
+      "经典矿工": "Classic Miner",
+      "梦境护卫队": "Đội Bảo Vệ Giấc Mơ",
+      "抽卡监狱": "Gacha Prison",
+      "穿越火线-枪战王者": "CrossFire - Gunfight King",
+      "诸子百家模拟器": "Mô Phỏng Trăm Nhà Triết Học",
+      "巨匠眼": "Cự Tượng Nhãn",
+      "诡秘世界搜打撤": "Mysterious World: Hunt and Battle",
+      "小小梦魇": "Little Nightmares",
+      "魔幻大陆": "Ma Huyễn Đại Lục",
+      "超级猎手": "Super Hunter",
+      "我在异界抓诡异": "Bắt Ma Ở Thế Giới Khác",
+      "梦幻剑侠": "Mộng Huyễn Kiếm Hiệp",
+      "无名骑士团": "Đội Kỵ Sĩ Vô Danh",
+      "黯然之花": "Ám Nhiên Chi Hoa",
+      "代号：西游万智牌": "Mật Danh: Tây Du Vạn Trí Bài",
+      "联盟战歌": "Liên Minh Chiến Ca",
+      "明天": "Ngày Mai",
+      "伊利亚": "Ilia",
+      "闪之轨迹：北方战役": "Đường Đi Lấp Lánh: Chiến Dịch Phương Bắc",
+      "开罗游戏世界": "Thế Giới Trò Chơi Cairo",
+      "流放纪元": "Kỷ Nguyên Lưu Đày",
+      "使命召唤手游": "Call of Duty: Mobile",
+      "世界之外": "Thế Giới Chi Ngoại",
+      "不休勇者传说": "Huyền Thoại Dũng Sĩ Bất Tử",
+      "天珠变": "Thiên Châu Biến",
+      "迪士尼无限飞车": "Disney Speedstorm",
+      "叫我大酋长": "Gọi Ta Đại Tù Trưởng",
+      "汉克旅店": "Hank's Hotel",
+      "腐朽默示": "Decayed Revelation",
+      "勇者地下城": "Hầm Ngục Dũng Sĩ",
+      "我不是胖虎：小岛大当家": "Ta Không Phải Hổ Mập: Chủ Nhân Đảo Nhỏ",
+      "修仙之路·太初（taptap 测试版）": "Con Đường Tu Tiên · Thời Nguyên Thủy (TapTap Beta)",
+      "风帆纪元": "Thời Đại Thuyền Buồm",
+      "幻灵召唤师": "Huyễn Linh Triệu Hoán Sư",
+      "重生细胞": "Trọng Sinh Tế Bào",
+      "以闪亮之名": "Shining Nikki",
+      "仙境传说：重生": "Huyền Thoại Tiên Cảnh: Tái Sinh",
+      "三国志将星闪耀": "Tam Quốc: Tướng Tinh Rực Rỡ",
+      "我有一计": "Ta Có Một Kế",
+      "深海水族馆：经典": "Thủy Cung Biển Sâu: Phiên Bản Kinh Điển",
+      "碧优蒂的世界": "Bích Ưu Đệ Chi Thế Giới",
+      "奶茶店模拟器——重生之我在冰堡甜城当店长": "Mô Phỏng Quán Trà Sữa – Tái Sinh: Ta Là Chủ Quán Ở Ice Sweet City",
+      "新惊天动地": "Tân Kinh Thiên Động Địa",
+      "仙灵物语": "Tiên Linh Vật Ngữ",
+      "森盒senbox³": "Senbox³: Forest Box",
+      "驱入虚空": "Lái Vào Hư Vô",
+      "卡包修仙（taptap测试版）": "Tu Tiên Thẻ Bài (TapTap Beta)",
+      "魔法工艺": "Magic Craft",
+      "永恒与星辰与日常": "Eternity, Stars, and the Everyday",
+      "代号：界": "Mã Hiệu: Thế Giới",
+      "众神之神": "God of Gods",
+      "萤火夜话": "Đêm Đom Đóm Tâm Sự",
+      "古龙群侠录": "Cổ Long Quần Hiệp Lục",
+      "深鸢": "Deep Falcon",
+      "幻想少女公会": "Fantasy Girl Guild",
+      "天墟传说": "Huyền Thoại Thiên Khư",
+      "灵妖劫": "Linh Yêu Kiếp",
+      "命运游戏3：王者棋局": "Trò Chơi Vận Mệnh 3: Ván Cờ Vương Giả",
+      "勇敢幻想": "Dũng Cảm Ảo Tưởng",
+      "吉星派对": "Lucky Star Party",
+      "风之国世界": "Thế Giới Xứ Gió",
+      "量子跃迁：米乐光年": "Quantum Leap: Milo Light-Year",
+      "召唤与生存": "Triệu Hồi và Sinh Tồn",
+      "闪耀吧！噜咪": "Tỏa Sáng Nào! Lumi",
+      "不死鸟传说": "Bất Tử Điểu Truyền Thuyết",
+      "遗忘之海": "Biển Quên Lãng",
+      "超能机器人": "Robot Siêu Năng Lực",
+      "乱涂彩世界": "Scribble World",
+      "project rx": "Project RX",
+      "未来之役": "Trận Chiến Tương Lai",
+      "好朋友 on any journey": "Bạn Tốt Trên Mọi Cuộc Hành Trình",
+      "宇宙怪谈": "Vũ Trụ Quái Đàm",
+      "祖宗模拟器：传承": "Mô Phỏng Tổ Tiên: Di Sản",
+      "商界传奇": "Thương Giới Truyền Kỳ",
+      "不一样的修仙宗门2": "Tu Tiên Tông Môn 2: Khác Biệt",
+      "网恋模拟器": "Mô Phỏng Tình Yêu Trực Tuyến",
+      "魔王城物语": "Ma Vương Thành Vật Ngữ",
+      "我在海上有小岛": "Hòn Đảo Nhỏ Của Tôi Trên Biển",
+      "三国杀武将觉醒": "Tam Quốc Sát: Võ Tướng Thức Tỉnh",
+      "从抽卡开始的肉鸽冒险": "Phiêu Lưu Roguelike Từ Gacha",
+      "爱与机器人维修技术": "Tình Yêu và Kỹ Thuật Sửa Chữa Robot",
+      "合并萌龙岛": "Đảo Rồng Dễ Thương Hợp Nhất",
+      "代号：芙娅之魂": "Mật Danh: Linh Hồn Phù Á",
+      "妖错图": "Bản Đồ Quỷ Dị",
+      "遗弃之地": "Vùng Đất Bị Bỏ Rơi",
+      "背包乱斗": "Balo Loạn Đấu",
+      "部落冲突": "Xung Đột Bộ Lạc",
+      "无畏之刃": "Vô Úy Chi Nhận",
+      "暗影之王": "Ám Ảnh Chi Vương",
+      "水银疗养院": "Viện Dưỡng Lão Thủy Ngân",
+      "海兽餐厅": "Nhà Hàng Thủy Quái",
+      "绿水镇": "Lục Thủy Trấn",
+      "魂坠深境": "Hồn Trụy Thâm Cảnh",
+      "哈耶克的文明：市场经济": "Hayek's Civilization: Market Economy",
+      "淘金历险记: 克朗代克": "Cuộc Phiêu Lưu Đào Vàng: Klondike",
+      "月圆之夜": "Đêm Trăng Tròn",
+      "吾辈小熊猫": "Chúng Ta Là Gấu Trúc Nhỏ",
+      "决战！平安京": "Quyết Đấu! Heian-kyo",
+      "功夫熊猫：神龙大侠": "Kung Fu Panda: Thần Long Đại Hiệp",
+      "彩虹岛：经典": "Rainbow Island: Classic",
+      "猫话列国": "Mèo Kể Chuyện Các Nước",
+      "镇魂街王者归来": "Đường Trấn Hồn: Vua Trở Lại",
+      "辐射之海": "Biển Phóng Xạ",
+      "赛博典当行": "Tiệm Cầm Đồ Cyber",
+      "异星战争": "Dị Tinh Chiến Tranh",
+      "方寸小屋（taptap 测试版）": "Tiny House (TapTap Beta)",
+      "真实公路汽车2": "Real Highway Cars 2",
+      "nook fall：西区": "NOOK FALL: Khu Tây",
+      "成王败寇": "Thành Vương Bại Khấu",
+      "英雄联盟手游": "Liên Minh Huyền Thoại: Mobile",
+      "极简塔防": "Tháp Phòng Tối Giản",
+      "物华弥新": "Vật Hoa Di Tân",
+      "七日世界": "Thế Giới 7 Ngày",
+      "全面憨憨战争模拟器": "Mô Phỏng Chiến Tranh Ngốc Nghếch Toàn Diện",
+      "辐射：避难所": "Fallout: Nơi Trú Ẩn",
+      "大侠式人生：重制版": "Hero's Life: Remastered",
+      "异世界的城主大人": "Đại Nhân Thành Chủ Thế Giới Khác",
+      "猛鬼宿舍": "Ký Túc Xá Ma Quỷ",
+      "超逼真的攻城模拟器": "Mô Phỏng Công Thành Siêu Thực",
+      "消消英雄2": "Match Heroes 2",
+      "异象回声": "Tiếng Vọng Dị Tượng",
+      "老鼠大冒险": "Cuộc Phiêu Lưu Của Chuột",
+      "百分之一": "Một Phần Trăm",
+      "三国杀": "Tam Quốc Sát",
+      "问剑长生": "Vấn Kiếm Trường Sinh",
+      "一念逍遥": "Nhất Niệm Tiêu Dao",
+      "江南第一主播公司": "Công Ty Streamer Số Một Giang Nam",
+      "冲呀！饼干人：王国": "Tiến Lên! Vương Quốc Bánh Quy",
+      "银与绯": "Silver and Scarlet",
+      "桃源深处有人家": "Ngôi Nhà Trong Rừng Đào",
+      "天道：创造": "Thiên Đạo: Tạo Hóa",
+      "剑与远征": "Kiếm Dữ Viễn Chinh",
+      "修仙世家模拟器": "Mô Phỏng Gia Tộc Tu Tiên",
+      "斗神大陆2（taptap测试版）": "Đấu Thần Đại Lục 2 (TapTap Beta)",
+      "真实炒股（taptap测试版）": "Chơi Cổ Phiếu Thực Tế (TapTap Beta)",
+      "猫咪和汤": "Mèo và Súp",
+      "大话蜀山": "Đại Thoại Thục Sơn",
+      "三国人生模拟": "Tam Quốc Nhân Sinh Mô Phỏng",
+      "放置军团": "Idle Legion",
+      "房东模拟器": "Bộ Mô Phỏng Chủ Nhà",
+      "魔法之路": "Con Đường Phép Thuật",
+      "穿越者系统：模拟": "Hệ Thống Xuyên Không: Mô Phỏng",
+      "自定义修仙模拟器": "Bộ Mô Phỏng Tu Tiên Tùy Chỉnh",
+      "盲盒派对": "Blind Box Party",
+      "无限氪金": "Vô Hạn Khắc Kim",
+      "胡桃日记": "Nhật Ký Hồ Đào",
+      "洛伊的移动要塞": "Pháo Đài Di Động Của Roy",
+      "邂逅在迷宫": "Gặp Gỡ Trong Mê Cung",
+      "命运圣契": "Giao Ước Thần Thánh",
+      "闪烁之光": "Sparkling Light",
+      "英雄没有闪": "Anh Hùng Không Né Tránh",
+      "龙魂旅人": "Long Hồn Lữ Nhân",
+      "无限升级": "Nâng Cấp Vô Hạn",
+      "扫雷": "Dò Mìn",
+      "我的收纳摊": "Sạp Sắp Xếp Của Tôi",
+      "qq飞车": "QQ Speed",
+      "情商天花板": "Tình Thương Thiên Hoa Bản",
+      "贪吃蛇大作战": "Snake.io",
+      "我的邻居是伪人": "Hàng Xóm Không Phải Người",
+      "太空杀": "Thái Không Sát",
+      "滚动的天空": "Rolling Sky",
+      "跳舞的线": "Dancing Line",
+      "创游世界": "Thế Giới Sáng Tạo",
+      "人类跌落梦境": "Nhân Loại Đọa Lạc Mộng Cảnh",
+      "星战模拟器": "Mô Phỏng Chiến Tranh Giữa Các Vì Sao",
+      "小镇黑洞": "Small Town Black Hole",
+      "放开茶叶蛋": "Thả Trứng Trà",
+      "找到下一关": "Tìm Cấp Độ Tiếp Theo",
+      "逃离公司3": "Trốn Thoát Khỏi Công Ty 3",
+      "ballex²: the hanging gardens": "Ballex²: The Hanging Gardens",
+      "整理来解压": "Dọn Dẹp Giảm Căng Thẳng",
+      "趣味跳跃模拟器": "Fun Jump Simulator",
+      "无限列车": "Chuyến Tàu Vô Tận",
+      "奥比岛：梦想国度": "Obi Island: Vương Quốc Ước Mơ",
+      "甜瓜沙盒": "Melon Sandbox",
+      "钓鱼佬净化海洋": "Ngư Phủ Làm Sạch Đại Dương",
+      "2048清": "2048 Clear",
+      "雨天": "Rainy Day",
+      "纪念碑谷 2": "Monument Valley 2",
+      "数独清": "Sudoku Clear",
+      "边缘空间": "Edge Space",
+      "崽崽zepeto": "ZEPETO Kids",
+      "灵魂序章": "Linh Hồn Tự Chương",
+      "任性足球": "Bóng Đá Ngông Cuồng",
+      "步战三国": "Bộ Chiến Tam Quốc",
+      "超凡守卫战": "Siêu Phàm Thủ Vệ Chiến",
+      "探探猫大作战": "Cuộc Chiến Mèo Thám Hiểm",
+      "梦境食旅": "Mộng Cảnh Thực Lữ",
+      "瑞亚传说：纷争": "Huyền Thoại Rhea: Xung Đột",
+      "如鸢": "Like a Kite",
+      "斗罗大陆：逆转时空": "Đấu La Đại Lục: Đảo Ngược Thời Gian",
+      "非人哉王牌员工": "Non-Human Ace Employee",
+      "大侠立志传": "Đại Hiệp Lập Chí Truyện",
+      "测试游戏预约1209": "Test Game Reservation 1209",
+      "铳之迷宫": "Mê Cung Súng",
+      "仙境传说：新启航": "Huyền Thoại Tiên Cảnh: Hành Trình Mới",
+      "台球世界": "Thế Giới Bida",
+      "测试游戏自动下载1226": "Test Game Auto Download 1226",
+      "美职篮：绝对巨星": "NBA: Siêu Sao Tuyệt Đối",
+      "诸国争霸": "Chư Quốc Tranh Bá",
+      "远古群星": "Những Vì Sao Cổ Xưa",
+      "喵神的迷宫": "Mê Cung Của Thần Mèo",
+      "飞飞：重逢": "Fei Fei: Cuộc Hội Ngộ",
+      "冒险守护": "Mạo Hiểm Thủ Hộ",
+      "人征塔战": "Nhân Chinh Tháp Chiến",
+      "无限契令": "Lệnh Khế Ước Vô Hạn",
+      "黑色四叶草 魔法帝之道": "Con Đường Ma Pháp Đế Của Black Clover",
+      "王者激战": "Trận Chiến Kịch Liệt Của Nhà Vua",
+      "猎魔远征": "Cuộc Viễn Chinh Truy Lùng Ma Quỷ",
+      "牧场传奇": "Huyền Thoại Trang Trại",
+      "晨曦战纪": "Biên Niên Sử Bình Minh",
+      "珍珠海大冒险": "Pearl Sea Adventure",
+      "群英三国软件": "Three Kingdoms Heroes Software",
+      "神宠降临": "Thần Sủng Giáng Lâm",
+      "圣戒信条": "Thánh Giới Tín Điều",
+      "队长小翼：王牌对决": "Đội Trưởng Tsubasa: Đối Đầu Tuyệt Đỉnh",
+      "云中诀": "Vân Trung Quyết",
+      "天芒之神": "Thiên Mang Chi Thần",
+      "繁华梦": "Phồn Hoa Mộng",
+      "热血沙城": "Nhiệt Huyết Sa Thành",
+      "最强武装": "Vũ Khí Mạnh Nhất",
+      "骑士与大龙": "Kỵ Sĩ và Rồng",
+      "魔界大地": "Ma Giới Đại Địa",
+      "豆豆打僵尸": "Bean Bean vs Zombies",
+      "三国乱世霸王": "Tam Quốc Loạn Thế Bá Vương",
+      "胡闹地牢": "Hồ Náo Địa Lao",
+      "全民大灌篮": "Toàn Dân Đại Quán Lan",
+      "侠者风华录": "Hạ Giả Phong Hoa Lục",
+      "巨神军师": "Cự Thần Quân Sư",
+      "乐守防线": "Lạc Thủ Phòng Tuyến",
+      "异星之地": "Vùng Đất Hành Tinh Lạ",
+      "执剑江湖": "Chấp Kiếm Giang Hồ",
+      "天神大战": "Thiên Thần Đại Chiến",
+      "勇士觉醒": "Chiến Binh Thức Tỉnh",
+      "几何王国": "Vương Quốc Hình Học",
+      "领主防线": "Phòng Tuyến Lãnh Chúa",
+      "御兽遮天": "Ngự Thú Già Thiên",
+      "霸者天下": "Bá Giả Thiên Hạ",
+      "解忧小食光": "Giờ Ăn Vặt Giải Sầu",
+      "剑侠逍遥": "Kiếm Hiệp Tiêu Dao",
+      "凛冬部落": "Bộ Lạc Mùa Đông",
+      "骑兵冲突": "Xung Đột Kỵ Binh"
+    }
+  }
+}
