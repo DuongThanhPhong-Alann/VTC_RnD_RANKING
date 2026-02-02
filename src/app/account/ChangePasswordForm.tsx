@@ -69,14 +69,14 @@ export function ChangePasswordForm() {
     identifier && currentPassword && newPassword && confirmPassword;
 
   const inputClassName =
-    "h-11 w-full rounded-2xl border border-zinc-200 bg-white px-4 text-sm text-zinc-900 shadow-[0_1px_0_rgba(0,0,0,0.06)] outline-none transition focus:border-zinc-900 focus:ring-4 focus:ring-zinc-900/10 disabled:cursor-not-allowed disabled:bg-zinc-100";
+    "h-11 w-full rounded-2xl border border-white/15 bg-white/5 px-4 text-sm text-white shadow-[0_1px_0_rgba(255,255,255,0.04)] outline-none transition focus:border-white/50 focus:ring-4 focus:ring-white/10 disabled:cursor-not-allowed disabled:bg-white/10 placeholder:text-white/50";
 
   return (
     <form onSubmit={handleSubmit} className="grid gap-5">
       <div className="grid gap-2">
         <label
           htmlFor="identifier"
-          className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500"
+          className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80"
         >
           Tên đăng nhập hoặc email
         </label>
@@ -95,7 +95,7 @@ export function ChangePasswordForm() {
       <div className="grid gap-2">
         <label
           htmlFor="current-password"
-          className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500"
+          className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80"
         >
           Mật khẩu hiện tại
         </label>
@@ -115,7 +115,7 @@ export function ChangePasswordForm() {
       <div className="grid gap-2">
         <label
           htmlFor="new-password"
-          className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500"
+          className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80"
         >
           Mật khẩu mới
         </label>
@@ -131,13 +131,13 @@ export function ChangePasswordForm() {
           disabled={loading}
           required
         />
-        <p className="text-xs text-zinc-500">Tối thiểu 6 ký tự</p>
+        <p className="text-xs text-white/70">Tối thiểu 6 ký tự</p>
       </div>
 
       <div className="grid gap-2">
         <label
           htmlFor="confirm-password"
-          className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500"
+          className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80"
         >
           Xác nhận mật khẩu mới
         </label>
@@ -157,7 +157,7 @@ export function ChangePasswordForm() {
       {error && (
         <p
           role="alert"
-          className="rounded-2xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700"
+          className="rounded-2xl border border-rose-300/40 bg-rose-500/15 px-4 py-3 text-sm text-rose-100"
         >
           {error}
         </p>
@@ -166,7 +166,7 @@ export function ChangePasswordForm() {
       {message && (
         <p
           role="status"
-          className="rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700"
+          className="rounded-2xl border border-emerald-300/40 bg-emerald-500/15 px-4 py-3 text-sm text-emerald-100"
         >
           {message}
         </p>
@@ -174,7 +174,7 @@ export function ChangePasswordForm() {
 
       <button
         type="submit"
-        className="mt-2 inline-flex h-11 w-full items-center justify-center rounded-2xl bg-zinc-900 px-4 text-sm font-semibold text-white shadow-[0_16px_30px_-18px_rgba(0,0,0,0.7)] transition hover:-translate-y-0.5 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:shadow-none"
+        className="mt-2 inline-flex h-11 w-full items-center justify-center rounded-2xl bg-white/10 px-4 text-sm font-semibold text-white shadow-[0_16px_30px_-18px_rgba(0,0,0,0.7)] transition hover:-translate-y-0.5 hover:bg-white/20 disabled:cursor-not-allowed disabled:bg-white/5 disabled:text-white/40 disabled:shadow-none"
         disabled={loading || !isFormValid}
       >
         {loading ? "Đang đổi mật khẩu..." : "Đổi mật khẩu"}

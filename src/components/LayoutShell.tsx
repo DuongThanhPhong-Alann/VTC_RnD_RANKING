@@ -22,10 +22,8 @@ export function LayoutShell({ children }: { children: ReactNode }) {
   if (authPage) {
     return (
       <>
-        <div className="fixed inset-0 -z-10">
-          <div className="absolute inset-0 bg-[url('/background.png')] bg-cover bg-center bg-no-repeat" />
-        </div>
-        <div className="min-h-screen bg-white/70 text-zinc-900 backdrop-blur-sm">
+        <div className="fixed inset-0 -z-10 overflow-hidden bg-gradient-to-br from-[#050b1a] via-[#0b1f3a] to-[#04070f]" />
+        <div className="min-h-screen text-zinc-900">
           {children}
         </div>
       </>

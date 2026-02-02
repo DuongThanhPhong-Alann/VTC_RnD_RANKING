@@ -58,14 +58,14 @@ export function LoginForm() {
         <div className="group grid gap-2">
           <label
             htmlFor="identifier"
-            className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500 transition-colors group-focus-within:text-zinc-900"
+            className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80 transition-colors group-focus-within:text-white"
           >
             Tên đăng nhập hoặc email
           </label>
           <div className="relative">
             <input
               id="identifier"
-              className="h-11 w-full rounded-2xl border border-zinc-200 bg-white px-4 pr-10 text-sm text-zinc-900 shadow-[0_1px_0_rgba(0,0,0,0.06)] outline-none transition-all duration-300 placeholder:text-zinc-400 hover:border-zinc-300 focus:border-blue-500 focus:shadow-[0_0_0_4px_rgba(59,130,246,0.1)] disabled:cursor-not-allowed disabled:bg-zinc-100"
+              className="h-11 w-full rounded-2xl border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white shadow-[0_1px_0_rgba(255,255,255,0.04)] outline-none transition-all duration-300 placeholder:text-white/50 hover:border-white/30 focus:border-white/50 focus:shadow-[0_0_0_4px_rgba(255,255,255,0.12)] disabled:cursor-not-allowed disabled:bg-white/10"
               value={identifier}
               onChange={(e) => setIdentifier(e.target.value)}
               placeholder="abc123 hoặc abc123@gmail.com"
@@ -76,7 +76,7 @@ export function LoginForm() {
             {identifier && (
               <div className="absolute right-3 top-1/2 -translate-y-1/2">
                 <svg
-                  className="h-5 w-5 animate-scale-in text-green-500"
+                  className="h-5 w-5 animate-scale-in text-emerald-300"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -96,14 +96,14 @@ export function LoginForm() {
         <div className="group grid gap-2">
           <label
             htmlFor="password"
-            className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500 transition-colors group-focus-within:text-zinc-900"
+            className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80 transition-colors group-focus-within:text-white"
           >
             Mật khẩu
           </label>
           <div className="relative">
             <input
               id="password"
-              className="h-11 w-full rounded-2xl border border-zinc-200 bg-white px-4 pr-10 text-sm text-zinc-900 shadow-[0_1px_0_rgba(0,0,0,0.06)] outline-none transition-all duration-300 placeholder:text-zinc-400 hover:border-zinc-300 focus:border-blue-500 focus:shadow-[0_0_0_4px_rgba(59,130,246,0.1)] disabled:cursor-not-allowed disabled:bg-zinc-100"
+              className="h-11 w-full rounded-2xl border border-white/15 bg-white/5 px-4 pr-10 text-sm text-white shadow-[0_1px_0_rgba(255,255,255,0.04)] outline-none transition-all duration-300 placeholder:text-white/50 hover:border-white/30 focus:border-white/50 focus:shadow-[0_0_0_4px_rgba(255,255,255,0.12)] disabled:cursor-not-allowed disabled:bg-white/10"
               type={showPassword ? "text" : "password"}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -115,7 +115,7 @@ export function LoginForm() {
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 transition-colors hover:text-zinc-600"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-white/60 transition-colors hover:text-white"
               tabIndex={-1}
             >
               {showPassword ? (
@@ -133,33 +133,33 @@ export function LoginForm() {
         </div>
 
         {error && (
-          <div className="animate-shake-fade-in overflow-hidden rounded-2xl border border-rose-200 bg-gradient-to-r from-rose-50 to-red-50">
+          <div className="animate-shake-fade-in overflow-hidden rounded-2xl border border-rose-300/40 bg-rose-500/15">
             <div className="flex items-start gap-3 px-4 py-3">
-              <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-rose-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-rose-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <p className="text-sm text-rose-700">{error}</p>
+              <p className="text-sm text-rose-100">{error}</p>
             </div>
           </div>
         )}
 
         {success && (
-          <div className="animate-slide-in-up overflow-hidden rounded-2xl border border-emerald-200 bg-gradient-to-r from-emerald-50 to-green-50">
+          <div className="animate-slide-in-up overflow-hidden rounded-2xl border border-emerald-300/40 bg-emerald-500/15">
             <div className="flex items-start gap-3 px-4 py-3">
-              <svg className="mt-0.5 h-5 w-5 flex-shrink-0 animate-bounce text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="mt-0.5 h-5 w-5 flex-shrink-0 animate-bounce text-emerald-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <p className="text-sm text-emerald-700">{success}</p>
+              <p className="text-sm text-emerald-100">{success}</p>
             </div>
           </div>
         )}
 
         <button
           type="submit"
-          className="group relative mt-2 inline-flex h-11 w-full items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-r from-zinc-900 to-zinc-700 px-4 text-sm font-semibold text-white shadow-[0_16px_30px_-18px_rgba(0,0,0,0.7)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_40px_-20px_rgba(0,0,0,0.8)] focus:outline-none focus:ring-4 focus:ring-zinc-900/20 disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:shadow-none disabled:hover:translate-y-0"
+          className="group relative mt-2 inline-flex h-11 w-full items-center justify-center overflow-hidden rounded-2xl bg-white/10 px-4 text-sm font-semibold text-white shadow-[0_16px_30px_-18px_rgba(0,0,0,0.7)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/20 hover:shadow-[0_20px_40px_-20px_rgba(0,0,0,0.8)] focus:outline-none focus:ring-4 focus:ring-white/15 disabled:cursor-not-allowed disabled:bg-white/5 disabled:text-white/40 disabled:shadow-none disabled:hover:translate-y-0"
           disabled={loading || !identifier || !password}
         >
-          <span className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-disabled:opacity-0"></span>
+          <span className="absolute inset-0 h-full w-full bg-gradient-to-r from-sky-400/40 to-cyan-300/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-disabled:opacity-0"></span>
           <span className="relative flex items-center gap-2">
             {loading && (
               <svg className="h-4 w-4 animate-spin" fill="none" viewBox="0 0 24 24">
