@@ -19,6 +19,7 @@ import { GameImagesProvider, GameThumb } from "@/components/GameImagesProvider";
 import { NewReleasesFilters } from "@/components/NewReleasesFilters";
 import { SafeImage } from "@/components/SafeImage";
 import { WeeklyHighlightsFilters } from "@/components/WeeklyHighlightsFilters";
+import { ExportCsvButton } from "@/components/ExportCsvButton";
 import {
   getGameNamesByPlatformUrls,
   getLeaderboardSnapshotByBucket,
@@ -449,8 +450,14 @@ export default async function Home({
               </div>
             ) : (
               <GameImagesProvider pairs={weeklyTopImagePairs}>
+                <div className="flex items-center justify-end px-4 pt-4 pb-3">
+                  <ExportCsvButton
+                    tableId="weekly-table"
+                    filename={`bxh-tuan-${week}`}
+                  />
+                </div>
                 <div className="overflow-x-auto">
-                <table className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
+                <table id="weekly-table" className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
                   <thead className="text-center text-xs font-bold uppercase tracking-wide text-sky-900 dark:text-sky-200">
                     <tr>
                       <th className="sticky top-0 bg-white/90 px-4 py-3 backdrop-blur dark:bg-zinc-950/75">
@@ -623,7 +630,13 @@ export default async function Home({
               </div>
             ) : (
               <div className="overflow-x-auto">
-                <table className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
+                <div className="flex items-center justify-end px-4 pt-4 pb-3">
+                  <ExportCsvButton
+                    tableId="new-release-table"
+                    filename={`game-moi-${newPeriod}`}
+                  />
+                </div>
+                <table id="new-release-table" className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
                   <thead className="text-center text-xs font-bold uppercase tracking-wide text-sky-900 dark:text-sky-200">
                     <tr>
                       <th className="sticky top-0 bg-white/90 px-4 py-3 backdrop-blur dark:bg-zinc-950/75">
@@ -766,7 +779,13 @@ export default async function Home({
           <section className="card overflow-hidden transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-blue-500/10 dark:hover:shadow-sky-500/10">
             <GameImagesProvider pairs={followPairs}>
               <div className="overflow-x-auto">
-              <table className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
+              <div className="flex items-center justify-end px-4 pt-4 pb-3">
+                <ExportCsvButton
+                  tableId="leaderboard-table"
+                  filename={`bxh-${platform}-${leaderboard}-${snapshotBucket}`}
+                />
+              </div>
+              <table id="leaderboard-table" className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
                 <thead className="text-center text-xs font-bold uppercase tracking-wide text-sky-900 dark:text-sky-200">
                   <tr>
                     <th className="sticky top-0 bg-white/90 px-4 py-3 text-center backdrop-blur dark:bg-zinc-950/75">

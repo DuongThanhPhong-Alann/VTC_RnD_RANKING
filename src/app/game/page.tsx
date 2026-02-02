@@ -18,6 +18,7 @@ import { GameFilters } from "@/components/GameFilters";
 import { LogoAI } from "@/components/LogoAI";
 import { RankChart } from "@/components/RankChart";
 import { SafeImage } from "@/components/SafeImage";
+import { ExportCsvButton } from "@/components/ExportCsvButton";
 import { applySheetSubstitutions, getSheetCache } from "@/lib/sheet-cache";
 import {
   getGameCatalogByUrl,
@@ -421,7 +422,13 @@ export default async function GamePage({
         </div>
 
         <div className="data-table-shell mt-5">
-          <table className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
+          <div className="flex items-center justify-end px-4 pt-4 pb-3">
+            <ExportCsvButton
+              tableId="game-rank-table"
+              filename={`hang-theo-ngay-${platform}-${leaderboard}-${range}-${selectedPeriod}`}
+            />
+          </div>
+          <table id="game-rank-table" className="data-table w-full border-collapse text-sm font-medium text-zinc-950 dark:text-zinc-50">
             <thead className="text-center text-xs font-bold uppercase tracking-wide text-sky-900 dark:text-sky-200">
               <tr>
                 <th className="sticky top-0 bg-white/90 px-4 py-3 backdrop-blur dark:bg-zinc-950/75">
