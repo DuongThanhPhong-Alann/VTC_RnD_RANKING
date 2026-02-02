@@ -10,6 +10,14 @@ function isPair(value: unknown): value is Pair {
 }
 
 export async function POST(req: Request) {
+  const apiKey = process.env.PUBLIC_API_KEY;
+  if (apiKey) {
+    const headerKey = req.headers.get("x-api-key");
+    if (!headerKey || headerKey !== apiKey) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+  }
+
   let payload: unknown;
   try {
     payload = await req.json();

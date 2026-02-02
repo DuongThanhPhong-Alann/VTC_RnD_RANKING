@@ -230,3 +230,5 @@ Env can co (server):
 - SUPABASE_URL hoac NEXT_PUBLIC_SUPABASE_URL
 - AUTH_SECRET (chuoi bat ky, dung de ky session)
 - AUTH_SESSION_DAYS (tuy chon, mac dinh 7)
+- PUBLIC_API_KEY (tuy chon, bao ve API public, header x-api-key)
+- NEXT_PUBLIC_PUBLIC_API_KEY (neu goi API public tu client)

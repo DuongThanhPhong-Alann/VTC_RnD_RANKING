@@ -40,9 +40,15 @@ export function GameImagesProvider({
 
     async function run() {
       try {
+        const headers: Record<string, string> = {
+          "content-type": "application/json",
+        };
+        const publicKey = process.env.NEXT_PUBLIC_PUBLIC_API_KEY;
+        if (publicKey) headers["x-api-key"] = publicKey;
+
         const res = await fetch("/api/game-images", {
           method: "POST",
-          headers: { "content-type": "application/json" },
+          headers,
           body,
         });
         if (!res.ok) return;

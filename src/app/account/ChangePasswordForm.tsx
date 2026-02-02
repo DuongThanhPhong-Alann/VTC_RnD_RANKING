@@ -118,7 +118,7 @@ export function ChangePasswordForm() {
       ) : null}
 
       <button className="btn btn-primary" disabled={loading}>
-        {loading ? "Dang doi..." : "Doi mat khau"}
+        {loading ? "Đang đổi" : "Đổi mật khẩu"}
       </button>
     </form>
   );
