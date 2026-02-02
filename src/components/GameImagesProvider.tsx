@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { Image as ImageIcon, LoaderCircle } from "lucide-react";
 import { SafeImage } from "@/components/SafeImage";
 
 export type GamePair = { platform: string; game_url: string };
@@ -100,17 +101,26 @@ export function GameThumb({
     );
   }
 
+  if (placeholder) return placeholder;
+
+  const isLoading = src === undefined;
+  const iconSize = Math.max(12, Math.min(18, Math.floor(Math.min(width, height) / 2.5)));
+  const Icon = isLoading ? LoaderCircle : ImageIcon;
+
   return (
-    placeholder ?? (
-      <div
-        className={[
-          "flex items-center justify-center rounded-xl border border-zinc-200 bg-zinc-50 text-[10px] font-semibold text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900/30 dark:text-zinc-400",
-          className ?? "",
-        ].join(" ")}
-        style={{ width, height }}
-      >
-        N/A
-      </div>
-    )
+    <div
+      className={[
+        "flex items-center justify-center rounded-xl border border-zinc-200 bg-zinc-50 text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900/30 dark:text-zinc-400",
+        className ?? "",
+      ].join(" ")}
+      style={{ width, height }}
+      aria-label={isLoading ? "Loading image" : "No image"}
+    >
+      <Icon
+        size={iconSize}
+        className={isLoading ? "animate-spin" : ""}
+        aria-hidden="true"
+      />
+    </div>
   );
 }
