@@ -69,7 +69,7 @@ export function OverviewFilters({
       <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
         <label className="flex flex-col gap-1 text-sm">
-          <span className="text-zinc-600 dark:text-zinc-400">Trang</span>
+          <span className="text-zinc-600 dark:text-zinc-400">TRANG</span>
           <select
             className="control control-platform min-w-44"
             value={platform}
@@ -85,7 +85,7 @@ export function OverviewFilters({
         </label>
 
         <label className="flex flex-col gap-1 text-sm">
-          <span className="text-zinc-600 dark:text-zinc-400">Bảng xếp hạng</span>
+          <span className="text-zinc-600 dark:text-zinc-400">BẢNG XẾP HẠNG</span>
           <select
             className="control control-leaderboard min-w-64"
             value={leaderboard}
@@ -101,7 +101,7 @@ export function OverviewFilters({
         </label>
 
         <label className="flex flex-col gap-1 text-sm">
-          <span className="text-zinc-600 dark:text-zinc-400">Thời gian</span>
+          <span className="text-zinc-600 dark:text-zinc-400">THỜI GIAN</span>
           <select
             className="control control-date min-w-56"
             value={snapshotBucket}

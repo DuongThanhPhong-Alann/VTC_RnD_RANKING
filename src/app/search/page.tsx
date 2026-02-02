@@ -150,7 +150,7 @@ export default async function SearchPage({
                           {title}
                         </div>
                         <span className="chip chip-platform">
-                          Trang:{" "}
+                          TRANG:{" "}
                           <span className="font-semibold">{g.platform}</span>
                         </span>
                       </div>

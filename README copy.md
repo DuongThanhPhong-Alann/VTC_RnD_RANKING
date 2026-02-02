@@ -23,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### 3) Sử dụng
 
-- Trang `/`: chọn `platform` + `leaderboard`, xem Top 50 theo snapshot mới nhất.
+- TRANG `/`: chọn `platform` + `leaderboard`, xem Top 50 theo snapshot mới nhất.
 - Click vào game để vào `/game?url=...`: xem biểu đồ line theo `Tuần/Tháng` (X: ngày, Y: rank 1..50).
 
 ## Build

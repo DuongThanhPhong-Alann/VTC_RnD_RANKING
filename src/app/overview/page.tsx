@@ -172,9 +172,9 @@ function EmptyState() {
   return (
     <div className="flex flex-col gap-6">
       <section>
-        <h1 className="text-2xl font-semibold tracking-tight">Tổng quan</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">TỔNG QUAN</h1>
         <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-          Chưa có thời gian nào cho trang/bảng xếp hạng này.
+          Chưa có THỜI GIAN nào cho TRANG/BẢNG XẾP HẠNG này.
         </p>
       </section>
     </div>
@@ -196,7 +196,7 @@ function PageHeader({
     <section className="flex flex-col gap-2">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h1 className="text-2xl font-semibold tracking-tight">Tổng quan</h1>
+          <h1 className="text-2xl font-semibold tracking-tight">TỔNG QUAN</h1>
           <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
             Biểu đồ hạng của nhiều game trong{" "}
             {range === "month" ? "tháng" : "tuần"}.
@@ -205,7 +205,7 @@ function PageHeader({
 
         <div className="flex flex-wrap items-center justify-start gap-2 sm:justify-end">
           <span className="chip chip-date">
-            thời gian:{" "}
+            THỜI GIAN:{" "}
             <span className="font-semibold">
               {format(snapshotDate, "yyyy-MM-dd HH:mm")}
             </span>
@@ -218,7 +218,7 @@ function PageHeader({
             </span>
           </span>
           <span className="chip">
-            Theo dõi: <span className="font-semibold">Top {topCount}</span>
+            THEO DÕI: <span className="font-semibold">Top {topCount}</span>
           </span>
         </div>
       </div>

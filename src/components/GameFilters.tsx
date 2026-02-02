@@ -46,12 +46,12 @@ export function GameFilters({
       next.leaderboard ??
       (nextPlatform === platform ? leaderboard : nextLeaderboards[0]) ??
       "";
-    const nextRange = next.range ?? range;
+    const nexTRANGe = next.range ?? range;
     const nextPeriod = next.period ?? period;
 
     params.set("platform", nextPlatform);
     params.set("leaderboard", nextLeaderboard);
-    params.set("range", nextRange);
+    params.set("range", nexTRANGe);
     if (next.period) {
       params.set("period", next.period);
     } else if (next.range && next.range !== range) {
@@ -71,7 +71,7 @@ export function GameFilters({
       <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
         <label className="flex flex-col gap-1 text-sm">
-          <span className="text-zinc-600 dark:text-zinc-400">Trang</span>
+          <span className="text-zinc-600 dark:text-zinc-400">TRANG</span>
           <select
             className="control control-platform min-w-44"
             value={platform}
@@ -87,7 +87,7 @@ export function GameFilters({
         </label>
 
         <label className="flex flex-col gap-1 text-sm">
-          <span className="text-zinc-600 dark:text-zinc-400">Bảng xếp hạng</span>
+          <span className="text-zinc-600 dark:text-zinc-400">BẢNG XẾP HẠNG</span>
           <select
             className="control control-leaderboard min-w-64"
             value={leaderboard}

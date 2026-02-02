@@ -26,9 +26,9 @@ export function HomeTabs({ tab }: Props) {
   }
 
   const tabs: Array<{ id: TabType; label: string; subtitle: string }> = [
-    { id: "weekly", label: "BXH tuần", subtitle: "Top 10" },
-    { id: "follow", label: "Theo dõi", subtitle: "BXH" },
-    { id: "new", label: "Game mới", subtitle: "Ra mắt" },
+    { id: "weekly", label: "BXH TUẦN", subtitle: "Top 10" },
+    { id: "follow", label: "THEO DÕI", subtitle: "BXH" },
+    { id: "new", label: "GAME MỚI", subtitle: "Ra mắt" },
   ];
 
   return (

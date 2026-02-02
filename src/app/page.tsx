@@ -409,9 +409,9 @@ export default async function Home({
       <section className="flex flex-col gap-3">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <h1 className="text-2xl font-semibold tracking-tight">Trang chủ</h1>
+            <h1 className="text-2xl font-semibold tracking-tight">TRANG CHỦ</h1>
             <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-              Tab 1: BXH tuần tổng hợp. Tab 2: theo dõi BXH từng platform. Tab 3: game mới ra mắt.
+              Tab 1: BXH TUẦN tổng hợp. Tab 2: THEO DÕI BXH từng platform. Tab 3: GAME MỚI ra mắt.
             </p>
           </div>
         </div>
@@ -610,7 +610,7 @@ export default async function Home({
             <div className="mb-3 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
               <div className="section-title">Bộ lọc</div>
               <div className="text-xs text-zinc-500 dark:text-zinc-400">
-                Lọc game mới ra mắt theo tuần hoặc tháng
+                Lọc GAME MỚI ra mắt theo tuần hoặc tháng
               </div>
             </div>
             <NewReleasesFilters range={newRange} period={newPeriod} periods={newPeriods} />
@@ -636,7 +636,7 @@ export default async function Home({
                         Tên game
                       </th>
                       <th className="sticky top-0 bg-white/90 px-4 py-3 backdrop-blur dark:bg-zinc-950/75">
-                        Trang
+                        TRANG
                       </th>
                       <th className="sticky top-0 bg-white/90 px-4 py-3 backdrop-blur dark:bg-zinc-950/75">
                         Ngày phát hành
@@ -719,7 +719,7 @@ export default async function Home({
           <section className="flex flex-wrap items-center justify-start gap-2 sm:justify-end">
             {followSnapshot?.snapshotAt ? (
               <span className="chip chip-date">
-                Thời gian:{" "}
+                THỜI GIAN:{" "}
                 <span className="font-semibold">
                   {format(followSnapshot.snapshotAt, "yyyy-MM-dd HH:mm")}
                 </span>

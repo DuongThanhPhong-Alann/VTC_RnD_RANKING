@@ -7,6 +7,7 @@ import { LogoAI } from "@/components/LogoAI";
 import { RouteLoadingOverlay } from "@/components/RouteLoadingOverlay";
 import { Suspense } from "react";
 import { BarChart3, Gamepad2, Home, Search } from "lucide-react";
+import { AuthStatus } from "@/components/AuthStatus";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -74,7 +75,7 @@ export default function RootLayout({
                   <input
                     name="q"
                     className="relative h-11 w-full rounded-xl border border-gray-200 bg-white/80 py-0 pr-4 pl-11 text-sm backdrop-blur-xl transition-all placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:border-gray-700 dark:bg-gray-900/80 dark:text-white dark:placeholder:text-gray-500 dark:focus:border-blue-500"
-                    placeholder="Tìm kiếm game yêu thích..."
+                    placeholder="Tìm kiếm theo tên game, thể loại, nền tảng..."
                   />
                   <button
                     type="submit"
@@ -85,7 +86,7 @@ export default function RootLayout({
                 </form>
 
                 {/* Modern navigation */}
-                <nav className="flex items-center gap-2">
+                <nav className="flex flex-wrap items-center gap-2">
                   <Link
                     className="group relative overflow-hidden rounded-lg px-4 py-2 text-sm font-medium transition-all hover:scale-105"
                     href="/"
@@ -93,7 +94,7 @@ export default function RootLayout({
                     <span className="relative z-10 text-gray-700 transition-colors group-hover:text-white dark:text-gray-300">
                       <span className="inline-flex items-center gap-2">
                         <Home aria-hidden="true" className="h-4 w-4" />
-                        Trang chủ
+                        TRANG CHỦ
                       </span>
                     </span>
                     <div className="absolute inset-0 -z-0 bg-gradient-to-r from-blue-800 to-blue-600 opacity-0 transition-opacity group-hover:opacity-100" />
@@ -106,7 +107,7 @@ export default function RootLayout({
                     <span className="relative z-10 text-gray-700 transition-colors group-hover:text-white dark:text-gray-300">
                       <span className="inline-flex items-center gap-2">
                         <BarChart3 aria-hidden="true" className="h-4 w-4" />
-                        Tổng quan
+                        TỔNG QUAN
                       </span>
                     </span>
                     <div className="absolute inset-0 -z-0 bg-gradient-to-r from-blue-800 to-blue-600 opacity-0 transition-opacity group-hover:opacity-100" />
@@ -116,15 +117,13 @@ export default function RootLayout({
                     className="group relative overflow-hidden rounded-lg px-4 py-2 text-sm font-medium transition-all hover:scale-105"
                     href="/search"
                   >
-                    <span className="relative z-10 text-gray-700 transition-colors group-hover:text-white dark:text-gray-300">
-                      <span className="inline-flex items-center gap-2">
-                        <Gamepad2 aria-hidden="true" className="h-4 w-4" />
-                        Tìm game
-                      </span>
-                    </span>
                     <div className="absolute inset-0 -z-0 bg-gradient-to-r from-blue-800 to-blue-600 opacity-0 transition-opacity group-hover:opacity-100" />
                   </Link>
                 </nav>
+
+                <div className="flex items-center justify-start sm:justify-end">
+                  <AuthStatus />
+                </div>
               </div>
             </div>
           </header>

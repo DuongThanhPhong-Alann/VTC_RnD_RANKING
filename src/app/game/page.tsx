@@ -152,10 +152,10 @@ export default async function GamePage({
       <div className="card p-6">
         <h1 className="text-xl font-semibold tracking-tight">Thiếu tham số</h1>
         <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-          Mở từ trang bảng xếp hạng để xem chi tiết.
+          Mở từ TRANG BẢNG XẾP HẠNG để xem chi tiết.
         </p>
         <Link className="btn btn-primary mt-5 w-fit" href="/">
-          Về Trang chủ
+          Về TRANG CHỦ
         </Link>
       </div>
     );
@@ -257,7 +257,7 @@ export default async function GamePage({
   const updatedAtText = formatMaybeDate(game?.updated_at);
 
   const chips = [
-    { label: "Trang", value: game?.platform ? String(game.platform) : null },
+    { label: "TRANG", value: game?.platform ? String(game.platform) : null },
     {
       label: "Thể loại",
       value: game?.category ? applyName(String(game.category)) : null,
@@ -327,7 +327,7 @@ export default async function GamePage({
           <div className="shrink-0">
             <div className="flex flex-col gap-3 md:items-end">
               <Link className="btn btn-ghost" href="/">
-                ← Về Trang chủ
+                ← Về TRANG CHỦ
               </Link>
             </div>
           </div>

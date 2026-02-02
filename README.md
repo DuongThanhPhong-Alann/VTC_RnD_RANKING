@@ -3,9 +3,9 @@
 ## Supabase auth + profiles (ghi chu)
 
 Muc tieu:
-- Dang nhap bang Supabase Auth.
-- Chua dang nhap thi chi o trang login, dang nhap moi xem duoc noi dung.
-- Co the doi mat khau sau khi dang nhap.
+- ĐĂNG NHẬP bang Supabase Auth.
+- Chua ĐĂNG NHẬP thi chi o TRANG login, ĐĂNG NHẬP moi xem duoc noi dung.
+- Co the doi mat khau sau khi ĐĂNG NHẬP.
 
 SQL tao CSDL (chay trong Supabase SQL Editor):
 
@@ -162,3 +162,71 @@ create trigger on_auth_user_created
 after insert on auth.users
 for each row execute procedure public.handle_new_user();
 ```
+
+## Khong dung Supabase Auth (chi dung DB)
+
+Neu khong dung Auth, KHONG can bang `profiles` o tren. Thay vao do tao bang `app_users` va tu hash mat khau (SHA-256 + salt).
+
+SQL tao bang + hash (chay trong Supabase SQL Editor):
+
+```sql
+create extension if not exists pgcrypto;
+
+create table if not exists public.app_users (
+  id uuid primary key default gen_random_uuid(),
+  username text unique not null,
+  email text unique,
+  password_salt text not null,
+  password_hash text not null,
+  full_name text,
+  status text default 'active',
+  created_at timestamptz default now(),
+  updated_at timestamptz default now()
+);
+
+create or replace function public.set_updated_at()
+returns trigger
+language plpgsql
+as $$
+begin
+  new.updated_at = now();
+  return new;
+end;
+$$;
+
+drop trigger if exists app_users_set_updated_at on public.app_users;
+create trigger app_users_set_updated_at
+before update on public.app_users
+for each row execute procedure public.set_updated_at();
+```
+
+Insert user test (khong dung Auth):
+
+```sql
+with s as (
+  select encode(gen_random_bytes(16), 'hex') as salt
+)
+insert into public.app_users (username, email, password_salt, password_hash, full_name)
+select
+  'duongthanhphong1618',
+  'duongthanhphong1618@gmail.com',
+  s.salt,
+  encode(digest('135724689' || s.salt, 'sha256'), 'hex'),
+  'Duong Thanh Phong'
+from s;
+```
+
+Check login:
+
+```sql
+select id, username
+from public.app_users
+where username = 'duongthanhphong1618'
+  and password_hash = encode(digest('135724689' || password_salt, 'sha256'), 'hex');
+```
+
+Env can co (server):
+- SUPABASE_SERVICE_ROLE_KEY
+- SUPABASE_URL hoac NEXT_PUBLIC_SUPABASE_URL
+- AUTH_SECRET (chuoi bat ky, dung de ky session)
+- AUTH_SESSION_DAYS (tuy chon, mac dinh 7)
