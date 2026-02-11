@@ -8,8 +8,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,9 +22,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji",
-    "Segoe UI Emoji";
+  font-family: var(--font-sans);
 }
 
 ::selection {
@@ -217,4 +215,297 @@ body {
 .animate-shimmer {
   background-size: 200% auto;
   animation: shimmer 3s linear infinite;
+}
+
+.theme-tet .card {
+  @apply border-rose-100/95 bg-white/92 shadow-lg shadow-rose-200/40;
+}
+
+.theme-tet .control {
+  @apply border-rose-200 bg-rose-50/70 text-rose-900 placeholder:text-rose-400/80 focus:border-rose-300 focus:ring-rose-200/60;
+}
+
+.theme-tet .btn-primary {
+  @apply bg-rose-300 text-rose-900 shadow-sm hover:bg-rose-400 focus:ring-rose-300/30;
+}
+
+.theme-tet .btn-ghost {
+  @apply border-rose-200 bg-white/75 text-rose-700 hover:bg-rose-50 focus:ring-rose-200/60;
+}
+
+.theme-tet .chip {
+  @apply border-rose-100 bg-rose-50/80 text-rose-800;
+}
+
+.theme-tet .chip-primary {
+  @apply border-rose-200 bg-rose-100/80 text-rose-700;
+}
+
+.theme-tet .chip-platform {
+  @apply border-amber-200 bg-amber-50/85 text-amber-800;
+}
+
+.theme-tet .chip-leaderboard {
+  @apply border-orange-200 bg-orange-50/85 text-orange-800;
+}
+
+.theme-tet .chip-date {
+  @apply border-rose-100 bg-rose-100/70 text-rose-700;
+}
+
+.theme-tet .section-title {
+  @apply text-rose-600;
+}
+
+.theme-tet .control-platform {
+  @apply border-amber-200 bg-amber-50/80 text-amber-900 focus:border-amber-300 focus:ring-amber-200/60;
+}
+
+.theme-tet .control-leaderboard {
+  @apply border-orange-200 bg-orange-50/80 text-orange-900 focus:border-orange-300 focus:ring-orange-200/60;
+}
+
+.theme-tet .control-date {
+  @apply border-rose-200 bg-rose-100/70 text-rose-900 focus:border-rose-300 focus:ring-rose-200/60;
+}
+
+.theme-tet .data-table-shell {
+  @apply border-rose-100/90 bg-white/90 shadow-lg shadow-rose-200/40 hover:shadow-rose-300/45;
+}
+
+.theme-tet .data-table thead th {
+  @apply bg-gradient-to-r from-rose-300 via-amber-200 to-orange-200 text-rose-800;
+}
+
+.theme-tet .data-table tbody tr {
+  @apply odd:bg-white even:bg-amber-50/40 hover:bg-rose-50/65;
+}
+
+.theme-tet .home-tabs-shell {
+  @apply border-rose-200/85 bg-white/88 shadow-lg shadow-rose-200/40;
+}
+
+.theme-tet .home-tab-btn {
+  @apply text-rose-800;
+}
+
+.theme-tet .home-tab-btn-idle {
+  @apply border border-rose-100/90 bg-rose-50/70 text-rose-700 hover:bg-amber-50/90 hover:text-rose-800;
+}
+
+.theme-tet .home-tab-btn-active {
+  @apply bg-gradient-to-br from-rose-300 via-rose-200 to-amber-200 text-rose-800 shadow-md shadow-rose-200/50 ring-1 ring-rose-100/95;
+}
+
+.theme-tet .home-tab-btn-glow {
+  @apply opacity-35;
+}
+
+.theme-tet .home-tab-dot-idle {
+  @apply bg-rose-300/65;
+}
+
+.theme-tet .home-tab-dot-active {
+  @apply bg-rose-100 shadow-sm shadow-rose-100/90;
+}
+
+.theme-tet .home-tab-subtitle-idle {
+  @apply text-rose-500/75;
+}
+
+.theme-tet .home-tab-subtitle-active {
+  @apply text-rose-700/80;
+}
+
+.tet-sparkle-grid {
+  background-image:
+    radial-gradient(circle at 12px 12px, rgba(251, 191, 36, 0.35) 0, rgba(251, 191, 36, 0.35) 2px, transparent 2px),
+    radial-gradient(circle at 0 0, rgba(255, 255, 255, 0.18) 0, rgba(255, 255, 255, 0.18) 1px, transparent 1px);
+  background-size:
+    30px 30px,
+    22px 22px;
+}
+
+@keyframes tetCollageFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.tet-collage-fadeout {
+  animation: tetCollageFadeOut 900ms ease-in-out forwards;
+}
+
+.tet-fall-overlay {
+  pointer-events: none;
+}
+
+@keyframes tetFallTrack {
+  0% {
+    transform: translate3d(0, -18vh, 0);
+  }
+  22% {
+    transform: translate3d(var(--tet-drift-a), 16vh, 0);
+  }
+  45% {
+    transform: translate3d(var(--tet-drift-b), 43vh, 0);
+  }
+  68% {
+    transform: translate3d(var(--tet-drift-a), 74vh, 0);
+  }
+  86% {
+    transform: translate3d(calc(var(--tet-drift-b) * 0.7), 98vh, 0);
+  }
+  100% {
+    transform: translate3d(var(--tet-drift-b), 122vh, 0);
+  }
+}
+
+@keyframes tetFallSway {
+  0% {
+    transform: translate3d(-6px, 0, 0) rotate(var(--tet-spin-a));
+  }
+  30% {
+    transform: translate3d(6px, 0, 0) rotate(var(--tet-spin-b));
+  }
+  62% {
+    transform: translate3d(-5px, 0, 0) rotate(var(--tet-spin-c));
+  }
+  100% {
+    transform: translate3d(4px, 0, 0) rotate(var(--tet-spin-b));
+  }
+}
+
+.tet-fall-track {
+  position: absolute;
+  display: block;
+  overflow: visible;
+  top: -20vh;
+  left: var(--tet-left);
+  width: var(--tet-size);
+  height: var(--tet-height);
+  opacity: var(--tet-opacity);
+  animation: tetFallTrack var(--tet-fall-duration) linear infinite;
+  animation-delay: var(--tet-delay);
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  contain: layout;
+  z-index: 2;
+}
+
+.tet-fall {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: tetFallSway var(--tet-sway-duration) ease-in-out infinite;
+  transform-origin: center;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  object-fit: contain;
+  user-select: none;
+}
+
+.tet-fall--dao {
+  filter: drop-shadow(0 2px 4px rgba(244, 63, 94, 0.16));
+}
+
+.tet-fall--mai {
+  filter: drop-shadow(0 2px 4px rgba(251, 146, 60, 0.14));
+}
+
+.tet-fall--lixi {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 0.45rem;
+  border: 1px solid rgba(253, 230, 138, 0.95);
+  background:
+    linear-gradient(180deg, rgba(251, 113, 133, 0.95) 0%, rgba(248, 113, 113, 0.95) 55%, rgba(249, 115, 22, 0.9) 100%);
+  box-shadow:
+    0 5px 10px rgba(244, 63, 94, 0.2),
+    inset 0 0 0 1px rgba(254, 243, 199, 0.42);
+}
+
+.tet-fall--lixi::before {
+  content: "";
+  position: absolute;
+  top: 0.18rem;
+  left: 50%;
+  height: 1.2rem;
+  width: 0.8rem;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  border: 1px solid rgba(251, 191, 36, 0.95);
+  background: radial-gradient(circle, rgba(255, 251, 235, 0.95) 0%, rgba(253, 224, 71, 0.9) 45%, rgba(217, 119, 6, 0.9) 100%);
+}
+
+.tet-fall--lixi::after {
+  content: "";
+  position: absolute;
+  left: 8%;
+  bottom: 0.35rem;
+  height: 0.2rem;
+  width: 84%;
+  border-radius: 999px;
+  background: rgba(251, 191, 36, 0.9);
+}
+
+@keyframes tetLanternFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(10px) rotate(2deg);
+  }
+}
+
+.tet-lantern {
+  position: relative;
+  margin-top: 0.75rem;
+  height: 4.5rem;
+  width: 3rem;
+  border-radius: 999px;
+  border: 1px solid rgba(251, 191, 36, 0.5);
+  background: linear-gradient(180deg, #fb7185 0%, #f97316 70%, #f59e0b 100%);
+  box-shadow:
+    0 0 0 1px rgba(251, 113, 133, 0.2),
+    0 14px 26px rgba(244, 63, 94, 0.25);
+  animation: tetLanternFloat 4.8s ease-in-out infinite;
+}
+
+.tet-lantern::before {
+  content: "";
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  height: 22px;
+  width: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, rgba(251, 191, 36, 0.2) 0%, rgba(251, 191, 36, 0.9) 100%);
+}
+
+.tet-lantern::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  height: 10px;
+  width: 70%;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(251, 191, 36, 0.65), rgba(249, 115, 22, 0.8), rgba(251, 191, 36, 0.65));
+}
+
+.tet-lantern--delay {
+  animation-delay: 1.8s;
 }
