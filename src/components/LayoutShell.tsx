@@ -1,15 +1,29 @@
 "use client";
 
-import { useEffect, useState, type CSSProperties, type ReactNode } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type ChangeEvent,
+  type CSSProperties,
+  type ReactNode,
+} from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BarChart3, Home, Search, Sparkles } from "lucide-react";
+import { BarChart3, Home, Search, Sparkles, Volume2, VolumeX } from "lucide-react";
 import { AuthStatus } from "@/components/AuthStatus";
 import { LogoAI } from "@/components/LogoAI";
 
 const AUTH_ROUTES = ["/login", "/account"];
 const UI_THEME_STORAGE_KEY = "vtc-ui-theme";
+const MUSIC_STORAGE_KEY = "vtc-bg-music-enabled";
+const MUSIC_TRACK_INDEX_STORAGE_KEY = "vtc-bg-music-track-index";
+const MUSIC_TRACKS = [
+  { label: "Vạn Sự Như Ý", src: "/Vạn Sự Như Ý.mp3" },
+  { label: "Tết Đong Đầy", src: "/Tết Đong Đầy.mp3" },
+  { label: "Tết Này Con Sẽ Về", src: "/Tết Này Con Sẽ Về.mp3" },
+] as const;
 const TET_BG_IMAGES = [
   "/1.jpg",
   "/2.jpg",
@@ -224,6 +238,122 @@ function TetBackground({
   );
 }
 
+function MusicToggle({ isTetTheme }: { isTetTheme: boolean }) {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
+  const [shouldPlay, setShouldPlay] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const savedIndexRaw = window.localStorage.getItem(MUSIC_TRACK_INDEX_STORAGE_KEY);
+    const savedIndex = Number(savedIndexRaw);
+    if (Number.isInteger(savedIndex) && savedIndex >= 0 && savedIndex < MUSIC_TRACKS.length) {
+      setCurrentTrackIndex(savedIndex);
+    }
+
+    const shouldAutoPlay = window.localStorage.getItem(MUSIC_STORAGE_KEY) === "on";
+    if (shouldAutoPlay) setShouldPlay(true);
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    window.localStorage.setItem(MUSIC_STORAGE_KEY, shouldPlay ? "on" : "off");
+  }, [shouldPlay]);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    if (!shouldPlay) {
+      audio.pause();
+      setIsPlaying(false);
+      return;
+    }
+
+    void audio
+      .play()
+      .then(() => setIsPlaying(true))
+      .catch(() => setIsPlaying(false));
+  }, [shouldPlay]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    window.localStorage.setItem(MUSIC_TRACK_INDEX_STORAGE_KEY, String(currentTrackIndex));
+
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.load();
+
+    if (!shouldPlay) return;
+    void audio
+      .play()
+      .then(() => setIsPlaying(true))
+      .catch(() => setIsPlaying(false));
+  }, [currentTrackIndex, shouldPlay]);
+
+  const toggleMusic = () => {
+    setShouldPlay((prev) => !prev);
+  };
+
+  const handleTrackChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const nextIndex = Number(event.target.value);
+    if (!Number.isInteger(nextIndex) || nextIndex < 0 || nextIndex >= MUSIC_TRACKS.length) return;
+    setCurrentTrackIndex(nextIndex);
+    setShouldPlay(true);
+  };
+
+  const handleTrackEnded = () => {
+    setCurrentTrackIndex((prev) => (prev + 1) % MUSIC_TRACKS.length);
+  };
+
+  const wrapperClass = isTetTheme
+    ? "fixed right-4 bottom-4 z-[95] flex items-center gap-2 rounded-full border border-rose-200/90 bg-white/85 px-2 py-1.5 shadow-lg shadow-rose-300/30 backdrop-blur-md"
+    : "fixed right-4 bottom-4 z-[95] flex items-center gap-2 rounded-full border border-blue-200/80 bg-white/80 px-2 py-1.5 shadow-lg shadow-blue-500/20 backdrop-blur-md";
+  const buttonClass = isTetTheme
+    ? "inline-flex h-9 w-9 items-center justify-center rounded-full bg-rose-100/75 text-rose-700 transition-transform hover:scale-105"
+    : "inline-flex h-9 w-9 items-center justify-center rounded-full bg-blue-100/65 text-blue-700 transition-transform hover:scale-105";
+  const selectClass = isTetTheme
+    ? "h-9 w-40 rounded-full border border-rose-200/80 bg-white/90 px-3 text-xs font-medium text-rose-800 outline-none focus:border-rose-300"
+    : "h-9 w-40 rounded-full border border-blue-200/80 bg-white/95 px-3 text-xs font-medium text-blue-800 outline-none focus:border-blue-400";
+
+  return (
+    <div className={wrapperClass}>
+      <audio
+        ref={audioRef}
+        src={encodeURI(MUSIC_TRACKS[currentTrackIndex]?.src ?? MUSIC_TRACKS[0].src)}
+        onEnded={handleTrackEnded}
+        preload="auto"
+      />
+      <button
+        type="button"
+        onClick={toggleMusic}
+        className={buttonClass}
+        aria-label={isPlaying ? "Tắt nhạc nền" : "Phát nhạc nền"}
+        title={isPlaying ? "Tắt nhạc" : "Phát nhạc"}
+      >
+        {isPlaying ? (
+          <Volume2 aria-hidden="true" className="h-4 w-4" />
+        ) : (
+          <VolumeX aria-hidden="true" className="h-4 w-4" />
+        )}
+      </button>
+      <select
+        className={selectClass}
+        value={currentTrackIndex}
+        onChange={handleTrackChange}
+        aria-label="Chọn bài nhạc nền"
+      >
+        {MUSIC_TRACKS.map((track, index) => (
+          <option key={track.src} value={index}>
+            {track.label}
+          </option>
+        ))}
+      </select>
+    </div>
+  );
+}
+
 export function LayoutShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const authPage = isAuthRoute(pathname);
@@ -309,6 +439,7 @@ export function LayoutShell({ children }: { children: ReactNode }) {
         <div className={isTetTheme ? "min-h-screen text-zinc-800" : "min-h-screen text-zinc-900"}>
           {children}
         </div>
+        <MusicToggle isTetTheme={isTetTheme} />
       </div>
     );
   }
@@ -502,6 +633,7 @@ export function LayoutShell({ children }: { children: ReactNode }) {
           </div>
         </footer>
       </div>
+      <MusicToggle isTetTheme={isTetTheme} />
     </div>
   );
 }
