@@ -39,6 +39,19 @@ export function GameImagesProvider({
     let cancelled = false;
 
     async function run() {
+      const emptyMap = (() => {
+        const out: ImagesMap = {};
+        try {
+          const parsed = JSON.parse(body) as { pairs?: GamePair[] };
+          for (const p of parsed.pairs ?? []) {
+            out[`${p.platform}||${p.game_url}`] = null;
+          }
+        } catch {
+          // Ignore parse failure and return empty object.
+        }
+        return out;
+      })();
+
       try {
         const headers: Record<string, string> = {
           "content-type": "application/json",
@@ -51,12 +64,17 @@ export function GameImagesProvider({
           headers,
           body,
         });
-        if (!res.ok) return;
+        if (!res.ok) {
+          if (cancelled) return;
+          setImagesState({ body, images: emptyMap });
+          return;
+        }
         const data = (await res.json()) as { images?: ImagesMap };
         if (cancelled) return;
         setImagesState({ body, images: data.images ?? {} });
       } catch {
-        // Ignore: fall back to placeholders.
+        if (cancelled) return;
+        setImagesState({ body, images: emptyMap });
       }
     }
 
