@@ -513,14 +513,25 @@ export default async function Home({
                             <div className="flex items-center gap-4">
                               <div className="shrink-0">
                                 {primaryRow ? (
-                                  <GameThumb
-                                    platform={String(primaryRow.platform)}
-                                    gameUrl={primaryRow.game_url}
-                                    alt={name}
-                                    width={56}
-                                    height={56}
-                                    className="h-14 w-14 rounded-xl border border-zinc-200 object-cover shadow-sm dark:border-zinc-800"
-                                  />
+                                  typeof primaryCatalog?.game_image === "string" &&
+                                  primaryCatalog.game_image.trim() ? (
+                                    <SafeImage
+                                      src={primaryCatalog.game_image}
+                                      alt={name}
+                                      width={56}
+                                      height={56}
+                                      className="h-14 w-14 rounded-xl border border-zinc-200 object-cover shadow-sm dark:border-zinc-800"
+                                    />
+                                  ) : (
+                                    <GameThumb
+                                      platform={String(primaryRow.platform)}
+                                      gameUrl={primaryRow.game_url}
+                                      alt={name}
+                                      width={56}
+                                      height={56}
+                                      className="h-14 w-14 rounded-xl border border-zinc-200 object-cover shadow-sm dark:border-zinc-800"
+                                    />
+                                  )
                                 ) : (
                                   <div className="flex h-14 w-14 items-center justify-center rounded-xl border border-zinc-200 bg-zinc-50 text-xs font-semibold text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900/30 dark:text-zinc-400">
                                     N/A
