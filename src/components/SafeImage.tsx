@@ -10,31 +10,38 @@ type Props = {
   className?: string;
 };
 
-function isHttpUrl(value: string): boolean {
+function normalizeImageSrc(value: string): string | null {
+  const raw = String(value ?? "").trim();
+  if (!raw) return null;
+  if (raw.startsWith("//")) return `https:${raw}`;
+  if (raw.startsWith("/")) return raw;
   try {
-    const url = new URL(value);
-    return url.protocol === "http:" || url.protocol === "https:";
+    const url = new URL(raw);
+    if (url.protocol === "http:" || url.protocol === "https:") {
+      return raw;
+    }
+    return null;
   } catch {
-    return false;
+    return null;
   }
 }
 
 export function SafeImage({ src, alt, width, height, className }: Props) {
   const [failed, setFailed] = useState(false);
-  const ok = useMemo(() => isHttpUrl(src), [src]);
+  const normalizedSrc = useMemo(() => normalizeImageSrc(src), [src]);
 
-  if (!ok || failed) return null;
+  if (!normalizedSrc || failed) return null;
 
   // Intentionally use <img> to avoid runtime crashes from unconfigured hosts or bad URLs.
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={src}
+      src={normalizedSrc}
       alt={alt}
       width={width}
       height={height}
       loading="lazy"
-      referrerPolicy="no-referrer"
+      referrerPolicy="origin-when-cross-origin"
       onError={() => setFailed(true)}
       className={className}
     />
