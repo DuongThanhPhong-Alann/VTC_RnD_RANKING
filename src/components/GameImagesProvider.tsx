@@ -22,7 +22,8 @@ function normalizeLookupUrl(raw: string): string | null {
     if (u.protocol !== "http:" && u.protocol !== "https:") return null;
     const pathname = u.pathname.replace(/\/+$/, "");
     const normalizedPath = pathname || "/";
-    return `${u.protocol}//${u.host.toLowerCase()}${normalizedPath}`;
+    const host = u.host.toLowerCase().replace(/^www\./, "");
+    return `${u.protocol}//${host}${normalizedPath}`;
   } catch {
     return null;
   }

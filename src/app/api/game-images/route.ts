@@ -20,7 +20,8 @@ function normalizeLookupUrl(raw: string): string | null {
     // Ignore query/hash differences for image lookup.
     const pathname = u.pathname.replace(/\/+$/, "");
     const normalizedPath = pathname || "/";
-    return `${u.protocol}//${u.host.toLowerCase()}${normalizedPath}`;
+    const host = u.host.toLowerCase().replace(/^www\./, "");
+    return `${u.protocol}//${host}${normalizedPath}`;
   } catch {
     return null;
   }
@@ -45,7 +46,8 @@ function buildUrlRegexFromNormalized(normalized: string): RegExp | null {
   const safePath = escapeRegex(path);
 
   // Match both with and without query/hash suffix.
-  return new RegExp(`^https?://${safeHost}${safePath}(?:\\?.*)?(?:#.*)?$`, "i");
+  const hostPattern = `(?:www\\.)?${safeHost}`;
+  return new RegExp(`^https?://${hostPattern}${safePath}(?:\\?.*)?(?:#.*)?$`, "i");
 }
 
 export async function POST(req: Request) {
