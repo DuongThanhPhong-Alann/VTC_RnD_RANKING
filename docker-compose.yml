@@ -15,6 +15,9 @@ services:
       TZ: Asia/Ho_Chi_Minh
       # Prefer IPv4 first to avoid fetch failures on hosts with broken IPv6 routing.
       NODE_OPTIONS: --dns-result-order=ipv4first
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
     healthcheck:
       test: ["CMD", "node", "-e", "require('http').get('http://127.0.0.1:3000/login', (r) => process.exit(r.statusCode < 500 ? 0 : 1)).on('error', () => process.exit(1))"]
       interval: 30s
