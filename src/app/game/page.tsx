@@ -15,6 +15,7 @@ import {
 } from "date-fns";
 import { Suspense } from "react";
 import { GameFilters } from "@/components/GameFilters";
+import { GameImagesProvider, GameThumb } from "@/components/GameImagesProvider";
 import { LogoAI } from "@/components/LogoAI";
 import { RankChart } from "@/components/RankChart";
 import { SafeImage } from "@/components/SafeImage";
@@ -284,19 +285,31 @@ export default async function GamePage({
       <section className="card p-5">
         <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
           <div className="flex gap-4">
-            {typeof game?.game_image === "string" && game.game_image.trim() ? (
-              <SafeImage
-                src={game.game_image}
+            <GameImagesProvider pairs={[{ platform, game_url: gameUrl }]}>
+              <GameThumb
+                platform={platform}
+                gameUrl={gameUrl}
                 alt={displayName}
                 width={96}
                 height={96}
                 className="h-24 w-24 shrink-0 rounded-2xl border border-zinc-200 object-cover shadow-sm dark:border-zinc-800"
+                placeholder={
+                  typeof game?.game_image === "string" && game.game_image.trim() ? (
+                    <SafeImage
+                      src={game.game_image}
+                      alt={displayName}
+                      width={96}
+                      height={96}
+                      className="h-24 w-24 shrink-0 rounded-2xl border border-zinc-200 object-cover shadow-sm dark:border-zinc-800"
+                    />
+                  ) : (
+                    <div className="flex h-24 w-24 shrink-0 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 text-sm font-semibold text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900/30 dark:text-zinc-400">
+                      N/A
+                    </div>
+                  )
+                }
               />
-            ) : (
-              <div className="flex h-24 w-24 shrink-0 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 text-sm font-semibold text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900/30 dark:text-zinc-400">
-                N/A
-              </div>
-            )}
+            </GameImagesProvider>
 
             <div className="min-w-0">
               <h1 className="text-xl font-semibold tracking-tight">
