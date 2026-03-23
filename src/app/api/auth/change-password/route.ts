@@ -2,6 +2,14 @@ import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import { generateSalt, hashPassword } from "@/lib/password";
 
+type AppUserPasswordRow = {
+  id: string;
+  username: string;
+  email: string | null;
+  password_salt: string;
+  password_hash: string;
+};
+
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null);
   const identifier = String(body?.identifier ?? "").trim();
@@ -28,7 +36,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "User not found" }, { status: 404 });
   }
 
-  const user = data[0];
+  const user = data[0] as AppUserPasswordRow;
   const expected = hashPassword(currentPassword, user.password_salt);
   if (expected !== user.password_hash) {
     return NextResponse.json({ error: "Invalid current password" }, { status: 401 });

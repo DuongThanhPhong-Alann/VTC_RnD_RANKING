@@ -5,6 +5,15 @@ import { hashPassword } from "@/lib/password";
 
 const SESSION_COOKIE = "vtc_session";
 const SESSION_DAYS = Number(process.env.AUTH_SESSION_DAYS ?? 7);
+type AppUserRow = {
+  id: string;
+  username: string;
+  email: string | null;
+  password_salt: string;
+  password_hash: string;
+  full_name: string | null;
+  status: string | null;
+};
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null);
@@ -32,7 +41,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 
-  const user = data[0];
+  const user = data[0] as AppUserRow;
   if (user.status && user.status !== "active") {
     return NextResponse.json({ error: "Account is inactive" }, { status: 403 });
   }
