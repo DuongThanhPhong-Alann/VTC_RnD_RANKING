@@ -41,7 +41,7 @@ export function SafeImage({ src, alt, width, height, className }: Props) {
       width={width}
       height={height}
       loading="lazy"
-      referrerPolicy="origin-when-cross-origin"
+      referrerPolicy="no-referrer"
       onError={() => setFailed(true)}
       className={className}
     />
