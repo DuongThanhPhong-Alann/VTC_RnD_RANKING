@@ -44,6 +44,7 @@ pipeline {
 
           if [ -n "${DEPLOY_DIR:-}" ] && [ ! -d "$DEPLOY_DIR" ]; then
             echo "DEPLOY_DIR not found or not accessible: $DEPLOY_DIR"
+            RUN_DIR="${WORKSPACE:-}"
             echo "Falling back to WORKSPACE: $RUN_DIR"
           fi
 
