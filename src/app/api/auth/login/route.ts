@@ -5,6 +5,10 @@ import { hashPassword } from "@/lib/password";
 
 const SESSION_COOKIE = "vtc_session";
 const SESSION_DAYS = Number(process.env.AUTH_SESSION_DAYS ?? 7);
+const COOKIE_SECURE =
+  process.env.AUTH_COOKIE_SECURE != null
+    ? process.env.AUTH_COOKIE_SECURE === "true"
+    : process.env.NODE_ENV === "production";
 type AppUserRow = {
   id: string;
   username: string;
@@ -78,7 +82,7 @@ export async function POST(request: Request) {
   response.cookies.set(SESSION_COOKIE, token, {
     httpOnly: true,
     sameSite: "lax",
-    secure: process.env.NODE_ENV === "production",
+    secure: COOKIE_SECURE,
     path: "/",
     maxAge: SESSION_DAYS * 24 * 60 * 60,
   });
