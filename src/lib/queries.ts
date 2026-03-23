@@ -71,6 +71,32 @@ async function db(): Promise<Db> {
   return getDb();
 }
 
+function escapeRegex(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function buildGameUrlRegex(raw: string): RegExp | null {
+  const input = String(raw ?? "").trim();
+  if (!input) return null;
+  try {
+    const u = new URL(input);
+    if (u.protocol !== "http:" && u.protocol !== "https:") return null;
+
+    const host = u.host.toLowerCase();
+    const pathname = u.pathname.replace(/\/+$/, "") || "/";
+    const safeHost = escapeRegex(host);
+    const safePath = escapeRegex(pathname);
+
+    // Match same URL with optional trailing slash + query/hash differences.
+    if (pathname === "/") {
+      return new RegExp(`^https?://${safeHost}/?(?:\\?.*)?(?:#.*)?$`, "i");
+    }
+    return new RegExp(`^https?://${safeHost}${safePath}/?(?:\\?.*)?(?:#.*)?$`, "i");
+  } catch {
+    return null;
+  }
+}
+
 const snapshotDateExpr = {
   $convert: {
     input: { $ifNull: ["$snapshot_at", "$created_at"] },
@@ -783,9 +809,17 @@ export async function getGameCatalogByUrl(
   gameUrl: string,
 ): Promise<GameCatalogDoc | null> {
   const database = await db();
-  return database
+  const exact = await database
     .collection("game_catalog")
     .findOne<GameCatalogDoc>({ game_url: gameUrl });
+  if (exact) return exact;
+
+  const regex = buildGameUrlRegex(gameUrl);
+  if (!regex) return null;
+
+  return database
+    .collection("game_catalog")
+    .findOne<GameCatalogDoc>({ game_url: { $regex: regex } });
 }
 
 export async function getGameCatalogByPlatformUrl(opts: {
@@ -793,9 +827,20 @@ export async function getGameCatalogByPlatformUrl(opts: {
   gameUrl: string;
 }): Promise<GameCatalogDoc | null> {
   const database = await db();
-  return database
+  const exact = await database
     .collection("game_catalog")
     .findOne<GameCatalogDoc>({ platform: opts.platform, game_url: opts.gameUrl });
+  if (exact) return exact;
+
+  const regex = buildGameUrlRegex(opts.gameUrl);
+  if (!regex) return null;
+
+  return database
+    .collection("game_catalog")
+    .findOne<GameCatalogDoc>({
+      platform: opts.platform,
+      game_url: { $regex: regex },
+    });
 }
 
 export async function getGameCatalogByPlatformUrls(opts: {

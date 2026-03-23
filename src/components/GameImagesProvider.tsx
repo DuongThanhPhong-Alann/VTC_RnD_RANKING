@@ -14,6 +14,20 @@ function pairKey(pair: GamePair): string {
   return `${pair.platform}||${pair.game_url}`;
 }
 
+function normalizeLookupUrl(raw: string): string | null {
+  const input = String(raw ?? "").trim();
+  if (!input) return null;
+  try {
+    const u = new URL(input);
+    if (u.protocol !== "http:" && u.protocol !== "https:") return null;
+    const pathname = u.pathname.replace(/\/+$/, "");
+    const normalizedPath = pathname || "/";
+    return `${u.protocol}//${u.host.toLowerCase()}${normalizedPath}`;
+  } catch {
+    return null;
+  }
+}
+
 export function GameImagesProvider({
   pairs,
   children,
@@ -91,7 +105,26 @@ export function GameImagesProvider({
 export function useGameImage(platform: string, gameUrl: string): string | null | undefined {
   const images = useContext(Ctx);
   if (!images) return undefined; // still loading
-  return images[`${platform}||${gameUrl}`] ?? null;
+
+  const exact = images[`${platform}||${gameUrl}`];
+  if (typeof exact === "string" && exact.trim()) return exact;
+
+  const canonical = normalizeLookupUrl(gameUrl);
+  if (!canonical) return exact ?? null;
+
+  // Fallback: find same platform + canonical URL even if query/hash differs.
+  const prefix = `${platform}||`;
+  for (const [key, value] of Object.entries(images)) {
+    if (!key.startsWith(prefix)) continue;
+    if (typeof value !== "string" || !value.trim()) continue;
+    const candidateUrl = key.slice(prefix.length);
+    const candidateCanonical = normalizeLookupUrl(candidateUrl);
+    if (candidateCanonical && candidateCanonical === canonical) {
+      return value;
+    }
+  }
+
+  return exact ?? null;
 }
 
 export function GameThumb({
