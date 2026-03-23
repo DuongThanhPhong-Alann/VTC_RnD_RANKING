@@ -23,7 +23,7 @@ function normalizeLookupUrl(raw: string): string | null {
     const pathname = u.pathname.replace(/\/+$/, "");
     const normalizedPath = pathname || "/";
     const host = u.host.toLowerCase().replace(/^www\./, "");
-    return `${u.protocol}//${host}${normalizedPath}`;
+    return `https://${host}${normalizedPath}`;
   } catch {
     return null;
   }
